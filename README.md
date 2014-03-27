@@ -60,3 +60,8 @@ parrot-bench
 | rurban/6model	| 10.505363558	| (+-0.18%)	|
 | rurban/pmc2c_orig| 10.585417778	| (+-0.25%)	|
 | master		| 10.554795282	| (+-0.37%)	|
+
+Time in seconds to run all these .pir and .pasm tests without -O.
+
+The tests were selected from `examples/benchmarks`. All which can run
+without error on all successfully built parrots.
