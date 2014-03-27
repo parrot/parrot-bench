@@ -1,0 +1,114 @@
+RELEASE_1_8_0
+      10.548140110 seconds time elapsed                                          ( +-  1.02% )
+RELEASE_1_9_0
+       9.668368740 seconds time elapsed                                          ( +-  0.17% )
+RELEASE_2_0_0
+       8.877478111 seconds time elapsed                                          ( +-  0.25% )
+RELEASE_2_1_0
+       8.684026868 seconds time elapsed                                          ( +-  0.25% )
+RELEASE_2_1_1
+       9.028023147 seconds time elapsed                                          ( +-  4.39% )
+RELEASE_2_2_0
+       8.283343194 seconds time elapsed                                          ( +-  0.56% )
+RELEASE_2_3_0
+       9.764305233 seconds time elapsed                                          ( +-  2.72% )
+RELEASE_2_4_0
+       8.848113139 seconds time elapsed                                          ( +-  0.46% )
+RELEASE_2_5_0
+       9.029412536 seconds time elapsed                                          ( +-  2.91% )
+RELEASE_2_6_0
+       8.781809000 seconds time elapsed                                          ( +-  0.60% )
+RELEASE_2_7_0
+       8.394088549 seconds time elapsed                                          ( +-  4.11% )
+RELEASE_2_8_0
+       8.006555133 seconds time elapsed                                          ( +-  0.70% )
+RELEASE_2_9_0
+      10.024036191 seconds time elapsed                                          ( +-  0.15% )
+RELEASE_2_9_1
+       9.258991772 seconds time elapsed                                          ( +-  0.36% )
+RELEASE_2_10_0
+       9.301360462 seconds time elapsed                                          ( +-  0.23% )
+RELEASE_2_10_1
+       9.339934352 seconds time elapsed                                          ( +-  0.32% )
+RELEASE_2_11_0
+       9.255326252 seconds time elapsed                                          ( +-  0.16% )
+RELEASE_3_0_0
+       9.231892740 seconds time elapsed                                          ( +-  0.27% )
+RELEASE_3_1_0
+      11.164364145 seconds time elapsed                                          ( +-  1.24% )
+RELEASE_3_2_0
+      11.303540437 seconds time elapsed                                          ( +-  0.39% )
+RELEASE_3_3_0
+      11.448605784 seconds time elapsed                                          ( +-  0.44% )
+RELEASE_3_4_0
+      11.929407362 seconds time elapsed                                          ( +-  0.26% )
+RELEASE_3_5_0
+      12.033267815 seconds time elapsed                                          ( +-  0.25% )
+RELEASE_3_6_0
+      11.199993453 seconds time elapsed                                          ( +-  0.89% )
+RELEASE_3_7_0
+      11.137938747 seconds time elapsed                                          ( +-  0.14% )
+RELEASE_3_8_0
+      10.097507754 seconds time elapsed                                          ( +-  0.21% )
+RELEASE_3_9_0
+      10.159585045 seconds time elapsed                                          ( +-  0.21% )
+RELEASE_3_10_0
+      10.323670198 seconds time elapsed                                          ( +-  0.14% )
+RELEASE_3_11_0
+      10.486785868 seconds time elapsed                                          ( +-  0.19% )
+RELEASE_4_0_0
+      10.407319137 seconds time elapsed                                          ( +-  0.19% )
+RELEASE_4_1_0
+      10.574911038 seconds time elapsed                                          ( +-  0.44% )
+RELEASE_4_2_0
+      10.445002448 seconds time elapsed                                          ( +-  0.15% )
+RELEASE_4_3_0
+      10.368422478 seconds time elapsed                                          ( +-  0.35% )
+RELEASE_4_4_0
+      10.435474883 seconds time elapsed                                          ( +-  0.37% )
+RELEASE_4_5_0
+      10.416064258 seconds time elapsed                                          ( +-  0.14% )
+RELEASE_4_6_0
+      10.485801277 seconds time elapsed                                          ( +-  0.17% )
+RELEASE_4_7_0
+      10.421811429 seconds time elapsed                                          ( +-  0.25% )
+RELEASE_4_8_0
+      10.551825693 seconds time elapsed                                          ( +-  0.08% )
+RELEASE_4_9_0
+      10.760177716 seconds time elapsed                                          ( +-  0.21% )
+RELEASE_4_10_0
+      10.686763273 seconds time elapsed                                          ( +-  0.50% )
+RELEASE_4_11_0
+      10.705404192 seconds time elapsed                                          ( +-  0.14% )
+RELEASE_5_0_0
+      10.639088220 seconds time elapsed                                          ( +-  0.23% )
+RELEASE_5_1_0
+      10.654499948 seconds time elapsed                                          ( +-  0.10% )
+RELEASE_5_2_0
+      10.692080144 seconds time elapsed                                          ( +-  0.25% )
+RELEASE_5_3_0
+      10.639269433 seconds time elapsed                                          ( +-  0.12% )
+RELEASE_5_4_0
+      10.663089692 seconds time elapsed                                          ( +-  0.18% )
+RELEASE_5_5_0
+      10.627909871 seconds time elapsed                                          ( +-  0.28% )
+RELEASE_5_6_0
+      10.661323758 seconds time elapsed                                          ( +-  0.20% )
+RELEASE_5_7_0
+      10.691656688 seconds time elapsed                                          ( +-  0.11% )
+RELEASE_5_9_0
+      10.672666365 seconds time elapsed                                          ( +-  0.54% )
+RELEASE_5_10_0
+      10.708653052 seconds time elapsed                                          ( +-  0.14% )
+RELEASE_6_0_0
+      10.589940429 seconds time elapsed                                          ( +-  0.51% )
+RELEASE_6_1_0
+      10.594964520 seconds time elapsed                                          ( +-  0.25% )
+RELEASE_6_2_0
+      10.586717226 seconds time elapsed                                          ( +-  0.32% )
+RELEASE rurban/6model
+      10.505363558 seconds time elapsed                                          ( +-  0.18% )
+RELEASE rurban/pmc2c_orig
+      10.585417778 seconds time elapsed                                          ( +-  0.25% )
+RELEASE master
+      10.554795282 seconds time elapsed                                          ( +-  0.37% )

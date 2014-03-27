@@ -1,0 +1,1711 @@
+RELEASE_1_8_0
+loadavg  1.98 0.93 0.77 1/704 29173
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10559.230177 task-clock (msec)         #    1.001 CPUs utilized            ( +-  1.02% )
+                66 context-switches          #    0.006 K/sec                    ( +-  7.39% )
+                77 cpu-migrations            #    0.007 K/sec                    ( +-  5.46% )
+            94,461 page-faults               #    0.009 M/sec                    ( +-  0.01% )
+    31,221,982,643 cycles                    #    2.957 GHz                      ( +-  1.02% )
+     9,336,854,065 stalled-cycles-frontend   #   29.90% frontend cycles idle     ( +-  0.56% )
+     4,065,109,437 stalled-cycles-backend    #   13.02% backend  cycles idle     ( +-  3.44% )
+    58,011,732,685 instructions              #    1.86  insns per cycle        
+                                             #    0.16  stalled cycles per insn  ( +-  0.00% )
+    12,577,047,406 branches                  # 1191.095 M/sec                    ( +-  0.01% )
+        83,270,810 branch-misses             #    0.66% of all branches          ( +- 17.72% )
+
+      10.548140110 seconds time elapsed                                          ( +-  1.02% )
+
+10476.659377,task-clock
+146,context-switches
+141,cpu-migrations
+94452,page-faults
+30970028382,cycles
+9381502414,stalled-cycles-frontend
+3943847649,stalled-cycles-backend
+58008590499,instructions
+12574446001,branches
+69119091,branch-misses
+
+RELEASE_1_9_0
+loadavg  2.50 1.34 0.93 1/704 31826
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       9675.622410 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.17% )
+                80 context-switches          #    0.008 K/sec                    ( +-  5.33% )
+               106 cpu-migrations            #    0.011 K/sec                    ( +-  6.56% )
+           106,048 page-faults               #    0.011 M/sec                    ( +-  0.00% )
+    28,660,961,840 cycles                    #    2.962 GHz                      ( +-  0.16% )
+     9,129,182,221 stalled-cycles-frontend   #   31.85% frontend cycles idle     ( +-  0.49% )
+     3,695,919,203 stalled-cycles-backend    #   12.90% backend  cycles idle     ( +-  0.54% )
+    53,932,996,197 instructions              #    1.88  insns per cycle        
+                                             #    0.17  stalled cycles per insn  ( +-  0.01% )
+    11,608,666,166 branches                  # 1199.785 M/sec                    ( +-  0.01% )
+        43,445,403 branch-misses             #    0.37% of all branches          ( +-  1.86% )
+
+       9.668368740 seconds time elapsed                                          ( +-  0.17% )
+
+9635.321032,task-clock
+110,context-switches
+111,cpu-migrations
+106075,page-faults
+28622835542,cycles
+9069754072,stalled-cycles-frontend
+3679657246,stalled-cycles-backend
+53910631702,instructions
+11602007190,branches
+41713063,branch-branch-misses
+
+RELEASE_2_0_0
+loadavg  1.42 1.31 0.97 2/707 2126
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       8885.557698 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.25% )
+                67 context-switches          #    0.008 K/sec                    ( +-  8.74% )
+                89 cpu-migrations            #    0.010 K/sec                    ( +-  6.09% )
+           107,784 page-faults               #    0.012 M/sec                    ( +-  0.00% )
+    26,277,722,050 cycles                    #    2.957 GHz                      ( +-  0.26% )
+     8,112,514,712 stalled-cycles-frontend   #   30.87% frontend cycles idle     ( +-  0.99% )
+     3,319,290,629 stalled-cycles-backend    #   12.63% backend  cycles idle     ( +-  0.73% )
+    50,478,921,726 instructions              #    1.92  insns per cycle        
+                                             #    0.16  stalled cycles per insn  ( +-  0.01% )
+    10,719,764,798 branches                  # 1206.426 M/sec                    ( +-  0.01% )
+        30,558,945 branch-misses             #    0.29% of all branches          ( +-  0.71% )
+
+       8.877478111 seconds time elapsed                                          ( +-  0.25% )
+
+8947.627249,task-clock
+80,context-switches
+128,cpu-migrations
+107768,page-faults
+26471033376,cycles
+8340551707,stalled-cycles-frontend
+3340788018,stalled-cycles-backend
+50481535947,instructions
+10720643452,branches
+30099484,branch-branch-misses
+
+RELEASE_2_1_0
+loadavg  2.52 1.59 1.10 1/706 4791
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       8691.489546 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.26% )
+                62 context-switches          #    0.007 K/sec                    ( +-  4.43% )
+                82 cpu-migrations            #    0.009 K/sec                    ( +-  8.86% )
+           350,435 page-faults               #    0.040 M/sec                    ( +-  0.00% )
+    25,732,683,466 cycles                    #    2.961 GHz                      ( +-  0.25% )
+     8,258,476,554 stalled-cycles-frontend   #   32.09% frontend cycles idle     ( +-  0.94% )
+     3,715,533,099 stalled-cycles-backend    #   14.44% backend  cycles idle     ( +-  0.21% )
+    49,207,668,892 instructions              #    1.91  insns per cycle        
+                                             #    0.17  stalled cycles per insn  ( +-  0.00% )
+    10,307,509,014 branches                  # 1185.931 M/sec                    ( +-  0.00% )
+        17,257,687 branch-misses             #    0.17% of all branches          ( +-  3.19% )
+
+       8.684026868 seconds time elapsed                                          ( +-  0.25% )
+
+8767.433273,task-clock
+72,context-switches
+90,cpu-migrations
+350454,page-faults
+26014921625,cycles
+8554480375,stalled-cycles-frontend
+3763879136,stalled-cycles-backend
+49214346192,instructions
+10309570022,branches
+21663796,branch-branch-misses
+
+RELEASE_2_1_1
+loadavg  2.93 1.86 1.22 1/704 7593
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       9036.822073 task-clock (msec)         #    1.001 CPUs utilized            ( +-  4.40% )
+                76 context-switches          #    0.008 K/sec                    ( +- 11.68% )
+               100 cpu-migrations            #    0.011 K/sec                    ( +- 11.84% )
+           350,429 page-faults               #    0.039 M/sec                    ( +-  0.00% )
+    26,823,419,358 cycles                    #    2.968 GHz                      ( +-  4.33% )
+     8,659,094,108 stalled-cycles-frontend   #   32.28% frontend cycles idle     ( +-  5.65% )
+     4,250,845,755 stalled-cycles-backend    #   15.85% backend  cycles idle     ( +- 11.67% )
+    49,216,578,330 instructions              #    1.83  insns per cycle        
+                                             #    0.18  stalled cycles per insn  ( +-  0.01% )
+    10,310,196,215 branches                  # 1140.910 M/sec                    ( +-  0.01% )
+        63,015,571 branch-misses             #    0.61% of all branches          ( +- 73.49% )
+
+       9.028023147 seconds time elapsed                                          ( +-  4.39% )
+
+8728.213381,task-clock
+59,context-switches
+67,cpu-migrations
+350420,page-faults
+25811412535,cycles
+8271184773,stalled-cycles-frontend
+3782579573,stalled-cycles-backend
+49204100946,instructions
+10307096840,branches
+18395287,branch-branch-misses
+
+RELEASE_2_2_0
+loadavg  2.94 2.05 1.34 1/703 9785
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       8265.838724 task-clock (msec)         #    0.998 CPUs utilized            ( +-  0.30% )
+               110 context-switches          #    0.013 K/sec                    ( +- 21.68% )
+                89 cpu-migrations            #    0.011 K/sec                    ( +- 10.55% )
+           119,765 page-faults               #    0.014 M/sec                    ( +-  0.00% )
+    24,506,614,902 cycles                    #    2.965 GHz                      ( +-  0.29% )
+     7,388,503,436 stalled-cycles-frontend   #   30.15% frontend cycles idle     ( +-  0.73% )
+     3,002,798,254 stalled-cycles-backend    #   12.25% backend  cycles idle     ( +-  0.68% )
+    48,469,140,381 instructions              #    1.98  insns per cycle        
+                                             #    0.15  stalled cycles per insn  ( +-  0.01% )
+    10,169,471,443 branches                  # 1230.301 M/sec                    ( +-  0.02% )
+        20,130,354 branch-misses             #    0.20% of all branches          ( +-  6.20% )
+
+       8.283343194 seconds time elapsed                                          ( +-  0.56% )
+
+8286.140759,task-clock
+90,context-switches
+83,cpu-migrations
+119767,page-faults
+24628056529,cycles
+7520249443,stalled-cycles-frontend
+3086598615,stalled-cycles-backend
+48510814790,instructions
+10180214685,branches
+18562222,branch-branch-misses
+
+RELEASE_2_3_0
+loadavg  3.13 2.22 1.45 1/706 11878
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       9772.357356 task-clock (msec)         #    1.001 CPUs utilized            ( +-  2.72% )
+                78 context-switches          #    0.008 K/sec                    ( +-  1.61% )
+               107 cpu-migrations            #    0.011 K/sec                    ( +-  6.40% )
+           201,990 page-faults               #    0.021 M/sec                    ( +-  0.00% )
+    28,407,423,712 cycles                    #    2.907 GHz                      ( +-  2.44% )
+    10,260,148,029 stalled-cycles-frontend   #   36.12% frontend cycles idle     ( +-  4.21% )
+     5,142,362,624 stalled-cycles-backend    #   18.10% backend  cycles idle     ( +-  6.62% )
+    51,260,902,426 instructions              #    1.80  insns per cycle        
+                                             #    0.20  stalled cycles per insn  ( +-  0.00% )
+    11,017,032,814 branches                  # 1127.367 M/sec                    ( +-  0.00% )
+        41,735,110 branch-misses             #    0.38% of all branches          ( +- 55.90% )
+
+       9.764305233 seconds time elapsed                                          ( +-  2.72% )
+
+9579.406960,task-clock
+93,context-switches
+120,cpu-migrations
+202003,page-faults
+27865338543,cycles
+10036125571,stalled-cycles-frontend
+4989084952,stalled-cycles-backend
+51266846809,instructions
+11018714268,branches
+17276228,branch-branch-misses
+
+RELEASE_2_4_0
+loadavg  3.19 2.36 1.55 4/706 13903
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       8856.052924 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.47% )
+                76 context-switches          #    0.009 K/sec                    ( +-  7.81% )
+                98 cpu-migrations            #    0.011 K/sec                    ( +- 10.26% )
+           193,950 page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    26,097,471,152 cycles                    #    2.947 GHz                      ( +-  0.23% )
+     9,152,323,293 stalled-cycles-frontend   #   35.07% frontend cycles idle     ( +-  0.68% )
+     4,048,538,804 stalled-cycles-backend    #   15.51% backend  cycles idle     ( +-  1.00% )
+    49,233,875,709 instructions              #    1.89  insns per cycle        
+                                             #    0.19  stalled cycles per insn  ( +-  0.01% )
+    10,435,932,402 branches                  # 1178.395 M/sec                    ( +-  0.01% )
+        17,802,402 branch-misses             #    0.17% of all branches          ( +-  2.42% )
+
+       8.848113139 seconds time elapsed                                          ( +-  0.46% )
+
+8907.333895,task-clock
+66,context-switches
+91,cpu-migrations
+193942,page-faults
+26293128064,cycles
+9341656180,stalled-cycles-frontend
+4042310291,stalled-cycles-backend
+49223142363,instructions
+10433055351,branches
+19315830,branch-branch-misses
+
+RELEASE_2_5_0
+loadavg  2.42 2.26 1.58 1/700 15882
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       9037.441651 task-clock (msec)         #    1.001 CPUs utilized            ( +-  2.91% )
+               107 context-switches          #    0.012 K/sec                    ( +- 25.26% )
+               110 cpu-migrations            #    0.012 K/sec                    ( +- 12.04% )
+           193,658 page-faults               #    0.021 M/sec                    ( +-  0.00% )
+    26,764,997,372 cycles                    #    2.962 GHz                      ( +-  2.92% )
+     9,235,679,512 stalled-cycles-frontend   #   34.51% frontend cycles idle     ( +-  4.15% )
+     4,260,688,103 stalled-cycles-backend    #   15.92% backend  cycles idle     ( +-  7.67% )
+    49,334,987,548 instructions              #    1.84  insns per cycle        
+                                             #    0.19  stalled cycles per insn  ( +-  0.02% )
+    10,457,584,282 branches                  # 1157.140 M/sec                    ( +-  0.02% )
+        44,473,714 branch-misses             #    0.43% of all branches          ( +- 63.21% )
+
+       9.029412536 seconds time elapsed                                          ( +-  2.91% )
+
+8746.786680,task-clock
+97,context-switches
+108,cpu-migrations
+193665,page-faults
+25852684536,cycles
+8693573274,stalled-cycles-frontend
+3915187367,stalled-cycles-backend
+49335772496,instructions
+10457813690,branches
+16960131,branch-branch-misses
+
+RELEASE_2_6_0
+loadavg  2.66 2.30 1.63 1/700 17871
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       8789.079074 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.60% )
+               127 context-switches          #    0.014 K/sec                    ( +- 47.11% )
+                92 cpu-migrations            #    0.011 K/sec                    ( +- 10.45% )
+           193,626 page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    26,060,944,896 cycles                    #    2.965 GHz                      ( +-  0.52% )
+     8,826,790,850 stalled-cycles-frontend   #   33.87% frontend cycles idle     ( +-  0.43% )
+     4,055,517,788 stalled-cycles-backend    #   15.56% backend  cycles idle     ( +-  1.47% )
+    49,166,725,748 instructions              #    1.89  insns per cycle        
+                                             #    0.18  stalled cycles per insn  ( +-  0.02% )
+    10,427,720,883 branches                  # 1186.441 M/sec                    ( +-  0.02% )
+        21,613,569 branch-misses             #    0.21% of all branches          ( +- 20.20% )
+
+       8.781809000 seconds time elapsed                                          ( +-  0.60% )
+
+8781.730245,task-clock
+114,context-switches
+101,cpu-migrations
+193633,page-faults
+26082366744,cycles
+8955297039,stalled-cycles-frontend
+4008981837,stalled-cycles-backend
+49155950742,instructions
+10425045444,branches
+17805106,branch-branch-misses
+
+RELEASE_2_7_0
+loadavg  2.74 2.32 1.68 1/702 19854
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       8402.003791 task-clock (msec)         #    1.001 CPUs utilized            ( +-  4.12% )
+                66 context-switches          #    0.008 K/sec                    ( +-  6.90% )
+                82 cpu-migrations            #    0.010 K/sec                    ( +- 16.12% )
+           191,231 page-faults               #    0.023 M/sec                    ( +-  0.00% )
+    24,838,806,516 cycles                    #    2.956 GHz                      ( +-  4.10% )
+     8,216,318,818 stalled-cycles-frontend   #   33.08% frontend cycles idle     ( +-  4.25% )
+     3,689,112,054 stalled-cycles-backend    #   14.85% backend  cycles idle     ( +- 11.10% )
+    46,480,457,116 instructions              #    1.87  insns per cycle        
+                                             #    0.18  stalled cycles per insn  ( +-  0.01% )
+     9,619,681,068 branches                  # 1144.927 M/sec                    ( +-  0.01% )
+        53,990,990 branch-misses             #    0.56% of all branches          ( +- 69.62% )
+
+       8.394088549 seconds time elapsed                                          ( +-  4.11% )
+
+8057.625797,task-clock
+97,context-switches
+98,cpu-migrations
+191236,page-faults
+23823421162,cycles
+7893546411,stalled-cycles-frontend
+3298474027,stalled-cycles-backend
+46488859780,instructions
+9621824064,branches
+15676226,branch-branch-misses
+
+RELEASE_2_8_0
+loadavg  2.90 2.39 1.75 1/699 22081
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       8013.051893 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.70% )
+                66 context-switches          #    0.008 K/sec                    ( +-  7.95% )
+                94 cpu-migrations            #    0.012 K/sec                    ( +-  7.54% )
+            83,150 page-faults               #    0.010 M/sec                    ( +-  0.01% )
+    23,678,892,462 cycles                    #    2.955 GHz                      ( +-  0.71% )
+     7,414,582,369 stalled-cycles-frontend   #   31.31% frontend cycles idle     ( +-  0.91% )
+     2,750,790,008 stalled-cycles-backend    #   11.62% backend  cycles idle     ( +-  1.86% )
+    47,089,702,681 instructions              #    1.99  insns per cycle        
+                                             #    0.16  stalled cycles per insn  ( +-  0.01% )
+     9,832,979,662 branches                  # 1227.120 M/sec                    ( +-  0.01% )
+        19,729,880 branch-misses             #    0.20% of all branches          ( +- 24.22% )
+
+       8.006555133 seconds time elapsed                                          ( +-  0.70% )
+
+7999.344502,task-clock
+98,context-switches
+105,cpu-migrations
+83137,page-faults
+23666746816,cycles
+7505231199,stalled-cycles-frontend
+2819062002,stalled-cycles-backend
+47123762246,instructions
+9841558914,branches
+14552153,branch-branch-misses
+
+RELEASE_2_9_0
+loadavg  3.18 2.48 1.82 2/700 24333
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10033.351742 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.15% )
+                70 context-switches          #    0.007 K/sec                    ( +-  7.18% )
+                94 cpu-migrations            #    0.009 K/sec                    ( +-  8.10% )
+           144,174 page-faults               #    0.014 M/sec                    ( +-  0.01% )
+    29,657,180,472 cycles                    #    2.956 GHz                      ( +-  0.19% )
+    12,676,110,968 stalled-cycles-frontend   #   42.74% frontend cycles idle     ( +-  0.46% )
+     6,883,847,188 stalled-cycles-backend    #   23.21% backend  cycles idle     ( +-  0.25% )
+    49,619,308,185 instructions              #    1.67  insns per cycle        
+                                             #    0.26  stalled cycles per insn  ( +-  0.00% )
+    10,277,492,782 branches                  # 1024.333 M/sec                    ( +-  0.00% )
+        17,385,988 branch-misses             #    0.17% of all branches          ( +-  0.96% )
+
+      10.024036191 seconds time elapsed                                          ( +-  0.15% )
+
+10032.214295,task-clock
+63,context-switches
+90,cpu-migrations
+144163,page-faults
+29680966262,cycles
+12679708987,stalled-cycles-frontend
+6877055744,stalled-cycles-backend
+49617565251,instructions
+10277150555,branches
+16930514,branch-branch-misses
+
+RELEASE_2_9_1
+loadavg  2.55 2.37 1.83 2/701 26593
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       9267.260652 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.36% )
+               126 context-switches          #    0.014 K/sec                    ( +- 46.42% )
+               100 cpu-migrations            #    0.011 K/sec                    ( +- 14.89% )
+           706,734 page-faults               #    0.076 M/sec                    ( +-  0.00% )
+    27,366,321,718 cycles                    #    2.953 GHz                      ( +-  0.34% )
+    10,763,443,176 stalled-cycles-frontend   #   39.33% frontend cycles idle     ( +-  0.78% )
+     5,549,443,798 stalled-cycles-backend    #   20.28% backend  cycles idle     ( +-  0.45% )
+    47,188,914,377 instructions              #    1.72  insns per cycle        
+                                             #    0.23  stalled cycles per insn  ( +-  0.04% )
+     9,423,672,855 branches                  # 1016.878 M/sec                    ( +-  0.04% )
+        20,350,500 branch-misses             #    0.22% of all branches          ( +-  7.16% )
+
+       9.258991772 seconds time elapsed                                          ( +-  0.36% )
+
+9271.432977,task-clock
+74,context-switches
+88,cpu-migrations
+706751,page-faults
+27293257385,cycles
+10700124674,stalled-cycles-frontend
+5489974238,stalled-cycles-backend
+47161799133,instructions
+9417031713,branches
+20044648,branch-branch-misses
+
+RELEASE_2_10_0
+loadavg  2.59 2.35 1.86 2/708 28915
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       9310.220369 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.23% )
+                84 context-switches          #    0.009 K/sec                    ( +-  2.55% )
+               100 cpu-migrations            #    0.011 K/sec                    ( +-  6.01% )
+           443,785 page-faults               #    0.048 M/sec                    ( +-  0.02% )
+    27,552,772,587 cycles                    #    2.959 GHz                      ( +-  0.29% )
+    10,926,538,773 stalled-cycles-frontend   #   39.66% frontend cycles idle     ( +-  0.60% )
+     5,747,218,612 stalled-cycles-backend    #   20.86% backend  cycles idle     ( +-  1.25% )
+    47,616,310,237 instructions              #    1.73  insns per cycle        
+                                             #    0.23  stalled cycles per insn  ( +-  0.04% )
+     9,542,791,330 branches                  # 1024.980 M/sec                    ( +-  0.08% )
+        19,969,878 branch-misses             #    0.21% of all branches          ( +-  2.85% )
+
+       9.301360462 seconds time elapsed                                          ( +-  0.23% )
+
+9273.410801,task-clock
+72,context-switches
+71,cpu-migrations
+443875,page-faults
+27434079516,cycles
+10855561792,stalled-cycles-frontend
+5626003327,stalled-cycles-backend
+47592825828,instructions
+9534297243,branches
+18349073,branch-branch-misses
+
+RELEASE_2_10_1
+loadavg  2.62 2.35 1.90 1/705 31179
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       9349.136134 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.32% )
+                73 context-switches          #    0.008 K/sec                    ( +-  8.26% )
+                92 cpu-migrations            #    0.010 K/sec                    ( +- 19.08% )
+           430,378 page-faults               #    0.046 M/sec                    ( +-  0.69% )
+    27,654,680,938 cycles                    #    2.958 GHz                      ( +-  0.31% )
+    11,009,988,169 stalled-cycles-frontend   #   39.81% frontend cycles idle     ( +-  0.70% )
+     5,779,948,896 stalled-cycles-backend    #   20.90% backend  cycles idle     ( +-  1.43% )
+    47,704,781,145 instructions              #    1.73  insns per cycle        
+                                             #    0.23  stalled cycles per insn  ( +-  0.11% )
+     9,571,198,634 branches                  # 1023.752 M/sec                    ( +-  0.15% )
+        20,721,018 branch-misses             #    0.22% of all branches          ( +-  3.09% )
+
+       9.339934352 seconds time elapsed                                          ( +-  0.32% )
+
+9402.056302,task-clock
+64,context-switches
+82,cpu-migrations
+427032,page-faults
+27751147879,cycles
+11126685664,stalled-cycles-frontend
+5796982196,stalled-cycles-backend
+47756913880,instructions
+9587229303,branches
+20961944,branch-branch-misses
+
+RELEASE_2_11_0
+loadavg  3.37 2.52 1.98 1/707 1073
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       9263.699114 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.16% )
+                65 context-switches          #    0.007 K/sec                    ( +-  8.31% )
+                92 cpu-migrations            #    0.010 K/sec                    ( +- 14.34% )
+           433,693 page-faults               #    0.047 M/sec                    ( +-  0.06% )
+    27,392,745,896 cycles                    #    2.957 GHz                      ( +-  0.16% )
+     9,956,224,316 stalled-cycles-frontend   #   36.35% frontend cycles idle     ( +-  0.42% )
+     4,783,942,715 stalled-cycles-backend    #   17.46% backend  cycles idle     ( +-  0.42% )
+    48,750,873,411 instructions              #    1.78  insns per cycle        
+                                             #    0.20  stalled cycles per insn  ( +-  0.01% )
+     9,612,132,174 branches                  # 1037.613 M/sec                    ( +-  0.01% )
+        26,754,031 branch-misses             #    0.28% of all branches          ( +-  2.91% )
+
+       9.255326252 seconds time elapsed                                          ( +-  0.16% )
+
+9352.226834,task-clock
+73,context-switches
+110,cpu-migrations
+430938,page-faults
+27614138390,cycles
+10192910672,stalled-cycles-frontend
+4944009704,stalled-cycles-backend
+48743023346,instructions
+9610887068,branches
+26104418,branch-branch-misses
+
+RELEASE_3_0_0
+loadavg  3.43 2.64 2.06 1/710 3490
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       9238.392491 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.27% )
+                82 context-switches          #    0.009 K/sec                    ( +- 10.25% )
+               108 cpu-migrations            #    0.012 K/sec                    ( +-  4.54% )
+           427,452 page-faults               #    0.046 M/sec                    ( +-  0.01% )
+    27,107,520,168 cycles                    #    2.934 GHz                      ( +-  0.17% )
+    10,106,809,437 stalled-cycles-frontend   #   37.28% frontend cycles idle     ( +-  0.33% )
+     4,731,899,383 stalled-cycles-backend    #   17.46% backend  cycles idle     ( +-  0.54% )
+    48,726,917,748 instructions              #    1.80  insns per cycle        
+                                             #    0.21  stalled cycles per insn  ( +-  0.00% )
+     9,596,743,457 branches                  # 1038.789 M/sec                    ( +-  0.00% )
+        18,068,503 branch-misses             #    0.19% of all branches          ( +-  5.60% )
+
+       9.231892740 seconds time elapsed                                          ( +-  0.27% )
+
+9260.413372,task-clock
+79,context-switches
+147,cpu-migrations
+427417,page-faults
+27319006027,cycles
+10313034625,stalled-cycles-frontend
+4743052945,stalled-cycles-backend
+48727559313,instructions
+9596795162,branches
+21431023,branch-branch-misses
+
+RELEASE_3_1_0
+loadavg  3.53 2.74 2.14 3/702 6131
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      11174.066738 task-clock (msec)         #    1.001 CPUs utilized            ( +-  1.25% )
+                79 context-switches          #    0.007 K/sec                    ( +-  5.42% )
+               121 cpu-migrations            #    0.011 K/sec                    ( +-  4.91% )
+           119,854 page-faults               #    0.011 M/sec                    ( +-  0.00% )
+    32,714,747,644 cycles                    #    2.928 GHz                      ( +-  1.26% )
+    12,744,117,477 stalled-cycles-frontend   #   38.96% frontend cycles idle     ( +-  1.06% )
+     5,142,259,449 stalled-cycles-backend    #   15.72% backend  cycles idle     ( +-  2.72% )
+    58,214,143,547 instructions              #    1.78  insns per cycle        
+                                             #    0.22  stalled cycles per insn  ( +-  0.00% )
+    10,575,932,792 branches                  #  946.471 M/sec                    ( +-  0.00% )
+        35,045,240 branch-misses             #    0.33% of all branches          ( +- 39.16% )
+
+      11.164364145 seconds time elapsed                                          ( +-  1.24% )
+
+11546.932196,task-clock
+69,context-switches
+113,cpu-migrations
+119868,page-faults
+34036032823,cycles
+13141928893,stalled-cycles-frontend
+5573485872,stalled-cycles-backend
+58213995249,instructions
+10575907242,branches
+80351809,branch-branch-misses
+
+RELEASE_3_2_0
+loadavg  3.09 2.66 2.16 3/701 8634
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      11314.657900 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.39% )
+                96 context-switches          #    0.009 K/sec                    ( +- 21.98% )
+               118 cpu-migrations            #    0.010 K/sec                    ( +-  9.83% )
+           124,209 page-faults               #    0.011 M/sec                    ( +-  0.01% )
+    33,178,226,220 cycles                    #    2.932 GHz                      ( +-  0.22% )
+    12,903,295,845 stalled-cycles-frontend   #   38.89% frontend cycles idle     ( +-  0.66% )
+     5,094,213,119 stalled-cycles-backend    #   15.35% backend  cycles idle     ( +-  0.48% )
+    59,500,066,985 instructions              #    1.79  insns per cycle        
+                                             #    0.22  stalled cycles per insn  ( +-  0.00% )
+    10,949,815,016 branches                  #  967.755 M/sec                    ( +-  0.00% )
+        37,178,027 branch-misses             #    0.34% of all branches          ( +-  1.58% )
+
+      11.303540437 seconds time elapsed                                          ( +-  0.39% )
+
+11303.294363,task-clock
+84,context-switches
+103,cpu-migrations
+124193,page-faults
+33275225273,cycles
+12796518892,stalled-cycles-frontend
+5144423928,stalled-cycles-backend
+59497963241,instructions
+10949429409,branches
+44874482,branch-branch-misses
+
+RELEASE_3_3_0
+loadavg  3.51 2.85 2.27 1/706 11197
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      11456.781774 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.43% )
+               199 context-switches          #    0.017 K/sec                    ( +- 32.24% )
+               148 cpu-migrations            #    0.013 K/sec                    ( +- 14.30% )
+           120,355 page-faults               #    0.011 M/sec                    ( +-  0.00% )
+    33,414,462,501 cycles                    #    2.917 GHz                      ( +-  0.35% )
+    13,562,432,247 stalled-cycles-frontend   #   40.59% frontend cycles idle     ( +-  0.92% )
+     5,565,225,204 stalled-cycles-backend    #   16.66% backend  cycles idle     ( +-  1.48% )
+    58,787,664,198 instructions              #    1.76  insns per cycle        
+                                             #    0.23  stalled cycles per insn  ( +-  0.01% )
+    10,715,808,108 branches                  #  935.324 M/sec                    ( +-  0.01% )
+        36,840,843 branch-misses             #    0.34% of all branches          ( +-  5.00% )
+
+      11.448605784 seconds time elapsed                                          ( +-  0.44% )
+
+11333.430610,task-clock
+87,context-switches
+99,cpu-migrations
+120385,page-faults
+33161094842,cycles
+13331326209,stalled-cycles-frontend
+5425786182,stalled-cycles-backend
+58775549537,instructions
+10713759853,branches
+35959181,branch-branch-misses
+
+RELEASE_3_4_0
+loadavg  3.62 2.96 2.35 1/704 13696
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      11941.756293 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.26% )
+                82 context-switches          #    0.007 K/sec                    ( +-  9.65% )
+               102 cpu-migrations            #    0.009 K/sec                    ( +- 20.14% )
+           826,572 page-faults               #    0.069 M/sec                    ( +-  0.00% )
+    35,010,922,642 cycles                    #    2.932 GHz                      ( +-  0.35% )
+    15,523,953,082 stalled-cycles-frontend   #   44.34% frontend cycles idle     ( +-  0.80% )
+     7,409,660,504 stalled-cycles-backend    #   21.16% backend  cycles idle     ( +-  0.51% )
+    57,828,933,579 instructions              #    1.65  insns per cycle        
+                                             #    0.27  stalled cycles per insn  ( +-  0.00% )
+    10,117,459,879 branches                  #  847.234 M/sec                    ( +-  0.00% )
+        18,422,606 branch-misses             #    0.18% of all branches          ( +-  1.61% )
+
+      11.929407362 seconds time elapsed                                          ( +-  0.26% )
+
+12006.292180,task-clock
+101,context-switches
+158,cpu-migrations
+826563,page-faults
+35151078942,cycles
+15659565388,stalled-cycles-frontend
+7472557438,stalled-cycles-backend
+57832414088,instructions
+10118094993,branches
+20562672,branch-branch-misses
+
+RELEASE_3_5_0
+loadavg  3.32 2.90 2.38 1/705 16173
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      12043.074114 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.24% )
+               138 context-switches          #    0.011 K/sec                    ( +- 28.50% )
+               150 cpu-migrations            #    0.012 K/sec                    ( +- 17.79% )
+           826,634 page-faults               #    0.069 M/sec                    ( +-  0.00% )
+    35,225,803,177 cycles                    #    2.925 GHz                      ( +-  0.23% )
+    15,653,715,715 stalled-cycles-frontend   #   44.44% frontend cycles idle     ( +-  0.51% )
+     7,560,379,653 stalled-cycles-backend    #   21.46% backend  cycles idle     ( +-  0.54% )
+    57,816,051,890 instructions              #    1.64  insns per cycle        
+                                             #    0.27  stalled cycles per insn  ( +-  0.00% )
+    10,120,230,496 branches                  #  840.336 M/sec                    ( +-  0.00% )
+        20,576,499 branch-misses             #    0.20% of all branches          ( +-  1.85% )
+
+      12.033267815 seconds time elapsed                                          ( +-  0.25% )
+
+11967.680179,task-clock
+73,context-switches
+147,cpu-migrations
+826622,page-faults
+35116759457,cycles
+15538295649,stalled-cycles-frontend
+7505204807,stalled-cycles-backend
+57815486276,instructions
+10120068642,branches
+20226187,branch-branch-misses
+
+RELEASE_3_6_0
+loadavg  3.64 2.97 2.44 1/702 18681
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      11209.435829 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.89% )
+               100 context-switches          #    0.009 K/sec                    ( +- 14.17% )
+               160 cpu-migrations            #    0.014 K/sec                    ( +- 11.80% )
+           826,748 page-faults               #    0.074 M/sec                    ( +-  0.00% )
+    32,856,542,891 cycles                    #    2.931 GHz                      ( +-  0.84% )
+    14,992,920,948 stalled-cycles-frontend   #   45.63% frontend cycles idle     ( +-  1.89% )
+     6,794,903,384 stalled-cycles-backend    #   20.68% backend  cycles idle     ( +-  2.28% )
+    52,621,381,356 instructions              #    1.60  insns per cycle        
+                                             #    0.28  stalled cycles per insn  ( +-  0.01% )
+     8,825,604,316 branches                  #  787.337 M/sec                    ( +-  0.01% )
+        18,448,904 branch-misses             #    0.21% of all branches          ( +-  2.35% )
+
+      11.199993453 seconds time elapsed                                          ( +-  0.89% )
+
+11061.827650,task-clock
+62,context-switches
+93,cpu-migrations
+826727,page-faults
+32512212044,cycles
+14698517893,stalled-cycles-frontend
+6470098616,stalled-cycles-backend
+52615179152,instructions
+8824270128,branches
+18227896,branch-branch-misses
+
+RELEASE_3_7_0
+loadavg  3.32 2.92 2.47 2/701 21154
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      11148.789541 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.14% )
+                83 context-switches          #    0.007 K/sec                    ( +-  4.99% )
+               123 cpu-migrations            #    0.011 K/sec                    ( +- 11.10% )
+           826,753 page-faults               #    0.074 M/sec                    ( +-  0.00% )
+    32,642,483,403 cycles                    #    2.928 GHz                      ( +-  0.14% )
+    14,715,425,161 stalled-cycles-frontend   #   45.08% frontend cycles idle     ( +-  0.46% )
+     6,483,328,517 stalled-cycles-backend    #   19.86% backend  cycles idle     ( +-  0.66% )
+    52,662,304,818 instructions              #    1.61  insns per cycle        
+                                             #    0.28  stalled cycles per insn  ( +-  0.00% )
+     8,835,591,074 branches                  #  792.516 M/sec                    ( +-  0.00% )
+        19,885,480 branch-misses             #    0.23% of all branches          ( +-  2.53% )
+
+      11.137938747 seconds time elapsed                                          ( +-  0.14% )
+
+11091.619597,task-clock
+74,context-switches
+101,cpu-migrations
+826752,page-faults
+32516813375,cycles
+14537787804,stalled-cycles-frontend
+6455152859,stalled-cycles-backend
+52665480715,instructions
+8836504490,branches
+19863222,branch-branch-misses
+
+RELEASE_3_8_0
+loadavg  3.69 2.99 2.52 2/705 23713
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10104.906718 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.21% )
+                81 context-switches          #    0.008 K/sec                    ( +-  8.08% )
+               136 cpu-migrations            #    0.013 K/sec                    ( +-  5.81% )
+           829,871 page-faults               #    0.082 M/sec                    ( +-  0.00% )
+    29,686,319,500 cycles                    #    2.938 GHz                      ( +-  0.15% )
+    12,616,755,672 stalled-cycles-frontend   #   42.50% frontend cycles idle     ( +-  0.33% )
+     4,646,351,859 stalled-cycles-backend    #   15.65% backend  cycles idle     ( +-  0.45% )
+    50,929,466,950 instructions              #    1.72  insns per cycle        
+                                             #    0.25  stalled cycles per insn  ( +-  0.01% )
+     8,567,760,549 branches                  #  847.881 M/sec                    ( +-  0.01% )
+        16,735,493 branch-misses             #    0.20% of all branches          ( +-  4.19% )
+
+      10.097507754 seconds time elapsed                                          ( +-  0.21% )
+
+10275.282234,task-clock
+93,context-switches
+130,cpu-migrations
+829876,page-faults
+30167503622,cycles
+13141398407,stalled-cycles-frontend
+4677951844,stalled-cycles-backend
+50929623833,instructions
+8567418911,branches
+16164545,branch-branch-misses
+
+RELEASE_3_9_0
+loadavg  3.56 3.00 2.56 2/704 26188
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10168.419983 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.21% )
+                80 context-switches          #    0.008 K/sec                    ( +-  5.08% )
+               115 cpu-migrations            #    0.011 K/sec                    ( +-  6.27% )
+           829,778 page-faults               #    0.082 M/sec                    ( +-  0.00% )
+    29,768,309,597 cycles                    #    2.928 GHz                      ( +-  0.19% )
+    12,379,676,040 stalled-cycles-frontend   #   41.59% frontend cycles idle     ( +-  0.57% )
+     4,609,896,392 stalled-cycles-backend    #   15.49% backend  cycles idle     ( +-  0.41% )
+    50,936,064,976 instructions              #    1.71  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     8,569,502,661 branches                  #  842.757 M/sec                    ( +-  0.00% )
+        16,385,276 branch-misses             #    0.19% of all branches          ( +-  2.44% )
+
+      10.159585045 seconds time elapsed                                          ( +-  0.21% )
+
+10167.740578,task-clock
+102,context-switches
+164,cpu-migrations
+829766,page-faults
+29796641535,cycles
+12443693374,stalled-cycles-frontend
+4633670347,stalled-cycles-backend
+50934582052,instructions
+8568998516,branches
+15356069,branch-branch-misses
+
+RELEASE_3_10_0
+loadavg  3.40 2.97 2.58 4/705 28703
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10333.006919 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.13% )
+                80 context-switches          #    0.008 K/sec                    ( +-  9.70% )
+               125 cpu-migrations            #    0.012 K/sec                    ( +-  3.75% )
+           830,143 page-faults               #    0.080 M/sec                    ( +-  0.00% )
+    30,286,138,072 cycles                    #    2.931 GHz                      ( +-  0.13% )
+    12,448,599,540 stalled-cycles-frontend   #   41.10% frontend cycles idle     ( +-  0.27% )
+     4,593,096,796 stalled-cycles-backend    #   15.17% backend  cycles idle     ( +-  0.33% )
+    52,267,958,211 instructions              #    1.73  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     8,926,671,754 branches                  #  863.899 M/sec                    ( +-  0.01% )
+        18,137,087 branch-misses             #    0.20% of all branches          ( +-  5.65% )
+
+      10.323670198 seconds time elapsed                                          ( +-  0.14% )
+
+10299.279692,task-clock
+76,context-switches
+146,cpu-migrations
+830134,page-faults
+30324914952,cycles
+12509094374,stalled-cycles-frontend
+4605388201,stalled-cycles-backend
+52277570542,instructions
+8929070953,branches
+17031862,branch-branch-misses
+
+RELEASE_3_11_0
+loadavg  3.00 2.84 2.56 3/702 31216
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10495.788618 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.19% )
+                88 context-switches          #    0.008 K/sec                    ( +- 13.44% )
+               110 cpu-migrations            #    0.011 K/sec                    ( +- 13.53% )
+           829,968 page-faults               #    0.079 M/sec                    ( +-  0.00% )
+    30,759,621,032 cycles                    #    2.931 GHz                      ( +-  0.16% )
+    12,904,301,972 stalled-cycles-frontend   #   41.95% frontend cycles idle     ( +-  0.35% )
+     4,770,956,199 stalled-cycles-backend    #   15.51% backend  cycles idle     ( +-  0.47% )
+    52,333,557,816 instructions              #    1.70  insns per cycle        
+                                             #    0.25  stalled cycles per insn  ( +-  0.02% )
+     8,893,111,717 branches                  #  847.303 M/sec                    ( +-  0.02% )
+        17,138,309 branch-misses             #    0.19% of all branches          ( +-  2.48% )
+
+      10.486785868 seconds time elapsed                                          ( +-  0.19% )
+
+10476.010412,task-clock
+95,context-switches
+112,cpu-migrations
+829966,page-faults
+30682255632,cycles
+12789899161,stalled-cycles-frontend
+4775078988,stalled-cycles-backend
+52337700103,instructions
+8893907445,branches
+17926377,branch-branch-misses
+
+RELEASE_4_0_0
+loadavg  3.13 2.82 2.57 1/703 1342
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10416.592138 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.18% )
+                85 context-switches          #    0.008 K/sec                    ( +- 16.38% )
+               115 cpu-migrations            #    0.011 K/sec                    ( +-  8.92% )
+           829,916 page-faults               #    0.080 M/sec                    ( +-  0.00% )
+    30,530,437,436 cycles                    #    2.931 GHz                      ( +-  0.15% )
+    12,669,140,240 stalled-cycles-frontend   #   41.50% frontend cycles idle     ( +-  0.48% )
+     4,698,766,125 stalled-cycles-backend    #   15.39% backend  cycles idle     ( +-  0.51% )
+    52,337,475,373 instructions              #    1.71  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.01% )
+     8,894,166,533 branches                  #  853.846 M/sec                    ( +-  0.02% )
+        16,805,998 branch-misses             #    0.19% of all branches          ( +-  2.17% )
+
+      10.407319137 seconds time elapsed                                          ( +-  0.19% )
+
+10434.931230,task-clock
+54,context-switches
+75,cpu-migrations
+829934,page-faults
+30610389750,cycles
+12724450934,stalled-cycles-frontend
+4703053759,stalled-cycles-backend
+52325483155,instructions
+8891143561,branches
+19479433,branch-branch-misses
+
+RELEASE_4_1_0
+loadavg  3.58 2.90 2.61 1/701 3929
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10583.810861 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.44% )
+                72 context-switches          #    0.007 K/sec                    ( +-  6.47% )
+               117 cpu-migrations            #    0.011 K/sec                    ( +-  6.85% )
+           829,870 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,110,941,173 cycles                    #    2.939 GHz                      ( +-  0.46% )
+    13,269,185,813 stalled-cycles-frontend   #   42.65% frontend cycles idle     ( +-  0.32% )
+     4,865,572,479 stalled-cycles-backend    #   15.64% backend  cycles idle     ( +-  1.08% )
+    52,330,395,857 instructions              #    1.68  insns per cycle        
+                                             #    0.25  stalled cycles per insn  ( +-  0.00% )
+     8,892,652,920 branches                  #  840.213 M/sec                    ( +-  0.00% )
+        24,354,803 branch-misses             #    0.27% of all branches          ( +- 20.44% )
+
+      10.574911038 seconds time elapsed                                          ( +-  0.44% )
+
+10703.052720,task-clock
+62,context-switches
+101,cpu-migrations
+829863,page-faults
+31500350068,cycles
+13434210638,stalled-cycles-frontend
+4983819720,stalled-cycles-backend
+52328082664,instructions
+8891992909,branches
+34800158,branch-branch-misses
+
+RELEASE_4_2_0
+loadavg  2.77 2.75 2.58 3/704 6725
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10453.908255 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.16% )
+                98 context-switches          #    0.009 K/sec                    ( +- 19.01% )
+               130 cpu-migrations            #    0.012 K/sec                    ( +-  7.69% )
+           826,042 page-faults               #    0.079 M/sec                    ( +-  0.00% )
+    30,803,765,372 cycles                    #    2.947 GHz                      ( +-  0.26% )
+    12,970,127,298 stalled-cycles-frontend   #   42.11% frontend cycles idle     ( +-  0.63% )
+     4,774,883,778 stalled-cycles-backend    #   15.50% backend  cycles idle     ( +-  0.46% )
+    52,345,430,552 instructions              #    1.70  insns per cycle        
+                                             #    0.25  stalled cycles per insn  ( +-  0.00% )
+     8,894,663,528 branches                  #  850.846 M/sec                    ( +-  0.00% )
+        19,267,606 branch-misses             #    0.22% of all branches          ( +-  5.52% )
+
+      10.445002448 seconds time elapsed                                          ( +-  0.15% )
+
+10424.800673,task-clock
+67,context-switches
+107,cpu-migrations
+826041,page-faults
+30667821819,cycles
+12837291941,stalled-cycles-frontend
+4741636137,stalled-cycles-backend
+52342927041,instructions
+8894152666,branches
+17752504,branch-branch-misses
+
+RELEASE_4_3_0
+loadavg  2.88 2.71 2.58 3/701 9214
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10378.573438 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.35% )
+                76 context-switches          #    0.007 K/sec                    ( +-  5.15% )
+               114 cpu-migrations            #    0.011 K/sec                    ( +-  4.86% )
+           826,521 page-faults               #    0.080 M/sec                    ( +-  0.00% )
+    30,706,632,766 cycles                    #    2.959 GHz                      ( +-  0.35% )
+    12,811,215,896 stalled-cycles-frontend   #   41.72% frontend cycles idle     ( +-  0.89% )
+     4,722,701,624 stalled-cycles-backend    #   15.38% backend  cycles idle     ( +-  0.34% )
+    52,347,961,282 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     8,894,626,366 branches                  #  857.018 M/sec                    ( +-  0.00% )
+        20,160,993 branch-misses             #    0.23% of all branches          ( +-  3.56% )
+
+      10.368422478 seconds time elapsed                                          ( +-  0.35% )
+
+10356.093789,task-clock
+63,context-switches
+97,cpu-migrations
+826506,page-faults
+30646875562,cycles
+12713367758,stalled-cycles-frontend
+4761420223,stalled-cycles-backend
+52347212707,instructions
+8894481213,branches
+18793576,branch-branch-misses
+
+RELEASE_4_4_0
+loadavg  3.10 2.71 2.58 1/704 11735
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10445.198932 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.37% )
+                74 context-switches          #    0.007 K/sec                    ( +-  9.20% )
+               122 cpu-migrations            #    0.012 K/sec                    ( +- 14.90% )
+           831,254 page-faults               #    0.080 M/sec                    ( +-  0.00% )
+    30,781,163,228 cycles                    #    2.947 GHz                      ( +-  0.27% )
+    12,955,803,524 stalled-cycles-frontend   #   42.09% frontend cycles idle     ( +-  0.72% )
+     4,754,410,034 stalled-cycles-backend    #   15.45% backend  cycles idle     ( +-  0.59% )
+    52,255,729,159 instructions              #    1.70  insns per cycle        
+                                             #    0.25  stalled cycles per insn  ( +-  0.00% )
+     8,883,566,894 branches                  #  850.493 M/sec                    ( +-  0.00% )
+        18,431,370 branch-misses             #    0.21% of all branches          ( +-  2.90% )
+
+      10.435474883 seconds time elapsed                                          ( +-  0.37% )
+
+10414.634952,task-clock
+59,context-switches
+61,cpu-migrations
+831231,page-faults
+30716094706,cycles
+12811335777,stalled-cycles-frontend
+4747949857,stalled-cycles-backend
+52254449591,instructions
+8883325827,branches
+21671225,branch-branch-misses
+
+RELEASE_4_5_0
+loadavg  2.70 2.63 2.56 1/702 14203
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10421.825387 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.10% )
+                80 context-switches          #    0.008 K/sec                    ( +- 16.28% )
+               100 cpu-migrations            #    0.010 K/sec                    ( +-  9.20% )
+           831,070 page-faults               #    0.080 M/sec                    ( +-  0.00% )
+    30,838,581,976 cycles                    #    2.959 GHz                      ( +-  0.11% )
+    13,092,974,740 stalled-cycles-frontend   #   42.46% frontend cycles idle     ( +-  0.18% )
+     4,778,248,078 stalled-cycles-backend    #   15.49% backend  cycles idle     ( +-  0.36% )
+    52,256,106,790 instructions              #    1.69  insns per cycle        
+                                             #    0.25  stalled cycles per insn  ( +-  0.00% )
+     8,883,777,391 branches                  #  852.420 M/sec                    ( +-  0.00% )
+        20,274,692 branch-misses             #    0.23% of all branches          ( +-  5.34% )
+
+      10.416064258 seconds time elapsed                                          ( +-  0.14% )
+
+10357.198834,task-clock
+64,context-switches
+80,cpu-migrations
+831053,page-faults
+30671756472,cycles
+13007651186,stalled-cycles-frontend
+4722554365,stalled-cycles-backend
+52254748070,instructions
+8883500593,branches
+16999318,branch-branch-misses
+
+RELEASE_4_6_0
+loadavg  2.68 2.54 2.53 1/714 16698
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10494.963509 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.17% )
+               103 context-switches          #    0.010 K/sec                    ( +- 13.88% )
+               125 cpu-migrations            #    0.012 K/sec                    ( +- 10.27% )
+           831,066 page-faults               #    0.079 M/sec                    ( +-  0.00% )
+    30,844,875,617 cycles                    #    2.939 GHz                      ( +-  0.21% )
+    13,126,942,165 stalled-cycles-frontend   #   42.56% frontend cycles idle     ( +-  0.48% )
+     4,799,439,692 stalled-cycles-backend    #   15.56% backend  cycles idle     ( +-  0.69% )
+    52,259,244,592 instructions              #    1.69  insns per cycle        
+                                             #    0.25  stalled cycles per insn  ( +-  0.00% )
+     8,884,219,593 branches                  #  846.522 M/sec                    ( +-  0.00% )
+        18,707,570 branch-misses             #    0.21% of all branches          ( +-  3.86% )
+
+      10.485801277 seconds time elapsed                                          ( +-  0.17% )
+
+10354.180151,task-clock
+74,context-switches
+129,cpu-migrations
+831067,page-faults
+30642557664,cycles
+12901227869,stalled-cycles-frontend
+4712532109,stalled-cycles-backend
+52255764114,instructions
+8883769632,branches
+18527604,branch-branch-misses
+
+RELEASE_4_7_0
+loadavg  3.53 2.74 2.59 1/703 19248
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10430.845256 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.24% )
+                83 context-switches          #    0.008 K/sec                    ( +- 13.55% )
+               140 cpu-migrations            #    0.013 K/sec                    ( +-  8.49% )
+           831,127 page-faults               #    0.080 M/sec                    ( +-  0.00% )
+    30,749,520,082 cycles                    #    2.948 GHz                      ( +-  0.16% )
+    12,861,111,465 stalled-cycles-frontend   #   41.83% frontend cycles idle     ( +-  0.12% )
+     4,773,771,846 stalled-cycles-backend    #   15.52% backend  cycles idle     ( +-  0.34% )
+    52,258,055,888 instructions              #    1.70  insns per cycle        
+                                             #    0.25  stalled cycles per insn  ( +-  0.00% )
+     8,884,075,107 branches                  #  851.712 M/sec                    ( +-  0.00% )
+        19,918,325 branch-misses             #    0.22% of all branches          ( +-  8.52% )
+
+      10.421811429 seconds time elapsed                                          ( +-  0.25% )
+
+10404.419664,task-clock
+500,context-switches
+139,cpu-migrations
+831129,page-faults
+30535220901,cycles
+12708182789,stalled-cycles-frontend
+4709950351,stalled-cycles-backend
+52259321548,instructions
+8884184183,branches
+16977295,branch-branch-misses
+
+RELEASE_4_8_0
+loadavg  3.28 2.76 2.61 1/703 21713
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10561.970835 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.08% )
+                71 context-switches          #    0.007 K/sec                    ( +-  4.94% )
+               126 cpu-migrations            #    0.012 K/sec                    ( +- 12.42% )
+           831,464 page-faults               #    0.079 M/sec                    ( +-  0.00% )
+    31,238,445,861 cycles                    #    2.958 GHz                      ( +-  0.12% )
+    13,410,738,581 stalled-cycles-frontend   #   42.93% frontend cycles idle     ( +-  0.34% )
+     5,031,921,814 stalled-cycles-backend    #   16.11% backend  cycles idle     ( +-  0.30% )
+    52,260,438,998 instructions              #    1.67  insns per cycle        
+                                             #    0.26  stalled cycles per insn  ( +-  0.00% )
+     8,884,300,730 branches                  #  841.159 M/sec                    ( +-  0.00% )
+        17,349,955 branch-misses             #    0.20% of all branches          ( +-  2.58% )
+
+      10.551825693 seconds time elapsed                                          ( +-  0.08% )
+
+10622.873944,task-clock
+61,context-switches
+118,cpu-migrations
+831463,page-faults
+31363031356,cycles
+13519929774,stalled-cycles-frontend
+5086074543,stalled-cycles-backend
+52259361027,instructions
+8884135362,branches
+18258834,branch-branch-misses
+
+RELEASE_4_9_0
+loadavg  3.43 2.82 2.63 1/704 24196
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10768.959656 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.23% )
+                81 context-switches          #    0.008 K/sec                    ( +- 10.02% )
+               119 cpu-migrations            #    0.011 K/sec                    ( +-  4.46% )
+           831,469 page-faults               #    0.077 M/sec                    ( +-  0.00% )
+    31,484,439,968 cycles                    #    2.924 GHz                      ( +-  0.21% )
+    13,536,311,102 stalled-cycles-frontend   #   42.99% frontend cycles idle     ( +-  0.44% )
+     5,122,662,524 stalled-cycles-backend    #   16.27% backend  cycles idle     ( +-  0.31% )
+    52,258,409,600 instructions              #    1.66  insns per cycle        
+                                             #    0.26  stalled cycles per insn  ( +-  0.00% )
+     8,884,146,671 branches                  #  824.977 M/sec                    ( +-  0.00% )
+        21,423,006 branch-misses             #    0.24% of all branches          ( +-  7.52% )
+
+      10.760177716 seconds time elapsed                                          ( +-  0.21% )
+
+10789.196563,task-clock
+78,context-switches
+130,cpu-migrations
+831491,page-faults
+31461930876,cycles
+13504618417,stalled-cycles-frontend
+5112178398,stalled-cycles-backend
+52258182045,instructions
+8884104824,branches
+21840813,branch-branch-misses
+
+RELEASE_4_10_0
+loadavg  4.28 3.09 2.74 1/702 26681
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10696.654914 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.50% )
+                79 context-switches          #    0.007 K/sec                    ( +-  9.97% )
+               117 cpu-migrations            #    0.011 K/sec                    ( +-  8.06% )
+           831,470 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,335,503,748 cycles                    #    2.929 GHz                      ( +-  0.49% )
+    13,596,090,354 stalled-cycles-frontend   #   43.39% frontend cycles idle     ( +-  1.33% )
+     5,037,573,570 stalled-cycles-backend    #   16.08% backend  cycles idle     ( +-  0.24% )
+    52,257,744,034 instructions              #    1.67  insns per cycle        
+                                             #    0.26  stalled cycles per insn  ( +-  0.00% )
+     8,884,050,372 branches                  #  830.545 M/sec                    ( +-  0.00% )
+        16,630,380 branch-misses             #    0.19% of all branches          ( +-  2.67% )
+
+      10.686763273 seconds time elapsed                                          ( +-  0.50% )
+
+10711.830838,task-clock
+73,context-switches
+113,cpu-migrations
+831450,page-faults
+31258665316,cycles
+13510367103,stalled-cycles-frontend
+5041746199,stalled-cycles-backend
+52255799378,instructions
+8883630728,branches
+16597720,branch-branch-misses
+
+RELEASE_4_11_0
+loadavg  4.63 3.39 2.87 2/702 29367
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10715.867523 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.12% )
+                92 context-switches          #    0.009 K/sec                    ( +- 12.73% )
+               130 cpu-migrations            #    0.012 K/sec                    ( +- 11.70% )
+           831,632 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,286,916,154 cycles                    #    2.920 GHz                      ( +-  0.14% )
+    12,845,214,759 stalled-cycles-frontend   #   41.06% frontend cycles idle     ( +-  0.39% )
+     4,964,348,004 stalled-cycles-backend    #   15.87% backend  cycles idle     ( +-  0.35% )
+    53,252,877,902 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,053,019,700 branches                  #  844.824 M/sec                    ( +-  0.00% )
+        16,720,606 branch-misses             #    0.18% of all branches          ( +-  1.43% )
+
+      10.705404192 seconds time elapsed                                          ( +-  0.14% )
+
+10766.660836,task-clock
+121,context-switches
+141,cpu-migrations
+831631,page-faults
+31523945110,cycles
+13054151432,stalled-cycles-frontend
+5049773976,stalled-cycles-backend
+53251696943,instructions
+9053068588,branches
+17388702,branch-branch-misses
+
+RELEASE_5_0_0
+loadavg  3.23 3.14 2.82 1/700 517
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10650.866430 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.23% )
+                88 context-switches          #    0.008 K/sec                    ( +-  6.57% )
+               118 cpu-migrations            #    0.011 K/sec                    ( +- 11.55% )
+           831,531 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,224,577,601 cycles                    #    2.932 GHz                      ( +-  0.23% )
+    12,764,337,076 stalled-cycles-frontend   #   40.88% frontend cycles idle     ( +-  0.39% )
+     4,987,746,940 stalled-cycles-backend    #   15.97% backend  cycles idle     ( +-  0.57% )
+    53,249,748,624 instructions              #    1.71  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,052,684,154 branches                  #  849.948 M/sec                    ( +-  0.00% )
+        17,948,932 branch-misses             #    0.20% of all branches          ( +-  8.51% )
+
+      10.639088220 seconds time elapsed                                          ( +-  0.23% )
+
+10627.385889,task-clock
+98,context-switches
+136,cpu-migrations
+831514,page-faults
+31190387520,cycles
+12833145769,stalled-cycles-frontend
+4957283676,stalled-cycles-backend
+53250866553,instructions
+9052859135,branches
+15554282,branch-branch-misses
+
+RELEASE_5_1_0
+loadavg  3.27 3.04 2.80 1/700 4155
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10666.496000 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.10% )
+                82 context-switches          #    0.008 K/sec                    ( +-  3.86% )
+               126 cpu-migrations            #    0.012 K/sec                    ( +-  8.87% )
+           831,533 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,140,193,234 cycles                    #    2.919 GHz                      ( +-  0.10% )
+    12,732,023,978 stalled-cycles-frontend   #   40.89% frontend cycles idle     ( +-  0.46% )
+     4,933,334,957 stalled-cycles-backend    #   15.84% backend  cycles idle     ( +-  0.18% )
+    53,249,696,790 instructions              #    1.71  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,052,664,273 branches                  #  848.701 M/sec                    ( +-  0.00% )
+        16,802,514 branch-misses             #    0.19% of all branches          ( +-  7.30% )
+
+      10.654499948 seconds time elapsed                                          ( +-  0.10% )
+
+10588.807760,task-clock
+81,context-switches
+98,cpu-migrations
+831542,page-faults
+31066973207,cycles
+12652402475,stalled-cycles-frontend
+4913433552,stalled-cycles-backend
+53250023255,instructions
+9052702270,branches
+15312586,branch-branch-misses
+
+RELEASE_5_2_0
+loadavg  2.83 2.86 2.76 2/702 8018
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10703.319568 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.24% )
+               103 context-switches          #    0.010 K/sec                    ( +- 12.65% )
+               136 cpu-migrations            #    0.013 K/sec                    ( +-  9.90% )
+           831,584 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,280,572,825 cycles                    #    2.923 GHz                      ( +-  0.13% )
+    12,833,816,294 stalled-cycles-frontend   #   41.03% frontend cycles idle     ( +-  0.31% )
+     4,994,206,490 stalled-cycles-backend    #   15.97% backend  cycles idle     ( +-  0.33% )
+    53,251,989,737 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,053,165,378 branches                  #  845.828 M/sec                    ( +-  0.00% )
+        16,838,646 branch-misses             #    0.19% of all branches          ( +-  3.45% )
+
+      10.692080144 seconds time elapsed                                          ( +-  0.25% )
+
+10702.750166,task-clock
+114,context-switches
+130,cpu-migrations
+831591,page-faults
+31237090394,cycles
+12768842890,stalled-cycles-frontend
+4981895531,stalled-cycles-backend
+53253879856,instructions
+9053363097,branches
+16965625,branch-branch-misses
+
+RELEASE_5_3_0
+loadavg  3.44 2.89 2.77 1/700 11578
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10650.896194 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.12% )
+                87 context-switches          #    0.008 K/sec                    ( +-  3.15% )
+               122 cpu-migrations            #    0.012 K/sec                    ( +-  5.62% )
+           831,581 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,173,660,102 cycles                    #    2.927 GHz                      ( +-  0.17% )
+    12,705,581,368 stalled-cycles-frontend   #   40.76% frontend cycles idle     ( +-  0.26% )
+     4,932,516,386 stalled-cycles-backend    #   15.82% backend  cycles idle     ( +-  0.44% )
+    53,254,733,588 instructions              #    1.71  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,053,484,250 branches                  #  850.021 M/sec                    ( +-  0.00% )
+        16,491,351 branch-misses             #    0.18% of all branches          ( +-  5.09% )
+
+      10.639269433 seconds time elapsed                                          ( +-  0.12% )
+
+10576.598410,task-clock
+89,context-switches
+111,cpu-migrations
+831590,page-faults
+31144298772,cycles
+12694657376,stalled-cycles-frontend
+4929019438,stalled-cycles-backend
+53254544864,instructions
+9053366023,branches
+16054091,branch-branch-misses
+
+RELEASE_5_4_0
+loadavg  2.66 2.71 2.71 3/703 15125
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10673.663192 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.17% )
+               108 context-switches          #    0.010 K/sec                    ( +-  6.86% )
+               164 cpu-migrations            #    0.015 K/sec                    ( +- 18.73% )
+           831,538 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,314,024,347 cycles                    #    2.934 GHz                      ( +-  0.15% )
+    12,891,720,437 stalled-cycles-frontend   #   41.17% frontend cycles idle     ( +-  0.15% )
+     5,042,325,782 stalled-cycles-backend    #   16.10% backend  cycles idle     ( +-  0.60% )
+    53,254,986,635 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,053,341,276 branches                  #  848.194 M/sec                    ( +-  0.00% )
+        19,728,148 branch-misses             #    0.22% of all branches          ( +-  5.98% )
+
+      10.663089692 seconds time elapsed                                          ( +-  0.18% )
+
+10729.946417,task-clock
+86,context-switches
+129,cpu-migrations
+831547,page-faults
+31368425748,cycles
+13030053761,stalled-cycles-frontend
+5032307573,stalled-cycles-backend
+53252020707,instructions
+9052880496,branches
+17715865,branch-branch-misses
+
+RELEASE_5_5_0
+loadavg  3.11 2.77 2.72 1/702 18733
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10638.062613 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.27% )
+               105 context-switches          #    0.010 K/sec                    ( +-  9.23% )
+               161 cpu-migrations            #    0.015 K/sec                    ( +- 13.07% )
+           831,546 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,276,957,622 cycles                    #    2.940 GHz                      ( +-  0.25% )
+    12,786,913,078 stalled-cycles-frontend   #   40.88% frontend cycles idle     ( +-  0.33% )
+     5,015,368,221 stalled-cycles-backend    #   16.04% backend  cycles idle     ( +-  0.61% )
+    53,253,180,588 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,053,193,979 branches                  #  851.019 M/sec                    ( +-  0.00% )
+        18,515,775 branch-misses             #    0.20% of all branches          ( +- 11.23% )
+
+      10.627909871 seconds time elapsed                                          ( +-  0.28% )
+
+10656.302160,task-clock
+101,context-switches
+128,cpu-migrations
+831531,page-faults
+31254554204,cycles
+12800136371,stalled-cycles-frontend
+5019653022,stalled-cycles-backend
+53251900180,instructions
+9052939864,branches
+15988297,branch-branch-misses
+
+RELEASE_5_6_0
+loadavg  3.06 2.73 2.71 2/711 22707
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10673.162736 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.20% )
+                90 context-switches          #    0.008 K/sec                    ( +-  5.02% )
+               146 cpu-migrations            #    0.014 K/sec                    ( +-  6.57% )
+           831,532 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,285,676,822 cycles                    #    2.931 GHz                      ( +-  0.10% )
+    12,846,722,610 stalled-cycles-frontend   #   41.06% frontend cycles idle     ( +-  0.28% )
+     5,017,568,379 stalled-cycles-backend    #   16.04% backend  cycles idle     ( +-  0.37% )
+    53,252,154,483 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,052,965,412 branches                  #  848.199 M/sec                    ( +-  0.00% )
+        17,415,121 branch-misses             #    0.19% of all branches          ( +-  4.42% )
+
+      10.661323758 seconds time elapsed                                          ( +-  0.20% )
+
+10608.084902,task-clock
+124,context-switches
+165,cpu-migrations
+831526,page-faults
+31169955104,cycles
+12725648603,stalled-cycles-frontend
+4998923687,stalled-cycles-backend
+53255557967,instructions
+9053609584,branches
+16264820,branch-branch-misses
+
+RELEASE_5_7_0
+loadavg  3.50 2.81 2.73 2/709 26677
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10701.414913 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.11% )
+                91 context-switches          #    0.009 K/sec                    ( +-  3.20% )
+               153 cpu-migrations            #    0.014 K/sec                    ( +-  2.83% )
+           831,541 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,300,269,918 cycles                    #    2.925 GHz                      ( +-  0.08% )
+    12,932,985,008 stalled-cycles-frontend   #   41.32% frontend cycles idle     ( +-  0.17% )
+     5,069,306,509 stalled-cycles-backend    #   16.20% backend  cycles idle     ( +-  0.23% )
+    53,249,367,686 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,052,682,150 branches                  #  845.933 M/sec                    ( +-  0.00% )
+        16,797,222 branch-misses             #    0.19% of all branches          ( +-  2.77% )
+
+      10.691656688 seconds time elapsed                                          ( +-  0.11% )
+
+10692.528303,task-clock
+109,context-switches
+144,cpu-migrations
+831543,page-faults
+31321759873,cycles
+12980855976,stalled-cycles-frontend
+5052474979,stalled-cycles-backend
+53250718401,instructions
+9052930889,branches
+15987456,branch-branch-misses
+
+RELEASE_5_9_0
+loadavg  3.31 2.84 2.74 1/704 30662
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10684.072324 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.54% )
+                97 context-switches          #    0.009 K/sec                    ( +-  4.61% )
+               146 cpu-migrations            #    0.014 K/sec                    ( +-  6.26% )
+           831,588 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,386,166,370 cycles                    #    2.938 GHz                      ( +-  0.55% )
+    12,782,235,000 stalled-cycles-frontend   #   40.73% frontend cycles idle     ( +-  0.79% )
+     5,010,470,851 stalled-cycles-backend    #   15.96% backend  cycles idle     ( +-  1.42% )
+    53,249,947,550 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,052,882,177 branches                  #  847.325 M/sec                    ( +-  0.00% )
+        23,309,975 branch-misses             #    0.26% of all branches          ( +- 19.09% )
+
+      10.672666365 seconds time elapsed                                          ( +-  0.54% )
+
+10857.888638,task-clock
+108,context-switches
+180,cpu-migrations
+831582,page-faults
+31723204874,cycles
+12951712870,stalled-cycles-frontend
+5161864084,stalled-cycles-backend
+53250563820,instructions
+9052941524,branches
+32400362,branch-branch-misses
+
+RELEASE_5_10_0
+loadavg  3.37 2.86 2.75 2/703 2259
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10714.055644 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.12% )
+               110 context-switches          #    0.010 K/sec                    ( +- 12.33% )
+               156 cpu-migrations            #    0.015 K/sec                    ( +-  9.91% )
+           831,578 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,285,838,446 cycles                    #    2.920 GHz                      ( +-  0.12% )
+    12,809,357,995 stalled-cycles-frontend   #   40.94% frontend cycles idle     ( +-  0.30% )
+     5,038,838,352 stalled-cycles-backend    #   16.11% backend  cycles idle     ( +-  0.40% )
+    53,252,237,329 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,062,834,158 branches                  #  845.883 M/sec                    ( +-  0.00% )
+        17,811,808 branch-misses             #    0.20% of all branches          ( +-  4.10% )
+
+      10.708653052 seconds time elapsed                                          ( +-  0.14% )
+
+10700.249692,task-clock
+105,context-switches
+159,cpu-migrations
+831588,page-faults
+31331178023,cycles
+12762470667,stalled-cycles-frontend
+5064127947,stalled-cycles-backend
+53250830438,instructions
+9062598894,branches
+19481923,branch-branch-misses
+
+RELEASE_6_0_0
+loadavg  3.42 2.94 2.79 2/707 6556
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10600.200670 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.52% )
+                97 context-switches          #    0.009 K/sec                    ( +- 12.89% )
+               148 cpu-migrations            #    0.014 K/sec                    ( +- 15.78% )
+           831,589 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,270,520,754 cycles                    #    2.950 GHz                      ( +-  0.27% )
+    12,819,957,132 stalled-cycles-frontend   #   41.00% frontend cycles idle     ( +-  0.48% )
+     5,050,527,940 stalled-cycles-backend    #   16.15% backend  cycles idle     ( +-  0.81% )
+    53,253,095,282 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.01% )
+     9,063,008,565 branches                  #  854.985 M/sec                    ( +-  0.01% )
+        19,693,718 branch-misses             #    0.22% of all branches          ( +-  7.33% )
+
+      10.589940429 seconds time elapsed                                          ( +-  0.51% )
+
+10664.291476,task-clock
+99,context-switches
+138,cpu-migrations
+831588,page-faults
+31604326011,cycles
+13032432544,stalled-cycles-frontend
+5148190619,stalled-cycles-backend
+53251827393,instructions
+9062824310,branches
+25993274,branch-branch-misses
+
+RELEASE_6_1_0
+loadavg  3.57 2.99 2.81 1/708 10578
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10606.310875 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.25% )
+                93 context-switches          #    0.009 K/sec                    ( +-  6.67% )
+               144 cpu-migrations            #    0.014 K/sec                    ( +-  9.50% )
+           831,576 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,282,274,004 cycles                    #    2.949 GHz                      ( +-  0.16% )
+    12,829,079,385 stalled-cycles-frontend   #   41.01% frontend cycles idle     ( +-  0.36% )
+     5,003,361,929 stalled-cycles-backend    #   15.99% backend  cycles idle     ( +-  0.19% )
+    53,250,752,690 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,062,586,906 branches                  #  854.452 M/sec                    ( +-  0.00% )
+        16,509,264 branch-misses             #    0.18% of all branches          ( +-  3.43% )
+
+      10.594964520 seconds time elapsed                                          ( +-  0.25% )
+
+10589.580533,task-clock
+87,context-switches
+127,cpu-migrations
+831573,page-faults
+31287761164,cycles
+12875480198,stalled-cycles-frontend
+5025258231,stalled-cycles-backend
+53250457485,instructions
+9062535163,branches
+16781841,branch-branch-misses
+
+RELEASE_6_2_0
+loadavg  2.96 2.87 2.78 1/706 14530
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10598.698280 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.32% )
+               104 context-switches          #    0.010 K/sec                    ( +- 19.45% )
+               124 cpu-migrations            #    0.012 K/sec                    ( +-  3.95% )
+           831,550 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,266,785,534 cycles                    #    2.950 GHz                      ( +-  0.23% )
+    12,885,424,479 stalled-cycles-frontend   #   41.21% frontend cycles idle     ( +-  0.27% )
+     5,026,754,762 stalled-cycles-backend    #   16.08% backend  cycles idle     ( +-  0.62% )
+    53,251,370,490 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,062,754,914 branches                  #  855.082 M/sec                    ( +-  0.00% )
+        17,902,062 branch-misses             #    0.20% of all branches          ( +-  8.95% )
+
+      10.586717226 seconds time elapsed                                          ( +-  0.32% )
+
+10559.321511,task-clock
+79,context-switches
+137,cpu-migrations
+831559,page-faults
+31083870046,cycles
+12715230456,stalled-cycles-frontend
+4949288749,stalled-cycles-backend
+53253718577,instructions
+9062961154,branches
+16745426,branch-misses
+
+RELEASE rurban/6model
+loadavg  3.72 1.53 0.89 3/707 3558
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10515.686917 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.17% )
+               112 context-switches          #    0.011 K/sec                    ( +- 21.51% )
+               119 cpu-migrations            #    0.011 K/sec                    ( +- 11.37% )
+           832,029 page-faults               #    0.079 M/sec                    ( +-  0.00% )
+    31,057,177,802 cycles                    #    2.953 GHz                      ( +-  0.11% )
+    12,833,788,735 stalled-cycles-frontend   #   41.32% frontend cycles idle     ( +-  0.20% )
+     4,697,708,608 stalled-cycles-backend    #   15.13% backend  cycles idle     ( +-  0.07% )
+    53,265,810,463 instructions              #    1.72  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.01% )
+     9,064,548,590 branches                  #  862.003 M/sec                    ( +-  0.01% )
+        19,390,200 branch-misses             #    0.21% of all branches          ( +-  3.03% )
+
+      10.505363558 seconds time elapsed                                          ( +-  0.18% )
+
+10498.401498,task-clock
+100,context-switches
+122,cpu-migrations
+832028,page-faults
+31026567605,cycles
+12783229749,stalled-cycles-frontend
+4698580020,stalled-cycles-backend
+53266992883,instructions
+9064778859,branches
+19399737,branch-misses
+
+RELEASE rurban/pmc2c_orig
+loadavg  3.84 2.02 1.11 1/710 7768
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10596.412186 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.25% )
+                89 context-switches          #    0.008 K/sec                    ( +-  6.56% )
+               112 cpu-migrations            #    0.011 K/sec                    ( +-  4.33% )
+           831,560 page-faults               #    0.078 M/sec                    ( +-  0.00% )
+    31,286,379,441 cycles                    #    2.953 GHz                      ( +-  0.17% )
+    12,908,663,811 stalled-cycles-frontend   #   41.26% frontend cycles idle     ( +-  0.54% )
+     5,023,809,454 stalled-cycles-backend    #   16.06% backend  cycles idle     ( +-  0.45% )
+    53,194,761,043 instructions              #    1.70  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.00% )
+     9,058,233,842 branches                  #  854.840 M/sec                    ( +-  0.01% )
+        21,116,275 branch-misses             #    0.23% of all branches          ( +-  9.11% )
+
+      10.585417778 seconds time elapsed                                          ( +-  0.25% )
+
+10589.938460,task-clock
+92,context-switches
+125,cpu-migrations
+831540,page-faults
+31135183550,cycles
+12860517507,stalled-cycles-frontend
+4997876206,stalled-cycles-backend
+53192614642,instructions
+9057724162,branches
+16053996,branch-misses
+
+RELEASE master
+loadavg  0.60 0.66 0.89 2/701 13515
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10566.114214 task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.37% )
+                94 context-switches          #    0.009 K/sec                    ( +-  7.16% )
+               130 cpu-migrations            #    0.012 K/sec                    ( +- 12.49% )
+           831,544 page-faults               #    0.079 M/sec                    ( +-  0.00% )
+    31,168,008,515 cycles                    #    2.950 GHz                      ( +-  0.33% )
+    12,778,478,474 stalled-cycles-frontend   #   41.00% frontend cycles idle     ( +-  0.63% )
+     4,913,425,060 stalled-cycles-backend    #   15.76% backend  cycles idle     ( +-  0.95% )
+    53,288,377,420 instructions              #    1.71  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.01% )
+     9,068,599,137 branches                  #  858.272 M/sec                    ( +-  0.01% )
+        18,305,112 branch-misses             #    0.20% of all branches          ( +-  7.18% )
+
+      10.554795282 seconds time elapsed                                          ( +-  0.37% )
+
+loadavg  3.75 2.31 1.29 1/707 11661
+10676.092420,task-clock
+100,context-switches
+132,cpu-migrations
+831578,page-faults
+31199834818,cycles
+12838746631,stalled-cycles-frontend
+5028927842,stalled-cycles-backend
+53255240614,instructions
+9063067847,branches
+16550713,branch-misses
+
