@@ -1,6 +1,9 @@
 parrot-bench
 ============
 
+![Curve](parrot-bench-20140321.png)
+
+
 | RELEASE tags  | seconds       | perf stat -r4 variance |
 |---------------|--------------:|:----------------------:|
 | RELEASE_1_8_0	| 10.548140110	| (+-1.02%)	|

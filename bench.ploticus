@@ -1,0 +1,56 @@
+#proc getdata
+  showdata: yes
+  fieldnameheader: yes
+  // perl -anle'print join("\t",@F,sprintf("%0.9f",$F[1]-($F[2]*$F[1]/100.0)),sprintf("%0.9f",$F[1]+($F[2]*$F[1]/100.0)))' parrot-bench-20140321.data > parrot-bench-20140321-1.data
+  file: parrot-bench-20140321-1.data
+
+#proc endproc
+#if @NRECORDS = 0
+  #proc annotate
+  location: 3 3
+  text: No data found.
+  #exit
+#endif
+
+#proc page
+   linewidth: 0.4
+   textsize: 10
+   scale: 1 2.3
+   landscape: yes
+#proc areadef
+   xscaletype: categories
+   xcategories: datafield 1
+   //xrange: datafield=1
+   //xautorange: datafield=1
+   yautorange: datafield=2
+   title: parrot performance (seconds)
+#proc xaxis
+   label: Release 
+   //stubs: datafields=1
+   stubs: usecategories
+   stubvert: yes
+   //cats: yes
+   grid: color=yellow width=0.5
+   gridskip: minmax
+   labeldistance: 0.8
+#proc yaxis
+   label: secs
+   stubs: inc 0.2
+   labeldistance: 0.6
+   //stubformat: %2.2f
+   grid: color=orange width=0.5
+   gridskip: minmax
+#proc rangesweep
+  xfield: 1
+  lofield: lo
+  hifield: hi
+  color: rgb(.7,.8,1)
+#proc lineplot
+  xfield: release
+  yfield: secs
+  err: @@3
+  numbers: yes
+  numbersformat: %2.2f
+  ptlabeldetails: size=7
+  //pointsymbol: shape=circle
+  //label: @@3
