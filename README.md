@@ -61,8 +61,11 @@ parrot-bench
 | RELEASE_6_1_0	| 10.594964520	| (+-0.25%)	|
 | RELEASE_6_2_0	| 10.586717226	| (+-0.32%)	|
 | rurban/6model	| 10.505363558	| (+-0.18%)	|
-| rurban/pmc2c_orig| 10.585417778	| (+-0.25%)	|
-| master		| 10.554795282	| (+-0.37%)	|
+| rurban/pmc2c_orig| 10.585417778 | (+-0.25%)	|
+| master	| 10.554795282	| (+-0.37%)	|
+| RELEASE_6_3_0	| 10.726002114	| (+-0.22%)	|
+| RELEASE_6_4_0	| 10.769352958	| (+-0.23%)	|
+| rurban/pmc2c_orig2 | 10.510345097 | (+-0.24%) |
 
 Time in seconds to run all these .pir and .pasm tests without -O.
 

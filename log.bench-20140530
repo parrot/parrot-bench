@@ -1,0 +1,87 @@
+rurban/pmc2c_orig2
+loadavg  2.35 2.89 2.23 2/795 8784
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+      10508.772405 task-clock (msec)         #    1.000 CPUs utilized            ( +-  0.15% )
+               355 context-switches          #    0.034 K/sec                    ( +- 69.20% )
+               150 cpu-migrations            #    0.014 K/sec                    ( +- 16.98% )
+           831,596 page-faults               #    0.079 M/sec                    ( +-  0.00% )
+    31,091,283,324 cycles                    #    2.959 GHz                      ( +-  0.14% )
+    12,749,499,846 stalled-cycles-frontend   #   41.01% frontend cycles idle     ( +-  0.29% )
+     4,788,614,995 stalled-cycles-backend    #   15.40% backend  cycles idle     ( +-  0.51% )
+    53,246,645,380 instructions              #    1.71  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +-  0.01% )
+     9,079,177,367 branches                  #  863.962 M/sec                    ( +-  0.02% )
+        16,445,748 branch-misses             #    0.18% of all branches          ( +-  1.63% )
+
+      10.510345097 seconds time elapsed                                          ( +-  0.24% )
+
+10494.255842,task-clock
+104,context-switches
+135,cpu-migrations
+831590,page-faults
+31076874423,cycles
+12768097716,stalled-cycles-frontend
+4760548433,stalled-cycles-backend
+53241659040,instructions
+9078439680,branches
+16282754,branch-misses
+RELEASE_6_3_0
+loadavg  3.44 1.62 1.39 3/794 22740
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       8964.716327 task-clock (msec)         #    0.836 CPUs utilized            ( +- 12.76% )
+               113 context-switches          #    0.013 K/sec                    ( +- 13.43% )
+               152 cpu-migrations            #    0.017 K/sec                    ( +-  7.91% )
+           678,729 page-faults               #    0.076 M/sec                    ( +- 14.87% )
+    26,039,312,653 cycles                    #    2.905 GHz                      ( +- 12.79% )
+    10,807,580,062 stalled-cycles-frontend   #   41.50% frontend cycles idle     ( +- 11.59% )
+     3,996,075,181 stalled-cycles-backend    #   15.35% backend  cycles idle     ( +- 14.70% )
+    44,995,164,614 instructions              #    1.73  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +- 11.85% )
+     7,436,781,344 branches                  #  829.561 M/sec                    ( +- 14.07% )
+        12,475,884 branch-misses             #    0.17% of all branches          ( +- 20.24% )
+
+      10.726002114 seconds time elapsed                                          ( +-  0.22% )
+
+10668.811476,task-clock
+149,context-switches
+152,cpu-migrations
+831651,page-faults
+31029094072,cycles
+12501782682,stalled-cycles-frontend
+4789361142,stalled-cycles-backend
+53289053755,instructions
+9072365724,branches
+16495506,branch-misses
+RELEASE_6_4_0
+loadavg  4.18 2.20 1.61 1/799 26742
+
+ Performance counter stats for '../run-bench.sh' (4 runs):
+
+       9170.494502 task-clock (msec)         #    0.852 CPUs utilized            ( +- 12.52% )
+               226 context-switches          #    0.025 K/sec                    ( +- 32.33% )
+               147 cpu-migrations            #    0.016 K/sec                    ( +- 11.13% )
+           701,594 page-faults               #    0.077 M/sec                    ( +- 14.45% )
+    26,642,839,088 cycles                    #    2.905 GHz                      ( +- 12.55% )
+    11,031,780,376 stalled-cycles-frontend   #   41.41% frontend cycles idle     ( +- 11.84% )
+     4,213,368,756 stalled-cycles-backend    #   15.81% backend  cycles idle     ( +- 15.12% )
+    45,885,218,443 instructions              #    1.72  insns per cycle        
+                                             #    0.24  stalled cycles per insn  ( +- 11.48% )
+     7,606,664,488 branches                  #  829.472 M/sec                    ( +- 13.57% )
+        13,880,536 branch-misses             #    0.18% of all branches          ( +- 22.09% )
+
+      10.769352958 seconds time elapsed                                          ( +-  0.23% )
+
+10779.815782,task-clock
+121,context-switches
+176,cpu-migrations
+831633,page-faults
+31344032446,cycles
+12777583808,stalled-cycles-frontend
+5003417820,stalled-cycles-backend
+53273814705,instructions
+9070532547,branches
+19133819,branch-misses
