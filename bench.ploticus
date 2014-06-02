@@ -1,8 +1,9 @@
+// ploticus  bench.ploticus -png -o parrot-bench-20140530.png
 #proc getdata
   showdata: yes
   fieldnameheader: yes
   // perl -anle'print join("\t",@F,sprintf("%0.9f",$F[1]-($F[2]*$F[1]/100.0)),sprintf("%0.9f",$F[1]+($F[2]*$F[1]/100.0)))' parrot-bench-20140321.data > parrot-bench-20140321-1.data
-  file: parrot-bench-20140321-1.data
+  file: parrot-bench-20140530-1.data
 
 #proc endproc
 #if @NRECORDS = 0
