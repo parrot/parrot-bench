@@ -1,0 +1,3315 @@
+== start -m32 2014-06-31
+
+branch=RELEASE_0_0_10
+tag=RELEASE_0_0_10-0-gb98414f
+branch=RELEASE_0_0_11
+tag=RELEASE_0_0_11-0-gfd0bc74
+branch=RELEASE_0_0_13
+tag=RELEASE_0_0_13-0-g4fed092
+branch=RELEASE_0_0_10
+tag=RELEASE_0_0_10-0-gb98414f
+branch=RELEASE_0_0_11
+tag=RELEASE_0_0_11-0-gfd0bc74
+branch=RELEASE_0_0_13
+tag=RELEASE_0_0_13-0-g4fed092
+branch=RELEASE_0_0_6
+tag=RELEASE_0_0_6-0-ge0d9723
+branch=RELEASE_0_0_8
+tag=RELEASE_0_0_8-0-g9d150e9
+loadavg  0.88 0.50 0.37 1/836 30653
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/bench_newp.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/freeze.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops_intval.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress1.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress3.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/addit2.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/array_access.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/arriter.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/dispatch.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/fib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/hamming.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo5.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo6.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oofib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/primes2_i.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/vpm.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/bench_newp.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/freeze.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops_intval.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress1.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress3.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/addit2.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/array_access.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/arriter.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/dispatch.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/fib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/hamming.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo5.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo6.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oofib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/primes2_i.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/vpm.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/bench_newp.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/freeze.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops_intval.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress1.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress3.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/addit2.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/array_access.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/arriter.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/dispatch.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/fib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/hamming.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo5.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo6.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oofib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/primes2_i.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/vpm.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/bench_newp.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/freeze.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops_intval.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress1.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress3.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/addit2.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/array_access.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/arriter.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/dispatch.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/fib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/hamming.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo5.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo6.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oofib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/primes2_i.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/vpm.pir.
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+         19.711462      task-clock (msec)         #    0.785 CPUs utilized            ( +- 18.77% )
+                31      context-switches          #    0.002 M/sec                    ( +- 10.57% )
+                19      cpu-migrations            #    0.977 K/sec                    ( +-  4.44% )
+             5,227      page-faults               #    0.265 M/sec                    ( +- 20.18% )
+        30,954,390      cycles                    #    1.570 GHz                      ( +- 18.76% )
+        19,712,514      stalled-cycles-frontend   #   63.68% frontend cycles idle     ( +- 18.49% )
+        14,163,280      stalled-cycles-backend    #   45.76% backend  cycles idle     ( +- 18.29% )
+        21,553,437      instructions              #    0.70  insns per cycle        
+                                                  #    0.91  stalled cycles per insn  ( +- 19.53% )
+         4,309,005      branches                  #  218.604 M/sec                    ( +- 19.60% )
+           193,358      branch-misses             #    4.49% of all branches          ( +- 18.51% )
+
+       0.025125014 seconds time elapsed                                          ( +-  0.96% )
+
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/bench_newp.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/freeze.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops_intval.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress1.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress3.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/addit2.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/array_access.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/arriter.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/dispatch.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/fib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/hamming.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo5.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo6.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oofib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/primes2_i.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/vpm.pir.
+23.667755,,task-clock
+34,,context-switches
+20,,cpu-migrations
+6300,,page-faults
+37162642,,cycles
+23723862,,stalled-cycles-frontend
+17117387,,stalled-cycles-backend
+25694758,,instructions
+5143525,,branches
+238667,,branch-misses
+tag=RELEASE_0_0_9
+tag=RELEASE_0_0_9-0-g79715d9
+branch=RELEASE_0_1_0
+tag=RELEASE_0_1_0-0-g7d4ba24
+branch=RELEASE_0_1_1
+tag=RELEASE_0_1_1-0-g49c2092
+branch=RELEASE_0_1_2
+tag=RELEASE_0_1_2-0-gcd09134
+branch=RELEASE_0_2_0
+tag=RELEASE_0_2_0-0-g4c67c81
+branch=RELEASE_0_2_1
+tag=RELEASE_0_2_1-0-g8bbcbac
+branch=RELEASE_0_2_2
+tag=RELEASE_0_2_2-0-gc8a1db7
+branch=RELEASE_0_2_3
+tag=RELEASE_0_2_3-0-g0f0d696
+branch=RELEASE_0_3_0
+tag=RELEASE_0_3_0-0-g090c1dd
+branch=RELEASE_0_3_1
+tag=RELEASE_0_3_1-0-g79848a4
+branch=RELEASE_0_4_0
+tag=RELEASE_0_4_0-0-g84b126a
+branch=RELEASE_0_4_1
+tag=RELEASE_0_4_1-0-g9e6a5a4
+branch=RELEASE_0_0_10
+tag=RELEASE_0_0_10-0-gb98414f
+branch=RELEASE_0_0_11
+tag=RELEASE_0_0_11-0-gfd0bc74
+branch=RELEASE_0_0_13
+tag=RELEASE_0_0_13-0-g4fed092
+branch=RELEASE_0_0_6
+tag=RELEASE_0_0_6-0-ge0d9723
+branch=RELEASE_0_0_8
+tag=RELEASE_0_0_8-0-g9d150e9
+loadavg  1.43 0.84 0.52 1/840 842
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/bench_newp.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/freeze.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops_intval.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress1.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress3.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/addit2.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/array_access.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/arriter.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/dispatch.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/fib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/hamming.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo5.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo6.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oofib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/primes2_i.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/vpm.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/bench_newp.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/freeze.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops_intval.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress1.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress3.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/addit2.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/array_access.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/arriter.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/dispatch.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/fib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/hamming.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo5.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo6.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oofib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/primes2_i.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/vpm.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/bench_newp.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/freeze.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops_intval.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress1.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress3.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/addit2.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/array_access.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/arriter.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/dispatch.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/fib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/hamming.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo5.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo6.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oofib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/primes2_i.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/vpm.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/bench_newp.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/freeze.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops_intval.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress1.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress3.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/addit2.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/array_access.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/arriter.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/dispatch.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/fib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/hamming.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo5.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo6.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oofib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/primes2_i.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/vpm.pir.
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+         18.715386      task-clock (msec)         #    0.738 CPUs utilized            ( +- 26.34% )
+                30      context-switches          #    0.002 M/sec                    ( +- 13.52% )
+                19      cpu-migrations            #    0.001 M/sec                    ( +-  4.55% )
+             4,890      page-faults               #    0.261 M/sec                    ( +- 28.76% )
+        29,761,617      cycles                    #    1.590 GHz                      ( +- 26.41% )
+        19,153,502      stalled-cycles-frontend   #   64.36% frontend cycles idle     ( +- 26.07% )
+        13,913,322      stalled-cycles-backend    #   46.75% backend  cycles idle     ( +- 25.78% )
+        20,204,944      instructions              #    0.68  insns per cycle        
+                                                  #    0.95  stalled cycles per insn  ( +- 27.37% )
+         4,037,787      branches                  #  215.747 M/sec                    ( +- 27.46% )
+           196,434      branch-misses             #    4.86% of all branches          ( +- 25.94% )
+
+       0.025356290 seconds time elapsed                                          ( +-  1.45% )
+
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/bench_newp.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/freeze.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/mops_intval.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress1.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/stress3.pasm.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/addit2.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/array_access.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/arriter.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/dispatch.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/fib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/hamming.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo5.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oo6.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/oofib.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/primes2_i.pir.
+PackFile_unpack: Unimplemented wordsize transform.
+File has wordsize: 35 (native is 8)
+Parrot VM: Can't unpack packfile ../parrot-bench/vpm.pir.
+23.854817,,task-clock
+34,,context-switches
+18,,cpu-migrations
+6281,,page-faults
+37458927,,cycles
+23959794,,stalled-cycles-frontend
+17386239,,stalled-cycles-backend
+25778901,,instructions
+5164265,,branches
+246422,,branch-misses
+tag=RELEASE_0_0_9
+tag=RELEASE_0_0_9-0-g79715d9
+branch=RELEASE_0_1_0
+tag=RELEASE_0_1_0-0-g7d4ba24
+branch=RELEASE_0_1_1
+tag=RELEASE_0_1_1-0-g49c2092
+branch=RELEASE_0_1_2
+tag=RELEASE_0_1_2-0-gcd09134
+branch=RELEASE_0_2_0
+tag=RELEASE_0_2_0-0-g4c67c81
+branch=RELEASE_0_2_1
+tag=RELEASE_0_2_1-0-g8bbcbac
+branch=RELEASE_0_2_2
+tag=RELEASE_0_2_2-0-gc8a1db7
+branch=RELEASE_0_2_3
+tag=RELEASE_0_2_3-0-g0f0d696
+branch=RELEASE_0_3_0
+tag=RELEASE_0_3_0-0-g090c1dd
+branch=RELEASE_0_3_1
+tag=RELEASE_0_3_1-0-g79848a4
+branch=RELEASE_0_4_0
+tag=RELEASE_0_4_0-0-g84b126a
+branch=RELEASE_0_4_1
+tag=RELEASE_0_4_1-0-g9e6a5a4
+branch=RELEASE_0_4_10
+tag=RELEASE_0_4_10-0-g9abdc84
+branch=RELEASE_0_4_11
+tag=RELEASE_0_4_11-0-g1b7d78f
+branch=RELEASE_0_4_12
+tag=RELEASE_0_4_12-0-g8f1e72f
+loadavg  3.08 1.97 1.02 1/841 7484
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+error:imcc:The opcode 'new_p_s' (new<2>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/array_access.pir' line 49
+Segmentation fault
+error:imcc:syntax error, unexpected ']'
+	in file '../parrot-bench/dispatch.pir' line 22
+error:imcc:The opcode 'say_i' (say<1>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/fib.pir' line 38
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:The opcode 'say_i' (say<1>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/primes2_i.pir' line 42
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+error:imcc:The opcode 'new_p_s' (new<2>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/array_access.pir' line 49
+Segmentation fault
+error:imcc:syntax error, unexpected ']'
+	in file '../parrot-bench/dispatch.pir' line 22
+error:imcc:The opcode 'say_i' (say<1>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/fib.pir' line 38
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:The opcode 'say_i' (say<1>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/primes2_i.pir' line 42
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+error:imcc:The opcode 'new_p_s' (new<2>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/array_access.pir' line 49
+Segmentation fault
+error:imcc:syntax error, unexpected ']'
+	in file '../parrot-bench/dispatch.pir' line 22
+error:imcc:The opcode 'say_i' (say<1>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/fib.pir' line 38
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:The opcode 'say_i' (say<1>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/primes2_i.pir' line 42
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+error:imcc:The opcode 'new_p_s' (new<2>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/array_access.pir' line 49
+Segmentation fault
+error:imcc:syntax error, unexpected ']'
+	in file '../parrot-bench/dispatch.pir' line 22
+error:imcc:The opcode 'say_i' (say<1>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/fib.pir' line 38
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:The opcode 'say_i' (say<1>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/primes2_i.pir' line 42
+Segmentation fault
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       1580.676092      task-clock (msec)         #    0.999 CPUs utilized            ( +-  0.93% )
+               121      context-switches          #    0.076 K/sec                    ( +-  0.52% )
+                84      cpu-migrations            #    0.053 K/sec                    ( +-  4.86% )
+            22,326      page-faults               #    0.014 M/sec                    ( +-  0.01% )
+     4,494,806,374      cycles                    #    2.844 GHz                      ( +-  0.84% )
+     1,473,048,006      stalled-cycles-frontend   #   32.77% frontend cycles idle     ( +-  1.55% )
+       171,568,570      stalled-cycles-backend    #    3.82% backend  cycles idle     ( +- 12.48% )
+    10,278,530,249      instructions              #    2.29  insns per cycle        
+                                                  #    0.14  stalled cycles per insn  ( +-  0.00% )
+     1,789,924,810      branches                  # 1132.379 M/sec                    ( +-  0.00% )
+         1,152,944      branch-misses             #    0.06% of all branches          ( +-  2.11% )
+
+       1.581919382 seconds time elapsed                                          ( +-  0.93% )
+
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+error:imcc:The opcode 'new_p_s' (new<2>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/array_access.pir' line 49
+Segmentation fault
+error:imcc:syntax error, unexpected ']'
+	in file '../parrot-bench/dispatch.pir' line 22
+error:imcc:The opcode 'say_i' (say<1>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/fib.pir' line 38
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:The opcode 'say_i' (say<1>) was not found. Check the type and number of the arguments
+	in file '../parrot-bench/primes2_i.pir' line 42
+Segmentation fault
+1626.630483,,task-clock
+123,,context-switches
+78,,cpu-migrations
+22330,,page-faults
+4568747598,,cycles
+1511440145,,stalled-cycles-frontend
+221468967,,stalled-cycles-backend
+10278523383,,instructions
+1789914491,,branches
+1115553,,branch-misses
+tag=RELEASE_0_4_13
+tag=RELEASE_0_4_13-0-ga4b6137
+branch=RELEASE_0_4_14
+tag=RELEASE_0_4_14-0-g407cebe
+branch=RELEASE_0_4_15
+tag=RELEASE_0_4_15-0-g412d341
+branch=RELEASE_0_4_16
+tag=RELEASE_0_4_16-0-gfd72294
+branch=RELEASE_0_4_17
+tag=RELEASE_0_4_17-0-gd6c145b
+loadavg  1.78 2.02 1.77 2/835 4159
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       6804.552533      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.15% )
+               119      context-switches          #    0.018 K/sec                    ( +- 11.67% )
+               121      cpu-migrations            #    0.018 K/sec                    ( +-  6.43% )
+            46,800      page-faults               #    0.007 M/sec                    ( +-  0.01% )
+    19,858,710,270      cycles                    #    2.918 GHz                      ( +-  0.37% )
+     6,450,188,442      stalled-cycles-frontend   #   32.48% frontend cycles idle     ( +-  1.05% )
+     1,862,756,037      stalled-cycles-backend    #    9.38% backend  cycles idle     ( +-  1.47% )
+    37,741,376,522      instructions              #    1.90  insns per cycle        
+                                                  #    0.17  stalled cycles per insn  ( +-  0.00% )
+     7,810,736,701      branches                  # 1147.869 M/sec                    ( +-  0.00% )
+        24,228,949      branch-misses             #    0.31% of all branches          ( +-  1.07% )
+
+       6.799108126 seconds time elapsed                                          ( +-  0.15% )
+
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+6894.152719,,task-clock
+109,,context-switches
+119,,cpu-migrations
+46805,,page-faults
+20159570924,,cycles
+6764113591,,stalled-cycles-frontend
+1827132860,,stalled-cycles-backend
+37738409653,,instructions
+7810478516,,branches
+24311275,,branch-misses
+
+branch=RELEASE_0_4_2
+tag=RELEASE_0_4_2-0-g594a02a
+branch=RELEASE_0_4_3
+tag=RELEASE_0_4_3-0-g3014e14
+branch=RELEASE_0_4_4
+tag=RELEASE_0_4_4-0-ga472eea
+branch=RELEASE_0_4_5
+tag=RELEASE_0_4_5-0-g79e9f55
+branch=RELEASE_0_4_6
+tag=RELEASE_0_4_6-0-g98890dc
+branch=RELEASE_0_4_7
+tag=RELEASE_0_4_7-0-g7fff6ed
+branch=RELEASE_0_4_8
+tag=RELEASE_0_4_8-0-g5e3d9d7
+branch=RELEASE_0_4_9
+tag=RELEASE_0_4_9-0-gd08fcb3
+branch=RELEASE_0_5_0
+tag=RELEASE_0_5_0-0-g93eb8a3
+loadavg  2.73 2.79 2.32 2/838 3129
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       1460.471818      task-clock (msec)         #    1.000 CPUs utilized            ( +-  0.17% )
+               129      context-switches          #    0.088 K/sec                    ( +-  2.57% )
+                80      cpu-migrations            #    0.055 K/sec                    ( +-  4.62% )
+            21,783      page-faults               #    0.015 M/sec                    ( +-  0.03% )
+     4,047,745,175      cycles                    #    2.772 GHz                      ( +-  0.49% )
+     1,387,984,371      stalled-cycles-frontend   #   34.29% frontend cycles idle     ( +-  1.04% )
+       307,647,328      stalled-cycles-backend    #    7.60% backend  cycles idle     ( +-  3.46% )
+     8,442,318,554      instructions              #    2.09  insns per cycle        
+                                                  #    0.16  stalled cycles per insn  ( +-  0.00% )
+     1,532,057,079      branches                  # 1049.015 M/sec                    ( +-  0.00% )
+         2,763,064      branch-misses             #    0.18% of all branches          ( +-  3.24% )
+
+       1.461183067 seconds time elapsed                                          ( +-  0.17% )
+
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+1433.798414,,task-clock
+126,,context-switches
+82,,cpu-migrations
+21760,,page-faults
+4004031705,,cycles
+1356549573,,stalled-cycles-frontend
+280744692,,stalled-cycles-backend
+8442219202,,instructions
+1532035830,,branches
+2651034,,branch-misses
+branch=RELEASE_0_5_1
+tag=RELEASE_0_5_1-0-gbafe78b
+loadavg  2.08 2.47 2.30 1/836 31164
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       1353.853201      task-clock (msec)         #    0.922 CPUs utilized            ( +-  8.26% )
+               104      context-switches          #    0.077 K/sec                    ( +- 18.75% )
+                72      cpu-migrations            #    0.054 K/sec                    ( +- 20.22% )
+            18,849      page-faults               #    0.014 M/sec                    ( +- 23.35% )
+     3,786,581,499      cycles                    #    2.797 GHz                      ( +-  7.09% )
+     1,357,647,552      stalled-cycles-frontend   #   35.85% frontend cycles idle     ( +-  6.15% )
+       284,030,046      stalled-cycles-backend    #    7.50% backend  cycles idle     ( +-  8.42% )
+     7,959,489,306      instructions              #    2.10  insns per cycle        
+                                                  #    0.17  stalled cycles per insn  ( +-  6.22% )
+     1,429,456,071      branches                  # 1055.843 M/sec                    ( +-  7.37% )
+         2,445,442      branch-misses             #    0.17% of all branches          ( +- 26.43% )
+
+       1.468919365 seconds time elapsed                                          ( +-  0.32% )
+
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+1484.421840,,task-clock
+126,,context-switches
+87,,cpu-migrations
+23245,,page-faults
+4060331852,,cycles
+1449182848,,stalled-cycles-frontend
+306195754,,stalled-cycles-backend
+8454865782,,instructions
+1534850039,,branches
+2762825,,branch-misses
+
+branch=RELEASE_0_5_2
+tag=RELEASE_0_5_2-0-ge4f4e2c
+loadavg  2.27 2.41 2.31 3/834 29514
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+        271.633855      task-clock (msec)         #    0.094 CPUs utilized            ( +- 90.17% )
+                18      context-switches          #    0.067 K/sec                    ( +- 11.92% )
+                18      cpu-migrations            #    0.064 K/sec                    ( +- 15.03% )
+             5,600      page-faults               #    0.021 M/sec                    ( +-  9.48% )
+       775,997,353      cycles                    #    2.857 GHz                      ( +- 91.97% )
+       291,951,610      stalled-cycles-frontend   #   37.62% frontend cycles idle     ( +- 87.96% )
+        63,688,580      stalled-cycles-backend    #    8.21% backend  cycles idle     ( +- 64.73% )
+     1,672,166,978      instructions              #    2.15  insns per cycle        
+                                                  #    0.17  stalled cycles per insn  ( +- 96.05% )
+       287,989,660      branches                  # 1060.213 M/sec                    ( +- 95.87% )
+           280,863      branch-misses             #    0.10% of all branches          ( +-  9.33% )
+
+       2.878408818 seconds time elapsed                                          ( +-  0.92% )
+
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress1.pasm' line 28
+error:imcc:syntax error, unexpected IDENTIFIER, expecting PARROT_OP ('local_branch')
+	in file '../parrot-bench/stress3.pasm' line 46
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected ']' (']')
+	in file '../parrot-bench/dispatch.pir' line 22
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+948.171312,,task-clock
+29,,context-switches
+26,,cpu-migrations
+4316,,page-faults
+2735591697,,cycles
+790988887,,stalled-cycles-frontend
+82313709,,stalled-cycles-backend
+6348656185,,instructions
+1289094604,,branches
+291227,,branch-misses
+branch=RELEASE_0_5_3
+tag=RELEASE_0_5_3-0-ga1d5a0c
+branch=RELEASE_0_6_0
+tag=RELEASE_0_6_0-0-g446f956
+branch=RELEASE_0_6_1
+tag=RELEASE_0_6_1-0-g6082b84
+branch=RELEASE_0_6_2
+tag=RELEASE_0_6_2-0-g6f8fcf2
+branch=RELEASE_0_6_3
+tag=RELEASE_0_6_3-0-ga441212
+branch=RELEASE_0_6_4
+tag=RELEASE_0_6_4-0-g3e40a97
+branch=RELEASE_0_7_0
+tag=RELEASE_0_7_0-0-g32cb406
+branch=RELEASE_0_7_1
+tag=RELEASE_0_7_1-0-gef96c0e
+branch=RELEASE_0_8_0
+tag=RELEASE_0_8_0-0-g721aa91
+branch=RELEASE_0_8_1
+tag=RELEASE_0_8_1-0-g8e20970
+branch=RELEASE_0_8_2
+tag=RELEASE_0_8_2-0-g5c2d3a2
+loadavg  2.38 2.09 2.01 2/841 21214
+error:imcc:syntax error, unexpected '[' ('[')
+	in file '../parrot-bench/dispatch.pir' line 34
+error:imcc:syntax error, unexpected '[' ('[')
+	in file '../parrot-bench/dispatch.pir' line 35
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected '[' ('[')
+	in file '../parrot-bench/dispatch.pir' line 34
+error:imcc:syntax error, unexpected '[' ('[')
+	in file '../parrot-bench/dispatch.pir' line 35
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected '[' ('[')
+	in file '../parrot-bench/dispatch.pir' line 34
+error:imcc:syntax error, unexpected '[' ('[')
+	in file '../parrot-bench/dispatch.pir' line 35
+Segmentation fault
+Segmentation fault
+Segmentation fault
+error:imcc:syntax error, unexpected '[' ('[')
+	in file '../parrot-bench/dispatch.pir' line 34
+error:imcc:syntax error, unexpected '[' ('[')
+	in file '../parrot-bench/dispatch.pir' line 35
+Segmentation fault
+Segmentation fault
+Segmentation fault
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      34681.375114      task-clock (msec)         #    0.969 CPUs utilized            ( +-  3.41% )
+               169      context-switches          #    0.005 K/sec                    ( +- 11.55% )
+                91      cpu-migrations            #    0.003 K/sec                    ( +- 10.13% )
+            52,170      page-faults               #    0.002 M/sec                    ( +- 18.80% )
+   104,609,953,326      cycles                    #    3.016 GHz                      ( +-  3.44% )
+    34,161,475,946      stalled-cycles-frontend   #   32.66% frontend cycles idle     ( +-  4.02% )
+    11,282,061,275      stalled-cycles-backend    #   10.78% backend  cycles idle     ( +-  4.55% )
+   175,751,994,870      instructions              #    1.68  insns per cycle        
+                                                  #    0.19  stalled cycles per insn  ( +-  3.48% )
+    41,012,590,290      branches                  # 1182.554 M/sec                    ( +-  3.30% )
+       409,634,992      branch-misses             #    1.00% of all branches          ( +-  3.53% )
+
+      35.773422713 seconds time elapsed                                          ( +-  0.24% )
+
+error:imcc:syntax error, unexpected '[' ('[')
+	in file '../parrot-bench/dispatch.pir' line 34
+error:imcc:syntax error, unexpected '[' ('[')
+	in file '../parrot-bench/dispatch.pir' line 35
+Segmentation fault
+Segmentation fault
+Segmentation fault
+35952.879370,,task-clock
+162,,context-switches
+106,,cpu-migrations
+61984,,page-faults
+108302535069,,cycles
+35587696537,,stalled-cycles-frontend
+11983864068,,stalled-cycles-backend
+181833988302,,instructions
+42351436893,,branches
+436153970,,branch-misses
+branch=RELEASE_0_9_0
+tag=RELEASE_0_9_0-0-g00cfce7
+loadavg  2.31 2.08 2.01 1/836 23421
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       5088.987804      task-clock (msec)         #    1.001 CPUs utilized            ( +-  3.04% )
+                57      context-switches          #    0.011 K/sec                    ( +-  8.58% )
+                71      cpu-migrations            #    0.014 K/sec                    ( +-  4.45% )
+            48,787      page-faults               #    0.010 M/sec                    ( +-  0.01% )
+    14,885,244,404      cycles                    #    2.925 GHz                      ( +-  3.49% )
+     4,960,247,349      stalled-cycles-frontend   #   33.32% frontend cycles idle     ( +-  3.79% )
+     1,865,369,472      stalled-cycles-backend    #   12.53% backend  cycles idle     ( +- 10.89% )
+    24,862,306,458      instructions              #    1.67  insns per cycle        
+                                                  #    0.20  stalled cycles per insn  ( +-  0.02% )
+     5,478,102,562      branches                  # 1076.462 M/sec                    ( +-  0.02% )
+        79,745,293      branch-misses             #    1.46% of all branches          ( +- 21.12% )
+
+       5.085219884 seconds time elapsed                                          ( +-  3.04% )
+
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+Segmentation fault
+5207.804593,,task-clock
+50,,context-switches
+76,,cpu-migrations
+48788,,page-faults
+15370676318,,cycles
+5114660508,,stalled-cycles-frontend
+2064184926,,stalled-cycles-backend
+24846988396,,instructions
+5474300088,,branches
+96047403,,branch-misses
+
+branch=RELEASE_0_9_1
+tag=RELEASE_0_9_1-0-g0f35cb8
+branch=RELEASE_1_0_0
+tag=RELEASE_1_0_0-0-g4b1c8e3
+branch=RELEASE_1_1_0
+tag=RELEASE_1_1_0-0-g5369e3d
+branch=RELEASE_1_2_0
+tag=RELEASE_1_2_0-0-g286c476
+branch=RELEASE_1_3_0
+tag=RELEASE_1_3_0-0-g7e591a1
+branch=RELEASE_1_4_0
+tag=RELEASE_1_4_0-0-g9934003
+branch=RELEASE_1_5_0
+tag=RELEASE_1_5_0-0-g90df100
+branch=RELEASE_1_6_0
+tag=RELEASE_1_6_0-0-g6387d0d
+branch=RELEASE_1_7_0
+tag=RELEASE_1_7_0-0-g2679540
+branch=RELEASE_1_8_0
+tag=RELEASE_1_8_0-0-g3a44ed5
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.61 2.67 2.41 2/834 12515
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      13833.503513      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.20% )
+                84      context-switches          #    0.006 K/sec                    ( +-  1.48% )
+                94      cpu-migrations            #    0.007 K/sec                    ( +- 14.37% )
+            55,508      page-faults               #    0.004 M/sec                    ( +-  0.01% )
+    41,270,415,764      cycles                    #    2.983 GHz                      ( +-  0.14% )
+    13,993,569,977      stalled-cycles-frontend   #   33.91% frontend cycles idle     ( +-  0.45% )
+     3,063,677,685      stalled-cycles-backend    #    7.42% backend  cycles idle     ( +-  0.45% )
+    76,182,499,390      instructions              #    1.85  insns per cycle        
+                                                  #    0.18  stalled cycles per insn  ( +-  0.00% )
+    16,223,363,128      branches                  # 1172.759 M/sec                    ( +-  0.01% )
+       111,285,188      branch-misses             #    0.69% of all branches          ( +-  0.48% )
+
+      13.819584600 seconds time elapsed                                          ( +-  0.20% )
+
+13960.885994,,task-clock
+85,,context-switches
+97,,cpu-migrations
+55530,,page-faults
+41553332304,,cycles
+14186901794,,stalled-cycles-frontend
+3144317382,,stalled-cycles-backend
+76185471641,,instructions
+16223671855,,branches
+119561350,,branch-misses
+
+branch=RELEASE_1_9_0
+tag=RELEASE_1_9_0-0-g47b9176
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.39 2.55 2.41 1/835 14914
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      12599.938750      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.27% )
+                79      context-switches          #    0.006 K/sec                    ( +-  8.09% )
+                80      cpu-migrations            #    0.006 K/sec                    ( +- 12.11% )
+            60,430      page-faults               #    0.005 M/sec                    ( +-  0.01% )
+    37,632,303,916      cycles                    #    2.987 GHz                      ( +-  0.19% )
+    12,815,738,022      stalled-cycles-frontend   #   34.06% frontend cycles idle     ( +-  0.55% )
+     2,803,179,368      stalled-cycles-backend    #    7.45% backend  cycles idle     ( +-  1.45% )
+    70,184,139,998      instructions              #    1.86  insns per cycle        
+                                                  #    0.18  stalled cycles per insn  ( +-  0.01% )
+    14,924,650,559      branches                  # 1184.502 M/sec                    ( +-  0.01% )
+        89,390,240      branch-misses             #    0.60% of all branches          ( +-  1.18% )
+
+      12.588136642 seconds time elapsed                                          ( +-  0.27% )
+
+12681.251366,,task-clock
+90,,context-switches
+106,,cpu-migrations
+60436,,page-faults
+37713434530,,cycles
+12870508298,,stalled-cycles-frontend
+2851590142,,stalled-cycles-backend
+70184174532,,instructions
+14924044621,,branches
+88220174,,branch-misses
+
+branch=RELEASE_2_0_0
+tag=RELEASE_2_0_0-0-g8ebe2ea
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  1.30 1.80 2.12 1/832 17278
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9271.340180      task-clock (msec)         #    0.814 CPUs utilized            ( +- 22.64% )
+                54      context-switches          #    0.006 K/sec                    ( +- 10.17% )
+                75      cpu-migrations            #    0.008 K/sec                    ( +- 17.16% )
+            46,983      page-faults               #    0.005 M/sec                    ( +- 27.10% )
+    27,692,671,704      cycles                    #    2.987 GHz                      ( +- 22.77% )
+     9,710,572,712      stalled-cycles-frontend   #   35.07% frontend cycles idle     ( +- 22.09% )
+     1,994,718,793      stalled-cycles-backend    #    7.20% backend  cycles idle     ( +- 23.15% )
+    52,807,682,077      instructions              #    1.91  insns per cycle        
+                                                  #    0.18  stalled cycles per insn  ( +- 22.71% )
+    11,011,634,932      branches                  # 1187.707 M/sec                    ( +- 23.36% )
+        51,389,200      branch-misses             #    0.47% of all branches          ( +- 22.97% )
+
+      11.388492659 seconds time elapsed                                          ( +-  0.28% )
+
+11482.292698,,task-clock
+80,,context-switches
+69,,cpu-migrations
+59721,,page-faults
+34213962153,,cycles
+11955213102,,stalled-cycles-frontend
+2556903758,,stalled-cycles-backend
+64797548788,,instructions
+13583953340,,branches
+67633559,,branch-misses
+
+branch=RELEASE_2_10_0
+tag=RELEASE_2_10_0-0-g0eb237a
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.57 1.98 2.15 1/846 19417
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10362.700495      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.34% )
+                64      context-switches          #    0.006 K/sec                    ( +-  8.21% )
+                62      cpu-migrations            #    0.006 K/sec                    ( +- 19.28% )
+           574,452      page-faults               #    0.055 M/sec                    ( +-  0.00% )
+    31,186,888,077      cycles                    #    3.010 GHz                      ( +-  0.14% )
+    12,623,244,120      stalled-cycles-frontend   #   40.48% frontend cycles idle     ( +-  0.34% )
+     3,204,132,058      stalled-cycles-backend    #   10.27% backend  cycles idle     ( +-  0.27% )
+    56,137,521,179      instructions              #    1.80  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  0.03% )
+    11,001,394,307      branches                  # 1061.634 M/sec                    ( +-  0.07% )
+        33,067,516      branch-misses             #    0.30% of all branches          ( +-  1.74% )
+
+      10.352434796 seconds time elapsed                                          ( +-  0.35% )
+
+7963.472249,,task-clock
+65,,context-switches
+81,,cpu-migrations
+430920,,page-faults
+23931902495,,cycles
+9868139525,,stalled-cycles-frontend
+2652644782,,stalled-cycles-backend
+42829998390,,instructions
+8415226382,,branches
+22166528,,branch-misses
+
+branch=RELEASE_2_10_1
+tag=RELEASE_2_10_1-0-g7240365
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.55 2.05 2.16 1/844 21498
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10421.620850      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.60% )
+                69      context-switches          #    0.007 K/sec                    ( +-  5.42% )
+                67      cpu-migrations            #    0.006 K/sec                    ( +-  2.24% )
+           574,247      page-faults               #    0.055 M/sec                    ( +-  0.01% )
+    31,175,385,442      cycles                    #    2.991 GHz                      ( +-  0.45% )
+    12,591,329,782      stalled-cycles-frontend   #   40.39% frontend cycles idle     ( +-  0.85% )
+     3,209,000,994      stalled-cycles-backend    #   10.29% backend  cycles idle     ( +-  2.61% )
+    56,132,741,284      instructions              #    1.80  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  0.05% )
+    11,000,119,658      branches                  # 1055.509 M/sec                    ( +-  0.10% )
+        33,866,246      branch-misses             #    0.31% of all branches          ( +-  3.33% )
+
+      10.411555065 seconds time elapsed                                          ( +-  0.60% )
+
+10440.673249,,task-clock
+60,,context-switches
+73,,cpu-migrations
+574216,,page-faults
+31324349879,,cycles
+12753275879,,stalled-cycles-frontend
+3270246498,,stalled-cycles-backend
+56145329319,,instructions
+11005223108,,branches
+32692331,,branch-misses
+
+branch=RELEASE_2_11_0
+tag=RELEASE_2_11_0-0-g2e22116
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.21 2.26 2.21 1/840 23592
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10492.828391      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.35% )
+                66      context-switches          #    0.006 K/sec                    ( +-  4.93% )
+                68      cpu-migrations            #    0.006 K/sec                    ( +- 14.24% )
+           581,100      page-faults               #    0.055 M/sec                    ( +-  0.00% )
+    31,523,553,853      cycles                    #    3.004 GHz                      ( +-  0.20% )
+    12,547,962,620      stalled-cycles-frontend   #   39.81% frontend cycles idle     ( +-  0.45% )
+     3,052,203,419      stalled-cycles-backend    #    9.68% backend  cycles idle     ( +-  0.73% )
+    57,351,405,501      instructions              #    1.82  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  0.00% )
+    11,050,322,294      branches                  # 1053.131 M/sec                    ( +-  0.00% )
+        32,937,446      branch-misses             #    0.30% of all branches          ( +-  1.13% )
+
+      10.482614307 seconds time elapsed                                          ( +-  0.35% )
+
+224.527224,,task-clock
+18,,context-switches
+24,,cpu-migrations
+9144,,page-faults
+533703612,,cycles
+211235163,,stalled-cycles-frontend
+48882512,,stalled-cycles-backend
+999028631,,instructions
+203189293,,branches
+162552,,branch-misses
+
+branch=RELEASE_2_1_0
+tag=RELEASE_2_1_0-0-gb75b38d
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.64 2.33 2.24 2/837 25966
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10971.491498      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.82% )
+                77      context-switches          #    0.007 K/sec                    ( +-  4.53% )
+                53      cpu-migrations            #    0.005 K/sec                    ( +- 25.36% )
+           221,356      page-faults               #    0.020 M/sec                    ( +-  0.00% )
+    32,989,777,925      cycles                    #    3.007 GHz                      ( +-  0.09% )
+    12,057,790,747      stalled-cycles-frontend   #   36.55% frontend cycles idle     ( +-  0.26% )
+     2,975,987,276      stalled-cycles-backend    #    9.02% backend  cycles idle     ( +-  0.38% )
+    62,344,233,607      instructions              #    1.89  insns per cycle        
+                                                  #    0.19  stalled cycles per insn  ( +-  0.00% )
+    12,691,493,504      branches                  # 1156.770 M/sec                    ( +-  0.00% )
+        33,335,757      branch-misses             #    0.26% of all branches          ( +-  2.06% )
+
+      10.960937956 seconds time elapsed                                          ( +-  0.82% )
+
+11088.864948,,task-clock
+85,,context-switches
+102,,cpu-migrations
+221375,,page-faults
+33182056713,,cycles
+12224118374,,stalled-cycles-frontend
+2994561192,,stalled-cycles-backend
+62344387951,,instructions
+12691330793,,branches
+35433140,,branch-misses
+
+branch=RELEASE_2_1_1
+tag=RELEASE_2_1_0-0-gb75b38d
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.38 2.37 2.27 1/837 28343
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10815.617742      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.38% )
+                80      context-switches          #    0.007 K/sec                    ( +-  7.07% )
+                45      cpu-migrations            #    0.004 K/sec                    ( +-  8.84% )
+           221,348      page-faults               #    0.020 M/sec                    ( +-  0.00% )
+    32,964,807,686      cycles                    #    3.048 GHz                      ( +-  0.26% )
+    12,009,389,258      stalled-cycles-frontend   #   36.43% frontend cycles idle     ( +-  0.65% )
+     2,900,931,292      stalled-cycles-backend    #    8.80% backend  cycles idle     ( +-  1.23% )
+    62,344,780,349      instructions              #    1.89  insns per cycle        
+                                                  #    0.19  stalled cycles per insn  ( +-  0.00% )
+    12,691,614,036      branches                  # 1173.453 M/sec                    ( +-  0.00% )
+        34,349,470      branch-misses             #    0.27% of all branches          ( +-  2.02% )
+
+      10.805127009 seconds time elapsed                                          ( +-  0.38% )
+
+10773.201429,,task-clock
+81,,context-switches
+47,,cpu-migrations
+221355,,page-faults
+32898014602,,cycles
+11959182606,,stalled-cycles-frontend
+2856966963,,stalled-cycles-backend
+62347337764,,instructions
+12692530656,,branches
+33646666,,branch-misses
+
+branch=RELEASE_2_2_0
+tag=RELEASE_2_2_0-0-g915dd42
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.15 2.31 2.26 1/838 30349
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10364.483077      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.29% )
+                60      context-switches          #    0.006 K/sec                    ( +-  8.68% )
+                47      cpu-migrations            #    0.005 K/sec                    ( +- 29.39% )
+            74,471      page-faults               #    0.007 M/sec                    ( +-  0.01% )
+    31,550,830,743      cycles                    #    3.044 GHz                      ( +-  0.10% )
+    10,908,811,211      stalled-cycles-frontend   #   34.58% frontend cycles idle     ( +-  0.22% )
+     2,073,833,666      stalled-cycles-backend    #    6.57% backend  cycles idle     ( +-  0.50% )
+    61,871,303,177      instructions              #    1.96  insns per cycle        
+                                                  #    0.18  stalled cycles per insn  ( +-  0.00% )
+    12,605,785,023      branches                  # 1216.248 M/sec                    ( +-  0.00% )
+        33,322,203      branch-misses             #    0.26% of all branches          ( +-  2.18% )
+
+      10.354245694 seconds time elapsed                                          ( +-  0.29% )
+
+10383.064356,,task-clock
+68,,context-switches
+37,,cpu-migrations
+74462,,page-faults
+31597795388,,cycles
+10926675198,,stalled-cycles-frontend
+2084844918,,stalled-cycles-backend
+61870362665,,instructions
+12605479213,,branches
+34562162,,branch-misses
+
+branch=RELEASE_2_3_0
+tag=RELEASE_2_3_0-0-g2329357
+loadavg  2.18 2.28 2.25 1/838 32256
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9684.584952      task-clock (msec)         #    0.875 CPUs utilized            ( +- 14.87% )
+                55      context-switches          #    0.006 K/sec                    ( +-  7.40% )
+                57      cpu-migrations            #    0.006 K/sec                    ( +-  8.31% )
+           112,729      page-faults               #    0.012 M/sec                    ( +- 21.44% )
+    29,229,414,548      cycles                    #    3.018 GHz                      ( +- 15.20% )
+    10,447,808,654      stalled-cycles-frontend   #   35.74% frontend cycles idle     ( +- 16.10% )
+     2,359,837,089      stalled-cycles-backend    #    8.07% backend  cycles idle     ( +- 23.01% )
+    56,113,324,543      instructions              #    1.92  insns per cycle        
+                                                  #    0.19  stalled cycles per insn  ( +- 13.76% )
+    11,526,388,855      branches                  # 1190.179 M/sec                    ( +- 13.57% )
+        38,602,024      branch-misses             #    0.33% of all branches          ( +- 52.05% )
+
+      11.071665212 seconds time elapsed                                          ( +-  1.34% )
+
+10962.088197,,task-clock
+84,,context-switches
+98,,cpu-migrations
+136880,,page-faults
+33087092904,,cycles
+11960726630,,stalled-cycles-frontend
+2694487909,,stalled-cycles-backend
+63837201626,,instructions
+13090536043,,branches
+28811667,,branch-misses
+
+branch=RELEASE_2_4_0
+tag=RELEASE_2_4_0-0-g442c740
+loadavg  2.41 2.25 2.24 1/839 1688
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9780.295911      task-clock (msec)         #    0.945 CPUs utilized            ( +-  5.81% )
+                69      context-switches          #    0.007 K/sec                    ( +- 10.11% )
+                40      cpu-migrations            #    0.004 K/sec                    ( +- 18.38% )
+           120,073      page-faults               #    0.012 M/sec                    ( +-  7.21% )
+    29,830,002,696      cycles                    #    3.050 GHz                      ( +-  5.81% )
+    10,861,800,358      stalled-cycles-frontend   #   36.41% frontend cycles idle     ( +-  5.94% )
+     2,321,734,919      stalled-cycles-backend    #    7.78% backend  cycles idle     ( +-  4.63% )
+    57,440,579,480      instructions              #    1.93  insns per cycle        
+                                                  #    0.19  stalled cycles per insn  ( +-  5.97% )
+    11,594,730,749      branches                  # 1185.519 M/sec                    ( +-  5.77% )
+        29,338,152      branch-misses             #    0.25% of all branches          ( +-  8.04% )
+
+      10.347615630 seconds time elapsed                                          ( +-  0.52% )
+
+10457.215741,,task-clock
+70,,context-switches
+62,,cpu-migrations
+128733,,page-faults
+31408543092,,cycles
+11421780549,,stalled-cycles-frontend
+2339515575,,stalled-cycles-backend
+60865203836,,instructions
+12263323749,,branches
+28758107,,branch-misses
+
+branch=RELEASE_2_5_0
+tag=RELEASE_2_5_0-0-g3de7ea3
+loadavg  2.34 2.19 2.22 1/844 3562
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10571.742044      task-clock (msec)         #    1.001 CPUs utilized            ( +-  1.26% )
+                69      context-switches          #    0.007 K/sec                    ( +-  4.27% )
+                39      cpu-migrations            #    0.004 K/sec                    ( +- 19.81% )
+           128,528      page-faults               #    0.012 M/sec                    ( +-  0.00% )
+    32,148,507,982      cycles                    #    3.041 GHz                      ( +-  1.17% )
+    11,737,951,792      stalled-cycles-frontend   #   36.51% frontend cycles idle     ( +-  0.78% )
+     2,779,376,124      stalled-cycles-backend    #    8.65% backend  cycles idle     ( +-  6.10% )
+    60,966,741,753      instructions              #    1.90  insns per cycle        
+                                                  #    0.19  stalled cycles per insn  ( +-  0.00% )
+    12,282,493,004      branches                  # 1161.823 M/sec                    ( +-  0.00% )
+        47,743,330      branch-misses             #    0.39% of all branches          ( +- 34.98% )
+
+      10.561543358 seconds time elapsed                                          ( +-  1.26% )
+
+2485.955217,,task-clock
+34,,context-switches
+42,,cpu-migrations
+13892,,page-faults
+7334079647,,cycles
+2862189327,,stalled-cycles-frontend
+380595854,,stalled-cycles-backend
+14794399278,,instructions
+2679505692,,branches
+434027,,branch-misses
+
+branch=RELEASE_2_6_0
+tag=RELEASE_2_6_0-0-g3642601
+loadavg  2.38 2.17 2.20 1/840 5434
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10629.743263      task-clock (msec)         #    1.001 CPUs utilized            ( +-  1.03% )
+                74      context-switches          #    0.007 K/sec                    ( +-  3.08% )
+                73      cpu-migrations            #    0.007 K/sec                    ( +- 15.10% )
+           128,605      page-faults               #    0.012 M/sec                    ( +-  0.00% )
+    31,592,835,469      cycles                    #    2.972 GHz                      ( +-  0.37% )
+    11,560,279,670      stalled-cycles-frontend   #   36.59% frontend cycles idle     ( +-  0.88% )
+     2,575,129,116      stalled-cycles-backend    #    8.15% backend  cycles idle     ( +-  2.81% )
+    60,618,725,370      instructions              #    1.92  insns per cycle        
+                                                  #    0.19  stalled cycles per insn  ( +-  0.00% )
+    12,229,302,252      branches                  # 1150.480 M/sec                    ( +-  0.00% )
+        30,194,443      branch-misses             #    0.25% of all branches          ( +-  1.59% )
+
+      10.619430438 seconds time elapsed                                          ( +-  1.02% )
+
+10855.783781,,task-clock
+73,,context-switches
+118,,cpu-migrations
+128595,,page-faults
+31804508801,,cycles
+11692376801,,stalled-cycles-frontend
+2722671624,,stalled-cycles-backend
+60621365968,,instructions
+12230335623,,branches
+30903629,,branch-misses
+
+branch=RELEASE_2_7_0
+tag=RELEASE_2_7_0-0-ga08d06e
+loadavg  3.15 2.36 2.26 1/838 7722
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10723.121674      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.18% )
+                72      context-switches          #    0.007 K/sec                    ( +-  3.35% )
+               105      cpu-migrations            #    0.010 K/sec                    ( +-  2.81% )
+           126,566      page-faults               #    0.012 M/sec                    ( +-  0.00% )
+    31,430,860,603      cycles                    #    2.931 GHz                      ( +-  0.38% )
+    12,007,228,133      stalled-cycles-frontend   #   38.20% frontend cycles idle     ( +-  0.56% )
+     2,685,736,410      stalled-cycles-backend    #    8.54% backend  cycles idle     ( +-  1.53% )
+    58,836,358,994      instructions              #    1.87  insns per cycle        
+                                                  #    0.20  stalled cycles per insn  ( +-  0.00% )
+    11,773,630,019      branches                  # 1097.967 M/sec                    ( +-  0.00% )
+        30,601,405      branch-misses             #    0.26% of all branches          ( +-  7.58% )
+
+      10.712639162 seconds time elapsed                                          ( +-  0.18% )
+
+10681.028641,,task-clock
+74,,context-switches
+109,,cpu-migrations
+126591,,page-faults
+31262602687,,cycles
+11830018319,,stalled-cycles-frontend
+2668511400,,stalled-cycles-backend
+58836944292,,instructions
+11773769608,,branches
+28141222,,branch-misses
+
+branch=RELEASE_2_8_0
+tag=RELEASE_2_8_0-0-gf61b1d2
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.35 2.49 2.31 2/842 9779
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9320.250785      task-clock (msec)         #    0.873 CPUs utilized            ( +- 14.47% )
+                65      context-switches          #    0.007 K/sec                    ( +- 10.97% )
+                96      cpu-migrations            #    0.010 K/sec                    ( +- 16.36% )
+            47,607      page-faults               #    0.005 M/sec                    ( +- 14.73% )
+    27,465,665,062      cycles                    #    2.947 GHz                      ( +- 14.42% )
+    10,102,119,263      stalled-cycles-frontend   #   36.78% frontend cycles idle     ( +- 14.99% )
+     2,039,119,441      stalled-cycles-backend    #    7.42% backend  cycles idle     ( +- 19.89% )
+    52,523,390,172      instructions              #    1.91  insns per cycle        
+                                                  #    0.19  stalled cycles per insn  ( +- 13.32% )
+    10,707,878,756      branches                  # 1148.883 M/sec                    ( +- 13.03% )
+        27,156,259      branch-misses             #    0.25% of all branches          ( +- 31.63% )
+
+      10.673941908 seconds time elapsed                                          ( +-  0.30% )
+
+10644.030816,,task-clock
+71,,context-switches
+90,,cpu-migrations
+54608,,page-faults
+31591557488,,cycles
+11731991603,,stalled-cycles-frontend
+2514808533,,stalled-cycles-backend
+59518639646,,instructions
+12103199235,,branches
+35116844,,branch-misses
+
+branch=RELEASE_2_9_0
+tag=RELEASE_2_9_0-0-gcf6e9a4
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.34 2.61 2.36 2/839 11855
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      12840.914633      task-clock (msec)         #    1.001 CPUs utilized            ( +-  1.77% )
+                75      context-switches          #    0.006 K/sec                    ( +-  4.65% )
+               112      cpu-migrations            #    0.009 K/sec                    ( +-  6.29% )
+           108,120      page-faults               #    0.008 M/sec                    ( +-  0.00% )
+    37,694,768,615      cycles                    #    2.936 GHz                      ( +-  1.61% )
+    15,971,593,650      stalled-cycles-frontend   #   42.37% frontend cycles idle     ( +-  1.69% )
+     5,808,020,068      stalled-cycles-backend    #   15.41% backend  cycles idle     ( +-  4.47% )
+    62,057,139,417      instructions              #    1.65  insns per cycle        
+                                                  #    0.26  stalled cycles per insn  ( +-  0.00% )
+    12,613,200,552      branches                  #  982.267 M/sec                    ( +-  0.00% )
+        93,635,642      branch-misses             #    0.74% of all branches          ( +- 21.46% )
+
+      12.827800105 seconds time elapsed                                          ( +-  1.77% )
+
+12880.471839,,task-clock
+66,,context-switches
+94,,cpu-migrations
+108123,,page-faults
+38125068079,,cycles
+16189889581,,stalled-cycles-frontend
+5946770644,,stalled-cycles-backend
+62056371019,,instructions
+12613060217,,branches
+99156422,,branch-misses
+
+branch=RELEASE_2_9_1
+tag=RELEASE_2_9_1-0-gf125a9b
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.38 2.70 2.41 1/840 13931
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9582.210528      task-clock (msec)         #    0.861 CPUs utilized            ( +- 16.80% )
+                65      context-switches          #    0.007 K/sec                    ( +- 14.28% )
+                86      cpu-migrations            #    0.009 K/sec                    ( +- 11.72% )
+           440,612      page-faults               #    0.046 M/sec                    ( +- 17.66% )
+    28,311,872,094      cycles                    #    2.955 GHz                      ( +- 16.75% )
+    11,314,813,592      stalled-cycles-frontend   #   39.96% frontend cycles idle     ( +- 17.45% )
+     3,224,603,105      stalled-cycles-backend    #   11.39% backend  cycles idle     ( +- 23.58% )
+    49,857,125,036      instructions              #    1.76  insns per cycle        
+                                                  #    0.23  stalled cycles per insn  ( +- 15.21% )
+     9,832,873,366      branches                  # 1026.159 M/sec                    ( +- 15.39% )
+        42,950,048      branch-misses             #    0.44% of all branches          ( +- 48.81% )
+
+      11.131551273 seconds time elapsed                                          ( +-  1.17% )
+
+11618.448105,,task-clock
+73,,context-switches
+92,,cpu-migrations
+518439,,page-faults
+34346146969,,cycles
+13743672891,,stalled-cycles-frontend
+4559062690,,stalled-cycles-backend
+57437897066,,instructions
+11346379156,,branches
+100592845,,branch-misses
+
+branch=RELEASE_3_0_0
+tag=RELEASE_3_0_0-0-g502d035
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.05 2.68 2.43 2/835 16085
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       8718.778621      task-clock (msec)         #    0.802 CPUs utilized            ( +- 14.94% )
+                60      context-switches          #    0.007 K/sec                    ( +-  9.74% )
+                89      cpu-migrations            #    0.010 K/sec                    ( +- 10.73% )
+           437,968      page-faults               #    0.050 M/sec                    ( +- 19.03% )
+    25,580,274,132      cycles                    #    2.934 GHz                      ( +- 15.21% )
+    10,342,897,680      stalled-cycles-frontend   #   40.43% frontend cycles idle     ( +- 15.46% )
+     2,584,320,390      stalled-cycles-backend    #   10.10% backend  cycles idle     ( +- 17.97% )
+    46,178,293,814      instructions              #    1.81  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +- 14.76% )
+     8,890,336,080      branches                  # 1019.677 M/sec                    ( +- 14.73% )
+        25,988,748      branch-misses             #    0.29% of all branches          ( +- 17.31% )
+
+      10.876901733 seconds time elapsed                                          ( +-  0.41% )
+
+10973.891026,,task-clock
+65,,context-switches
+82,,cpu-migrations
+578168,,page-faults
+32478637148,,cycles
+12987479740,,stalled-cycles-frontend
+3501256500,,stalled-cycles-backend
+57282635662,,instructions
+11024565827,,branches
+53400148,,branch-misses
+
+branch=RELEASE_3_10_0
+tag=RELEASE_3_10_0-0-g6f76221
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.76 2.86 2.50 3/835 18383
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11822.028978      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.37% )
+                83      context-switches          #    0.007 K/sec                    ( +-  5.61% )
+                98      cpu-migrations            #    0.008 K/sec                    ( +- 14.61% )
+           260,562      page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    34,800,866,713      cycles                    #    2.944 GHz                      ( +-  0.15% )
+    13,695,062,340      stalled-cycles-frontend   #   39.35% frontend cycles idle     ( +-  0.25% )
+     3,129,213,160      stalled-cycles-backend    #    8.99% backend  cycles idle     ( +-  0.32% )
+    62,049,153,167      instructions              #    1.78  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  0.00% )
+    11,390,987,492      branches                  #  963.539 M/sec                    ( +-  0.00% )
+        28,928,802      branch-misses             #    0.25% of all branches          ( +-  3.54% )
+
+      11.810244454 seconds time elapsed                                          ( +-  0.37% )
+
+11598.360293,,task-clock
+82,,context-switches
+95,,cpu-migrations
+260550,,page-faults
+34112625453,,cycles
+13116801796,,stalled-cycles-frontend
+2979446660,,stalled-cycles-backend
+62046880742,,instructions
+11390591575,,branches
+26577943,,branch-misses
+
+branch=RELEASE_3_11_0
+tag=RELEASE_3_11_0-0-ga6c5dd2
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.44 2.88 2.54 1/835 20680
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11653.207943      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.22% )
+                73      context-switches          #    0.006 K/sec                    ( +-  2.11% )
+                71      cpu-migrations            #    0.006 K/sec                    ( +-  7.78% )
+           260,559      page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    34,391,151,901      cycles                    #    2.951 GHz                      ( +-  0.24% )
+    13,209,682,604      stalled-cycles-frontend   #   38.41% frontend cycles idle     ( +-  0.66% )
+     3,089,233,801      stalled-cycles-backend    #    8.98% backend  cycles idle     ( +-  0.46% )
+    62,427,040,600      instructions              #    1.82  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  0.00% )
+    11,438,058,448      branches                  #  981.537 M/sec                    ( +-  0.00% )
+        26,193,160      branch-misses             #    0.23% of all branches          ( +-  1.75% )
+
+      11.641361499 seconds time elapsed                                          ( +-  0.22% )
+
+11654.538317,,task-clock
+75,,context-switches
+93,,cpu-migrations
+260570,,page-faults
+34372455624,,cycles
+13227943591,,stalled-cycles-frontend
+3099003780,,stalled-cycles-backend
+62427339245,,instructions
+11438174009,,branches
+25577595,,branch-misses
+
+branch=RELEASE_3_1_0
+tag=RELEASE_3_1_0-0-g59be83a
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.52 2.92 2.58 2/839 22858
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      12998.715671      task-clock (msec)         #    1.001 CPUs utilized            ( +-  1.55% )
+                82      context-switches          #    0.006 K/sec                    ( +- 10.30% )
+                98      cpu-migrations            #    0.008 K/sec                    ( +- 23.09% )
+            70,980      page-faults               #    0.005 M/sec                    ( +-  0.00% )
+    38,373,782,844      cycles                    #    2.952 GHz                      ( +-  1.53% )
+    15,102,930,772      stalled-cycles-frontend   #   39.36% frontend cycles idle     ( +-  2.24% )
+     3,717,203,658      stalled-cycles-backend    #    9.69% backend  cycles idle     ( +-  5.47% )
+    68,761,804,348      instructions              #    1.79  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  0.00% )
+    13,070,621,576      branches                  # 1005.532 M/sec                    ( +-  0.00% )
+        67,669,728      branch-misses             #    0.52% of all branches          ( +- 27.62% )
+
+      12.985956326 seconds time elapsed                                          ( +-  1.55% )
+
+13307.781854,,task-clock
+77,,context-switches
+93,,cpu-migrations
+71011,,page-faults
+39289502781,,cycles
+15535976606,,stalled-cycles-frontend
+4017596051,,stalled-cycles-backend
+68759906016,,instructions
+13070219965,,branches
+102721099,,branch-misses
+
+branch=RELEASE_3_2_0
+tag=RELEASE_3_2_0-0-gede9cd7
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.95 3.08 2.66 2/839 25159
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      12825.178773      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.27% )
+                74      context-switches          #    0.006 K/sec                    ( +-  2.54% )
+                80      cpu-migrations            #    0.006 K/sec                    ( +- 17.86% )
+            70,337      page-faults               #    0.005 M/sec                    ( +-  0.01% )
+    37,724,245,114      cycles                    #    2.941 GHz                      ( +-  0.17% )
+    14,283,731,009      stalled-cycles-frontend   #   37.86% frontend cycles idle     ( +-  0.33% )
+     3,315,827,244      stalled-cycles-backend    #    8.79% backend  cycles idle     ( +-  0.58% )
+    70,439,293,590      instructions              #    1.87  insns per cycle        
+                                                  #    0.20  stalled cycles per insn  ( +-  0.00% )
+    13,580,719,882      branches                  # 1058.911 M/sec                    ( +-  0.00% )
+        39,424,600      branch-misses             #    0.29% of all branches          ( +-  3.18% )
+
+      12.812252313 seconds time elapsed                                          ( +-  0.27% )
+
+12940.060877,,task-clock
+79,,context-switches
+70,,cpu-migrations
+70327,,page-faults
+38198620853,,cycles
+14496201942,,stalled-cycles-frontend
+3510782500,,stalled-cycles-backend
+70440495374,,instructions
+13580993689,,branches
+56704115,,branch-misses
+
+branch=RELEASE_3_3_0
+tag=RELEASE_3_3_0-0-gc1bc61d
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.67 3.07 2.69 2/841 27397
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      12633.709740      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.39% )
+                74      context-switches          #    0.006 K/sec                    ( +-  9.08% )
+                84      cpu-migrations            #    0.007 K/sec                    ( +-  6.04% )
+            70,844      page-faults               #    0.006 M/sec                    ( +-  0.01% )
+    37,229,659,371      cycles                    #    2.947 GHz                      ( +-  0.18% )
+    13,895,289,632      stalled-cycles-frontend   #   37.32% frontend cycles idle     ( +-  0.34% )
+     3,486,193,260      stalled-cycles-backend    #    9.36% backend  cycles idle     ( +-  0.77% )
+    69,559,536,912      instructions              #    1.87  insns per cycle        
+                                                  #    0.20  stalled cycles per insn  ( +-  0.00% )
+    13,305,969,868      branches                  # 1053.212 M/sec                    ( +-  0.00% )
+        39,337,355      branch-misses             #    0.30% of all branches          ( +-  6.17% )
+
+      12.620854801 seconds time elapsed                                          ( +-  0.39% )
+
+6729.706301,,task-clock
+41,,context-switches
+50,,cpu-migrations
+43529,,page-faults
+19826265471,,cycles
+7386962374,,stalled-cycles-frontend
+1672296773,,stalled-cycles-backend
+38646565818,,instructions
+7079280803,,branches
+2973017,,branch-misses
+
+branch=RELEASE_3_4_0
+tag=RELEASE_3_4_0-0-gf74aff9
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.61 3.06 2.72 2/840 29637
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9865.645807      task-clock (msec)         #    0.799 CPUs utilized            ( +- 25.08% )
+                60      context-switches          #    0.006 K/sec                    ( +- 15.77% )
+                63      cpu-migrations            #    0.006 K/sec                    ( +- 16.47% )
+           207,820      page-faults               #    0.021 M/sec                    ( +- 26.30% )
+    29,124,433,383      cycles                    #    2.952 GHz                      ( +- 25.08% )
+    10,970,784,473      stalled-cycles-frontend   #   37.67% frontend cycles idle     ( +- 26.45% )
+     3,181,566,599      stalled-cycles-backend    #   10.92% backend  cycles idle     ( +- 28.31% )
+    53,625,153,432      instructions              #    1.84  insns per cycle        
+                                                  #    0.20  stalled cycles per insn  ( +- 24.25% )
+     9,924,433,934      branches                  # 1005.959 M/sec                    ( +- 25.76% )
+        26,406,099      branch-misses             #    0.27% of all branches          ( +- 32.67% )
+
+      12.341940333 seconds time elapsed                                          ( +-  0.16% )
+
+12306.350092,,task-clock
+75,,context-switches
+71,,cpu-migrations
+262504,,page-faults
+36277008845,,cycles
+13704212532,,stalled-cycles-frontend
+4047213131,,stalled-cycles-backend
+66627049480,,instructions
+12480859948,,branches
+34384518,,branch-misses
+
+branch=RELEASE_3_5_0
+tag=RELEASE_3_5_0-0-g3e974d2
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.46 3.04 2.74 2/836 31872
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      12749.308715      task-clock (msec)         #    1.001 CPUs utilized            ( +-  1.27% )
+                80      context-switches          #    0.006 K/sec                    ( +-  6.60% )
+                82      cpu-migrations            #    0.006 K/sec                    ( +-  4.14% )
+           262,472      page-faults               #    0.021 M/sec                    ( +-  0.00% )
+    37,628,802,998      cycles                    #    2.951 GHz                      ( +-  1.27% )
+    13,947,312,612      stalled-cycles-frontend   #   37.07% frontend cycles idle     ( +-  1.20% )
+     4,470,344,222      stalled-cycles-backend    #   11.88% backend  cycles idle     ( +-  4.71% )
+    66,636,621,328      instructions              #    1.77  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  0.00% )
+    12,483,532,004      branches                  #  979.154 M/sec                    ( +-  0.00% )
+        88,167,030      branch-misses             #    0.71% of all branches          ( +- 19.33% )
+
+      12.736360115 seconds time elapsed                                          ( +-  1.27% )
+
+6457.810352,,task-clock
+48,,context-switches
+51,,cpu-migrations
+124032,,page-faults
+18911807476,,cycles
+6651637997,,stalled-cycles-frontend
+1453844170,,stalled-cycles-backend
+36998350742,,instructions
+6626968039,,branches
+5925332,,branch-misses
+
+branch=RELEASE_3_6_0
+tag=RELEASE_3_6_0-0-g4039e9d
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.29 3.00 2.74 1/837 1699
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11894.594044      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.94% )
+                78      context-switches          #    0.007 K/sec                    ( +- 10.19% )
+                74      cpu-migrations            #    0.006 K/sec                    ( +- 15.63% )
+           262,529      page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    35,447,245,239      cycles                    #    2.980 GHz                      ( +-  0.15% )
+    14,402,382,620      stalled-cycles-frontend   #   40.63% frontend cycles idle     ( +-  0.23% )
+     3,794,249,408      stalled-cycles-backend    #   10.70% backend  cycles idle     ( +-  1.79% )
+    61,510,990,100      instructions              #    1.74  insns per cycle        
+                                                  #    0.23  stalled cycles per insn  ( +-  0.00% )
+    11,086,473,050      branches                  #  932.060 M/sec                    ( +-  0.00% )
+        31,522,238      branch-misses             #    0.28% of all branches          ( +-  2.64% )
+
+      11.883353646 seconds time elapsed                                          ( +-  0.95% )
+
+11660.177462,,task-clock
+74,,context-switches
+85,,cpu-migrations
+262535,,page-faults
+35337711522,,cycles
+14271787215,,stalled-cycles-frontend
+3663165755,,stalled-cycles-backend
+61507859439,,instructions
+11085991040,,branches
+32924602,,branch-misses
+
+branch=RELEASE_3_7_0
+tag=RELEASE_3_7_0-0-g9114095
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.79 2.83 2.70 1/840 4022
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9983.288229      task-clock (msec)         #    0.854 CPUs utilized            ( +- 12.99% )
+                62      context-switches          #    0.006 K/sec                    ( +- 11.25% )
+                50      cpu-migrations            #    0.005 K/sec                    ( +- 22.95% )
+           220,648      page-faults               #    0.022 M/sec                    ( +- 14.92% )
+    30,152,896,416      cycles                    #    3.020 GHz                      ( +- 13.16% )
+    12,130,491,022      stalled-cycles-frontend   #   40.23% frontend cycles idle     ( +- 13.42% )
+     3,009,887,276      stalled-cycles-backend    #    9.98% backend  cycles idle     ( +- 17.62% )
+    52,936,598,759      instructions              #    1.76  insns per cycle        
+                                                  #    0.23  stalled cycles per insn  ( +- 12.30% )
+     9,472,357,160      branches                  #  948.821 M/sec                    ( +- 13.19% )
+        27,673,158      branch-misses             #    0.29% of all branches          ( +- 33.08% )
+
+      11.687736564 seconds time elapsed                                          ( +-  0.37% )
+
+11513.765974,,task-clock
+64,,context-switches
+41,,cpu-migrations
+262561,,page-faults
+34824901062,,cycles
+13905647170,,stalled-cycles-frontend
+3438433623,,stalled-cycles-backend
+61557285687,,instructions
+11095757164,,branches
+29807817,,branch-misses
+
+branch=RELEASE_3_8_0
+tag=RELEASE_3_8_0-0-g61dd38a
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.55 2.65 2.64 1/836 6506
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11170.842719      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.87% )
+                82      context-switches          #    0.007 K/sec                    ( +- 16.46% )
+                62      cpu-migrations            #    0.006 K/sec                    ( +- 22.06% )
+           260,416      page-faults               #    0.023 M/sec                    ( +-  0.00% )
+    33,826,533,504      cycles                    #    3.028 GHz                      ( +-  0.75% )
+    13,227,324,335      stalled-cycles-frontend   #   39.10% frontend cycles idle     ( +-  1.25% )
+     3,169,844,217      stalled-cycles-backend    #    9.37% backend  cycles idle     ( +-  2.46% )
+    59,865,546,808      instructions              #    1.77  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  0.01% )
+    10,806,749,801      branches                  #  967.407 M/sec                    ( +-  0.01% )
+        38,952,620      branch-misses             #    0.36% of all branches          ( +- 14.88% )
+
+      11.159728194 seconds time elapsed                                          ( +-  0.87% )
+
+11034.970758,,task-clock
+66,,context-switches
+37,,cpu-migrations
+260412,,page-faults
+33440926587,,cycles
+13049182672,,stalled-cycles-frontend
+3042334768,,stalled-cycles-backend
+59861184696,,instructions
+10805898557,,branches
+30040300,,branch-misses
+
+branch=RELEASE_3_9_0
+tag=RELEASE_3_9_0-0-g7683718
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.82 2.59 2.62 2/837 9097
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10879.813670      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.20% )
+                65      context-switches          #    0.006 K/sec                    ( +- 10.95% )
+                39      cpu-migrations            #    0.004 K/sec                    ( +- 16.18% )
+           260,113      page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    33,105,628,648      cycles                    #    3.043 GHz                      ( +-  0.11% )
+    12,846,025,785      stalled-cycles-frontend   #   38.80% frontend cycles idle     ( +-  0.45% )
+     2,710,955,270      stalled-cycles-backend    #    8.19% backend  cycles idle     ( +-  0.71% )
+    59,863,560,109      instructions              #    1.81  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  0.00% )
+    10,805,303,938      branches                  #  993.152 M/sec                    ( +-  0.00% )
+        28,801,396      branch-misses             #    0.27% of all branches          ( +-  4.04% )
+
+      10.868677831 seconds time elapsed                                          ( +-  0.20% )
+
+10993.123059,,task-clock
+67,,context-switches
+106,,cpu-migrations
+260098,,page-faults
+33009830612,,cycles
+12781951399,,stalled-cycles-frontend
+2691359326,,stalled-cycles-backend
+59864107321,,instructions
+10805391328,,branches
+27364205,,branch-misses
+
+branch=RELEASE_4_0_0
+tag=RELEASE_4_0_0-0-g02324c9
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.01 2.56 2.59 1/837 11391
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9383.602434      task-clock (msec)         #    0.829 CPUs utilized            ( +- 13.00% )
+                57      context-switches          #    0.006 K/sec                    ( +-  7.49% )
+                49      cpu-migrations            #    0.005 K/sec                    ( +- 12.26% )
+           209,481      page-faults               #    0.022 M/sec                    ( +- 15.16% )
+    28,379,554,456      cycles                    #    3.024 GHz                      ( +- 13.12% )
+    10,811,587,723      stalled-cycles-frontend   #   38.10% frontend cycles idle     ( +- 13.16% )
+     2,215,266,606      stalled-cycles-backend    #    7.81% backend  cycles idle     ( +- 16.61% )
+    52,095,581,186      instructions              #    1.84  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +- 12.60% )
+     9,400,233,331      branches                  # 1001.772 M/sec                    ( +- 13.79% )
+        21,760,443      branch-misses             #    0.23% of all branches          ( +- 26.72% )
+
+      11.324677203 seconds time elapsed                                          ( +-  0.39% )
+
+11260.053619,,task-clock
+74,,context-switches
+78,,cpu-migrations
+260501,,page-faults
+34010199211,,cycles
+12931928762,,stalled-cycles-frontend
+2693334264,,stalled-cycles-backend
+62426879962,,instructions
+11438099261,,branches
+26028923,,branch-misses
+
+branch=RELEASE_4_10_0
+tag=RELEASE_4_10_0-0-g08a70fe
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.10 2.58 2.59 1/838 13701
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9509.494726      task-clock (msec)         #    0.847 CPUs utilized            ( +- 13.39% )
+                52      context-switches          #    0.005 K/sec                    ( +- 10.80% )
+                34      cpu-migrations            #    0.004 K/sec                    ( +-  9.71% )
+           218,770      page-faults               #    0.023 M/sec                    ( +- 15.69% )
+    28,807,200,438      cycles                    #    3.029 GHz                      ( +- 13.46% )
+    11,007,914,526      stalled-cycles-frontend   #   38.21% frontend cycles idle     ( +- 13.66% )
+     2,295,882,790      stalled-cycles-backend    #    7.97% backend  cycles idle     ( +- 18.04% )
+    53,083,824,038      instructions              #    1.84  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +- 12.75% )
+     9,597,189,202      branches                  # 1009.222 M/sec                    ( +- 13.91% )
+        20,374,398      branch-misses             #    0.21% of all branches          ( +- 31.32% )
+
+      11.229333358 seconds time elapsed                                          ( +-  0.25% )
+
+11204.271368,,task-clock
+79,,context-switches
+58,,cpu-migrations
+262147,,page-faults
+34038066082,,cycles
+12942712812,,stalled-cycles-frontend
+2796200098,,stalled-cycles-backend
+62472376528,,instructions
+11445778567,,branches
+29309907,,branch-misses
+
+branch=RELEASE_4_11_0
+tag=RELEASE_4_11_0-0-g31a5f7e
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.15 2.59 2.59 1/842 16164
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9255.020823      task-clock (msec)         #    0.814 CPUs utilized            ( +- 14.16% )
+                81      context-switches          #    0.009 K/sec                    ( +- 14.90% )
+                56      cpu-migrations            #    0.006 K/sec                    ( +-  6.95% )
+           203,483      page-faults               #    0.022 M/sec                    ( +- 17.24% )
+    27,961,049,058      cycles                    #    3.021 GHz                      ( +- 14.33% )
+    10,644,873,872      stalled-cycles-frontend   #   38.07% frontend cycles idle     ( +- 14.39% )
+     2,175,525,686      stalled-cycles-backend    #    7.78% backend  cycles idle     ( +- 19.28% )
+    51,592,837,644      instructions              #    1.85  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +- 13.57% )
+     9,321,244,053      branches                  # 1007.155 M/sec                    ( +- 14.79% )
+        19,431,951      branch-misses             #    0.21% of all branches          ( +- 34.33% )
+
+      11.368583107 seconds time elapsed                                          ( +-  0.12% )
+
+11417.409428,,task-clock
+85,,context-switches
+85,,cpu-migrations
+262326,,page-faults
+34340421732,,cycles
+13085939557,,stalled-cycles-frontend
+2785649256,,stalled-cycles-backend
+63027072265,,instructions
+11568434257,,branches
+26231333,,branch-misses
+
+branch=RELEASE_4_1_0
+tag=RELEASE_4_1_0-0-g504e599
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.86 2.53 2.56 2/839 18551
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11176.608556      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.34% )
+                72      context-switches          #    0.006 K/sec                    ( +-  1.32% )
+                29      cpu-migrations            #    0.003 K/sec                    ( +- 16.94% )
+           260,635      page-faults               #    0.023 M/sec                    ( +-  0.00% )
+    34,170,377,507      cycles                    #    3.057 GHz                      ( +-  0.17% )
+    12,961,501,217      stalled-cycles-frontend   #   37.93% frontend cycles idle     ( +-  0.22% )
+     2,646,019,893      stalled-cycles-backend    #    7.74% backend  cycles idle     ( +-  0.82% )
+    62,426,826,643      instructions              #    1.83  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  0.00% )
+    11,437,982,156      branches                  # 1023.386 M/sec                    ( +-  0.00% )
+        29,081,856      branch-misses             #    0.25% of all branches          ( +-  5.78% )
+
+      11.165273615 seconds time elapsed                                          ( +-  0.34% )
+
+11228.757702,,task-clock
+72,,context-switches
+17,,cpu-migrations
+260626,,page-faults
+34393557546,,cycles
+13151221412,,stalled-cycles-frontend
+2733224857,,stalled-cycles-backend
+62426524746,,instructions
+11437957708,,branches
+31045550,,branch-misses
+
+branch=RELEASE_4_2_0
+tag=RELEASE_4_2_0-0-g3e77d40
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.56 2.42 2.51 1/838 20828
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11108.677985      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.17% )
+                98      context-switches          #    0.009 K/sec                    ( +-  5.79% )
+                39      cpu-migrations            #    0.003 K/sec                    ( +-  7.98% )
+           260,882      page-faults               #    0.023 M/sec                    ( +-  0.00% )
+    33,960,415,139      cycles                    #    3.057 GHz                      ( +-  0.08% )
+    12,770,289,088      stalled-cycles-frontend   #   37.60% frontend cycles idle     ( +-  0.21% )
+     2,670,896,286      stalled-cycles-backend    #    7.86% backend  cycles idle     ( +-  0.36% )
+    62,670,788,719      instructions              #    1.85  insns per cycle        
+                                                  #    0.20  stalled cycles per insn  ( +-  0.01% )
+    11,480,950,276      branches                  # 1033.512 M/sec                    ( +-  0.01% )
+        23,586,629      branch-misses             #    0.21% of all branches          ( +-  2.62% )
+
+      11.098307708 seconds time elapsed                                          ( +-  0.17% )
+
+5970.665859,,task-clock
+56,,context-switches
+29,,cpu-migrations
+122894,,page-faults
+18043590452,,cycles
+6673743046,,stalled-cycles-frontend
+1165097523,,stalled-cycles-backend
+34116815221,,instructions
+5859007031,,branches
+1882623,,branch-misses
+
+branch=RELEASE_4_3_0
+tag=RELEASE_4_3_0-0-ga09a954
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.52 2.34 2.47 1/834 23113
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10612.550914      task-clock (msec)         #    0.946 CPUs utilized            ( +-  5.82% )
+                76      context-switches          #    0.007 K/sec                    ( +-  7.57% )
+                37      cpu-migrations            #    0.004 K/sec                    ( +- 12.17% )
+           245,155      page-faults               #    0.023 M/sec                    ( +-  6.54% )
+    32,412,624,303      cycles                    #    3.054 GHz                      ( +-  5.95% )
+    12,146,589,577      stalled-cycles-frontend   #   37.47% frontend cycles idle     ( +-  5.88% )
+     2,683,336,938      stalled-cycles-backend    #    8.28% backend  cycles idle     ( +-  6.05% )
+    59,067,216,745      instructions              #    1.82  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  5.78% )
+    10,786,235,592      branches                  # 1016.366 M/sec                    ( +-  6.22% )
+        26,469,199      branch-misses             #    0.25% of all branches          ( +-  9.12% )
+
+      11.218461787 seconds time elapsed                                          ( +-  0.24% )
+
+11209.806306,,task-clock
+70,,context-switches
+42,,cpu-migrations
+261182,,page-faults
+34153434729,,cycles
+12759907900,,stalled-cycles-frontend
+2750780922,,stalled-cycles-backend
+62473672510,,instructions
+11454244302,,branches
+27374618,,branch-misses
+
+branch=RELEASE_4_4_0
+tag=RELEASE_4_4_0-0-g210ad26
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.49 2.27 2.43 1/839 25415
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       7326.145858      task-clock (msec)         #    0.659 CPUs utilized            ( +- 32.55% )
+                69      context-switches          #    0.009 K/sec                    ( +- 27.62% )
+                31      cpu-migrations            #    0.004 K/sec                    ( +- 11.85% )
+           165,508      page-faults               #    0.023 M/sec                    ( +- 36.20% )
+    22,398,608,607      cycles                    #    3.057 GHz                      ( +- 32.83% )
+     8,372,740,718      stalled-cycles-frontend   #   37.38% frontend cycles idle     ( +- 34.38% )
+     1,698,423,427      stalled-cycles-backend    #    7.58% backend  cycles idle     ( +- 37.11% )
+    41,652,227,749      instructions              #    1.86  insns per cycle        
+                                                  #    0.20  stalled cycles per insn  ( +- 31.71% )
+     7,410,436,826      branches                  # 1011.505 M/sec                    ( +- 34.36% )
+        14,716,714      branch-misses             #    0.20% of all branches          ( +- 52.97% )
+
+      11.124936137 seconds time elapsed                                          ( +-  0.32% )
+
+11138.310375,,task-clock
+101,,context-switches
+20,,cpu-migrations
+262005,,page-faults
+34144150060,,cycles
+13057620872,,stalled-cycles-frontend
+2716990880,,stalled-cycles-backend
+62503577501,,instructions
+11455724895,,branches
+26356054,,branch-misses
+
+branch=RELEASE_4_5_0
+tag=RELEASE_4_5_0-0-g522f928
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.78 2.32 2.42 1/837 27676
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11256.765215      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.38% )
+               101      context-switches          #    0.009 K/sec                    ( +- 10.50% )
+                34      cpu-migrations            #    0.003 K/sec                    ( +- 13.82% )
+           261,930      page-faults               #    0.023 M/sec                    ( +-  0.00% )
+    34,414,681,263      cycles                    #    3.057 GHz                      ( +-  0.24% )
+    13,175,570,084      stalled-cycles-frontend   #   38.28% frontend cycles idle     ( +-  0.65% )
+     3,013,772,412      stalled-cycles-backend    #    8.76% backend  cycles idle     ( +-  0.97% )
+    62,508,197,438      instructions              #    1.82  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  0.01% )
+    11,454,515,272      branches                  # 1017.567 M/sec                    ( +-  0.01% )
+        29,364,861      branch-misses             #    0.26% of all branches          ( +-  3.02% )
+
+      11.246042317 seconds time elapsed                                          ( +-  0.38% )
+
+11316.671528,,task-clock
+105,,context-switches
+46,,cpu-migrations
+261915,,page-faults
+34291968943,,cycles
+13106389859,,stalled-cycles-frontend
+3004459945,,stalled-cycles-backend
+62499210199,,instructions
+11452503637,,branches
+26135397,,branch-misses
+
+branch=RELEASE_4_6_0
+tag=RELEASE_4_6_0-0-g19f3bd5
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.06 2.39 2.43 1/837 29941
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10032.012413      task-clock (msec)         #    0.890 CPUs utilized            ( +- 12.43% )
+                93      context-switches          #    0.009 K/sec                    ( +- 15.69% )
+                30      cpu-migrations            #    0.003 K/sec                    ( +- 11.94% )
+           231,348      page-faults               #    0.023 M/sec                    ( +- 13.22% )
+    30,658,038,375      cycles                    #    3.056 GHz                      ( +- 12.50% )
+    11,846,924,530      stalled-cycles-frontend   #   38.64% frontend cycles idle     ( +- 12.58% )
+     2,642,404,182      stalled-cycles-backend    #    8.62% backend  cycles idle     ( +- 16.57% )
+    55,838,938,118      instructions              #    1.82  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +- 11.94% )
+    10,136,778,444      branches                  # 1010.443 M/sec                    ( +- 12.99% )
+        24,792,855      branch-misses             #    0.24% of all branches          ( +- 29.72% )
+
+      11.275664828 seconds time elapsed                                          ( +-  0.31% )
+
+11299.827746,,task-clock
+84,,context-switches
+55,,cpu-migrations
+261914,,page-faults
+34187946184,,cycles
+13125248991,,stalled-cycles-frontend
+2985311003,,stalled-cycles-backend
+62481932608,,instructions
+11448081686,,branches
+26697278,,branch-misses
+
+branch=RELEASE_4_7_0
+tag=RELEASE_4_7_0-0-g9df0b60
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.45 2.28 2.38 1/838 32207
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9673.644022      task-clock (msec)         #    0.860 CPUs utilized            ( +- 16.10% )
+                64      context-switches          #    0.007 K/sec                    ( +- 11.97% )
+                26      cpu-migrations            #    0.003 K/sec                    ( +- 13.42% )
+           218,124      page-faults               #    0.023 M/sec                    ( +- 20.13% )
+    29,586,768,927      cycles                    #    3.058 GHz                      ( +- 16.23% )
+    11,105,172,865      stalled-cycles-frontend   #   37.53% frontend cycles idle     ( +- 16.33% )
+     2,440,183,337      stalled-cycles-backend    #    8.25% backend  cycles idle     ( +- 20.89% )
+    54,047,327,029      instructions              #    1.83  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +- 15.58% )
+     9,768,371,208      branches                  # 1009.792 M/sec                    ( +- 17.17% )
+        20,767,226      branch-misses             #    0.21% of all branches          ( +- 31.65% )
+
+      11.242945552 seconds time elapsed                                          ( +-  0.21% )
+
+11320.460029,,task-clock
+73,,context-switches
+20,,cpu-migrations
+262012,,page-faults
+34615121522,,cycles
+13081901825,,stalled-cycles-frontend
+2999959165,,stalled-cycles-backend
+62469713300,,instructions
+11445093456,,branches
+29631512,,branch-misses
+
+branch=RELEASE_4_8_0
+tag=RELEASE_4_8_0-0-g7847e55
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.71 2.31 2.38 1/837 2012
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11121.427221      task-clock (msec)         #    0.958 CPUs utilized            ( +-  3.57% )
+                70      context-switches          #    0.006 K/sec                    ( +-  2.89% )
+                72      cpu-migrations            #    0.006 K/sec                    ( +-  8.76% )
+           244,636      page-faults               #    0.022 M/sec                    ( +-  4.31% )
+    32,812,121,128      cycles                    #    2.950 GHz                      ( +-  3.58% )
+    12,565,564,472      stalled-cycles-frontend   #   38.30% frontend cycles idle     ( +-  3.42% )
+     2,803,912,946      stalled-cycles-backend    #    8.55% backend  cycles idle     ( +-  2.25% )
+    59,754,736,823      instructions              #    1.82  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  3.74% )
+    10,910,902,651      branches                  #  981.070 M/sec                    ( +-  3.99% )
+        26,702,450      branch-misses             #    0.24% of all branches          ( +-  4.06% )
+
+      11.607553390 seconds time elapsed                                          ( +-  0.25% )
+
+8255.138416,,task-clock
+36,,context-switches
+45,,cpu-migrations
+155940,,page-faults
+24378634015,,cycles
+9398888001,,stalled-cycles-frontend
+1970333615,,stalled-cycles-backend
+44698687967,,instructions
+7967245475,,branches
+15223643,,branch-misses
+
+branch=RELEASE_4_9_0
+tag=RELEASE_4_9_0-0-g193190b
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.55 2.51 2.43 2/840 4396
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10331.093295      task-clock (msec)         #    0.890 CPUs utilized            ( +- 12.52% )
+                64      context-switches          #    0.006 K/sec                    ( +-  7.44% )
+                77      cpu-migrations            #    0.007 K/sec                    ( +- 17.13% )
+           231,552      page-faults               #    0.022 M/sec                    ( +- 13.21% )
+    30,316,462,705      cycles                    #    2.934 GHz                      ( +- 12.66% )
+    11,509,035,294      stalled-cycles-frontend   #   37.96% frontend cycles idle     ( +- 13.12% )
+     2,419,020,232      stalled-cycles-backend    #    7.98% backend  cycles idle     ( +- 16.03% )
+    55,811,654,605      instructions              #    1.84  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +- 11.94% )
+    10,129,766,044      branches                  #  980.512 M/sec                    ( +- 12.99% )
+        23,030,641      branch-misses             #    0.23% of all branches          ( +- 24.59% )
+
+      11.607612915 seconds time elapsed                                          ( +-  0.31% )
+
+11774.597670,,task-clock
+67,,context-switches
+100,,cpu-migrations
+262145,,page-faults
+34344529515,,cycles
+13246869233,,stalled-cycles-frontend
+2839788432,,stalled-cycles-backend
+62473650469,,instructions
+11445808665,,branches
+28689503,,branch-misses
+
+branch=RELEASE_5_0_0
+tag=RELEASE_5_0_0-0-g8de89f8
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.03 2.47 2.42 2/839 8141
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11794.401398      task-clock (msec)         #    1.001 CPUs utilized            ( +-  1.44% )
+                88      context-switches          #    0.007 K/sec                    ( +-  3.24% )
+                73      cpu-migrations            #    0.006 K/sec                    ( +- 15.16% )
+           262,382      page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    34,975,578,732      cycles                    #    2.965 GHz                      ( +-  1.27% )
+    13,545,084,936      stalled-cycles-frontend   #   38.73% frontend cycles idle     ( +-  1.41% )
+     3,178,975,504      stalled-cycles-backend    #    9.09% backend  cycles idle     ( +-  5.24% )
+    63,028,437,212      instructions              #    1.80  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  0.00% )
+    11,568,553,310      branches                  #  980.851 M/sec                    ( +-  0.00% )
+        44,803,176      branch-misses             #    0.39% of all branches          ( +- 37.99% )
+
+      11.781507769 seconds time elapsed                                          ( +-  1.44% )
+
+11695.898124,,task-clock
+82,,context-switches
+90,,cpu-migrations
+262386,,page-faults
+34406925147,,cycles
+13269434855,,stalled-cycles-frontend
+2952494002,,stalled-cycles-backend
+63029059730,,instructions
+11568596518,,branches
+26745920,,branch-misses
+
+branch=RELEASE_5_10_0
+tag=RELEASE_5_10_0-0-g50a2d01
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.35 2.56 2.45 2/842 11867
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11725.564185      task-clock (msec)         #    0.994 CPUs utilized            ( +-  0.83% )
+                92      context-switches          #    0.008 K/sec                    ( +-  5.72% )
+               112      cpu-migrations            #    0.010 K/sec                    ( +-  2.96% )
+           255,387      page-faults               #    0.022 M/sec                    ( +-  2.70% )
+    34,372,088,287      cycles                    #    2.931 GHz                      ( +-  0.81% )
+    13,091,945,264      stalled-cycles-frontend   #   38.09% frontend cycles idle     ( +-  1.53% )
+     2,812,737,697      stalled-cycles-backend    #    8.18% backend  cycles idle     ( +-  1.22% )
+    62,647,145,459      instructions              #    1.82  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  0.62% )
+    11,496,478,771      branches                  #  980.463 M/sec                    ( +-  0.70% )
+        32,434,792      branch-misses             #    0.28% of all branches          ( +-  6.59% )
+
+      11.790934915 seconds time elapsed                                          ( +-  0.42% )
+
+11671.244924,,task-clock
+111,,context-switches
+72,,cpu-migrations
+262272,,page-faults
+34450145490,,cycles
+12941474250,,stalled-cycles-frontend
+2886031402,,stalled-cycles-backend
+63038830502,,instructions
+11577603953,,branches
+32034294,,branch-misses
+
+branch=RELEASE_5_1_0
+tag=RELEASE_5_1_0-0-g4917da7
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.65 2.46 2.41 1/844 15219
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10356.799370      task-clock (msec)         #    0.878 CPUs utilized            ( +- 12.96% )
+                74      context-switches          #    0.007 K/sec                    ( +- 12.43% )
+                90      cpu-migrations            #    0.009 K/sec                    ( +-  9.70% )
+           222,382      page-faults               #    0.021 M/sec                    ( +- 14.15% )
+    30,391,077,900      cycles                    #    2.934 GHz                      ( +- 13.10% )
+    11,801,657,686      stalled-cycles-frontend   #   38.83% frontend cycles idle     ( +- 13.50% )
+     2,523,495,199      stalled-cycles-backend    #    8.30% backend  cycles idle     ( +- 18.76% )
+    55,734,115,021      instructions              #    1.83  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +- 12.17% )
+    10,122,454,889      branches                  #  977.373 M/sec                    ( +- 13.24% )
+        22,427,016      branch-misses             #    0.22% of all branches          ( +- 26.56% )
+
+      11.798801775 seconds time elapsed                                          ( +-  0.12% )
+
+11737.105279,,task-clock
+92,,context-switches
+112,,cpu-migrations
+262369,,page-faults
+34548030210,,cycles
+13463201144,,stalled-cycles-frontend
+2985336845,,stalled-cycles-backend
+63029454359,,instructions
+11568662400,,branches
+27198661,,branch-misses
+
+branch=RELEASE_5_2_0
+tag=RELEASE_5_2_0-0-gdfc3d7c
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.88 2.49 2.43 1/841 18555
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11692.208029      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.24% )
+                89      context-switches          #    0.008 K/sec                    ( +-  7.50% )
+                96      cpu-migrations            #    0.008 K/sec                    ( +-  6.71% )
+           262,329      page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    34,445,979,009      cycles                    #    2.946 GHz                      ( +-  0.20% )
+    13,282,643,776      stalled-cycles-frontend   #   38.56% frontend cycles idle     ( +-  0.34% )
+     2,968,008,468      stalled-cycles-backend    #    8.62% backend  cycles idle     ( +-  0.75% )
+    63,029,875,040      instructions              #    1.83  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  0.00% )
+    11,568,751,890      branches                  #  989.441 M/sec                    ( +-  0.00% )
+        29,480,191      branch-misses             #    0.25% of all branches          ( +-  4.83% )
+
+      11.679584267 seconds time elapsed                                          ( +-  0.24% )
+
+8376.220269,,task-clock
+74,,context-switches
+62,,cpu-migrations
+165938,,page-faults
+24983526483,,cycles
+9590123951,,stalled-cycles-frontend
+2179275637,,stalled-cycles-backend
+45865298640,,instructions
+8215793675,,branches
+20986931,,branch-misses
+
+branch=RELEASE_5_3_0
+tag=RELEASE_5_3_0-0-g8874a86
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.19 2.56 2.45 2/838 21895
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11834.178030      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.65% )
+                92      context-switches          #    0.008 K/sec                    ( +-  2.33% )
+               118      cpu-migrations            #    0.010 K/sec                    ( +-  6.80% )
+           262,351      page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    34,816,362,488      cycles                    #    2.942 GHz                      ( +-  0.39% )
+    13,570,143,768      stalled-cycles-frontend   #   38.98% frontend cycles idle     ( +-  1.06% )
+     3,168,432,636      stalled-cycles-backend    #    9.10% backend  cycles idle     ( +-  2.67% )
+    63,029,511,896      instructions              #    1.81  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  0.00% )
+    11,568,745,341      branches                  #  977.571 M/sec                    ( +-  0.00% )
+        29,375,717      branch-misses             #    0.25% of all branches          ( +-  2.71% )
+
+      11.821174654 seconds time elapsed                                          ( +-  0.65% )
+
+11889.260103,,task-clock
+83,,context-switches
+127,,cpu-migrations
+262349,,page-faults
+34899265614,,cycles
+13555690097,,stalled-cycles-frontend
+3349709857,,stalled-cycles-backend
+63028004373,,instructions
+11568496990,,branches
+31794343,,branch-misses
+
+branch=RELEASE_5_4_0
+tag=RELEASE_5_4_0-0-g13db826
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.51 2.67 2.49 2/842 25260
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9954.159031      task-clock (msec)         #    0.824 CPUs utilized            ( +- 21.30% )
+                80      context-switches          #    0.008 K/sec                    ( +- 19.60% )
+               112      cpu-migrations            #    0.011 K/sec                    ( +- 21.53% )
+           207,863      page-faults               #    0.021 M/sec                    ( +- 26.22% )
+    29,055,630,810      cycles                    #    2.919 GHz                      ( +- 21.26% )
+    11,328,940,648      stalled-cycles-frontend   #   38.99% frontend cycles idle     ( +- 21.40% )
+     2,850,056,672      stalled-cycles-backend    #    9.81% backend  cycles idle     ( +- 25.66% )
+    52,233,420,562      instructions              #    1.80  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +- 20.67% )
+     9,403,647,926      branches                  #  944.695 M/sec                    ( +- 23.02% )
+        20,647,182      branch-misses             #    0.22% of all branches          ( +- 32.39% )
+
+      12.074018223 seconds time elapsed                                          ( +-  0.33% )
+
+5656.558341,,task-clock
+39,,context-switches
+30,,cpu-migrations
+70435,,page-faults
+16656199351,,cycles
+6673876954,,stalled-cycles-frontend
+1700142896,,stalled-cycles-backend
+29553027964,,instructions
+4862084936,,branches
+10712811,,branch-misses
+
+branch=RELEASE_5_5_0
+tag=RELEASE_5_5_0-0-g9c5c792
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.61 2.76 2.53 2/838 28588
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      12124.091944      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.41% )
+                89      context-switches          #    0.007 K/sec                    ( +-  5.64% )
+               120      cpu-migrations            #    0.010 K/sec                    ( +-  3.17% )
+           262,342      page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    35,460,149,608      cycles                    #    2.925 GHz                      ( +-  0.44% )
+    13,923,697,934      stalled-cycles-frontend   #   39.27% frontend cycles idle     ( +-  0.83% )
+     3,642,743,380      stalled-cycles-backend    #   10.27% backend  cycles idle     ( +-  1.31% )
+    63,029,675,672      instructions              #    1.78  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  0.00% )
+    11,568,847,125      branches                  #  954.203 M/sec                    ( +-  0.00% )
+        31,005,383      branch-misses             #    0.27% of all branches          ( +-  4.93% )
+
+      12.110690049 seconds time elapsed                                          ( +-  0.40% )
+
+12167.334274,,task-clock
+97,,context-switches
+156,,cpu-migrations
+262354,,page-faults
+35478462045,,cycles
+13960028281,,stalled-cycles-frontend
+3643877749,,stalled-cycles-backend
+63028826804,,instructions
+11568673491,,branches
+31697953,,branch-misses
+
+branch=RELEASE_5_6_0
+tag=RELEASE_5_6_0-0-gb1a943e
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.75 2.87 2.58 3/843 32335
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      12053.714269      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.17% )
+                95      context-switches          #    0.008 K/sec                    ( +-  3.79% )
+               114      cpu-migrations            #    0.009 K/sec                    ( +-  4.36% )
+           262,340      page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    35,274,983,530      cycles                    #    2.926 GHz                      ( +-  0.07% )
+    13,830,250,185      stalled-cycles-frontend   #   39.21% frontend cycles idle     ( +-  0.39% )
+     3,538,899,355      stalled-cycles-backend    #   10.03% backend  cycles idle     ( +-  0.28% )
+    63,028,963,109      instructions              #    1.79  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  0.00% )
+    11,568,691,680      branches                  #  959.762 M/sec                    ( +-  0.00% )
+        27,460,220      branch-misses             #    0.24% of all branches          ( +-  2.24% )
+
+      12.040647140 seconds time elapsed                                          ( +-  0.17% )
+
+12160.298990,,task-clock
+98,,context-switches
+134,,cpu-migrations
+262370,,page-faults
+35563255514,,cycles
+14031319573,,stalled-cycles-frontend
+3625402553,,stalled-cycles-backend
+63029812788,,instructions
+11568886885,,branches
+26949910,,branch-misses
+
+branch=RELEASE_5_7_0
+tag=RELEASE_5_7_0-0-g0f04f45
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.97 3.02 2.66 2/855 3737
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10660.780478      task-clock (msec)         #    0.882 CPUs utilized            ( +- 13.39% )
+                88      context-switches          #    0.008 K/sec                    ( +- 11.02% )
+               114      cpu-migrations            #    0.011 K/sec                    ( +- 13.94% )
+           229,266      page-faults               #    0.022 M/sec                    ( +- 14.43% )
+    31,280,920,728      cycles                    #    2.934 GHz                      ( +- 13.34% )
+    12,214,090,087      stalled-cycles-frontend   #   39.05% frontend cycles idle     ( +- 13.90% )
+     3,070,895,391      stalled-cycles-backend    #    9.82% backend  cycles idle     ( +- 19.42% )
+    56,128,019,086      instructions              #    1.79  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +- 12.30% )
+    10,204,014,914      branches                  #  957.155 M/sec                    ( +- 13.38% )
+        24,569,026      branch-misses             #    0.24% of all branches          ( +- 27.61% )
+
+      12.088817348 seconds time elapsed                                          ( +-  0.28% )
+
+11971.079141,,task-clock
+90,,context-switches
+117,,cpu-migrations
+262341,,page-faults
+35206509688,,cycles
+13708216828,,stalled-cycles-frontend
+3578665851,,stalled-cycles-backend
+63031860457,,instructions
+11569398986,,branches
+26815760,,branch-misses
+
+branch=RELEASE_5_9_0
+tag=RELEASE_5_9_0-0-ge8eebc0
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.56 3.06 2.70 1/850 8080
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11673.922136      task-clock (msec)         #    0.966 CPUs utilized            ( +-  3.48% )
+                92      context-switches          #    0.008 K/sec                    ( +-  7.22% )
+               120      cpu-migrations            #    0.010 K/sec                    ( +-  9.26% )
+           251,744      page-faults               #    0.022 M/sec                    ( +-  4.22% )
+    34,081,072,334      cycles                    #    2.919 GHz                      ( +-  3.46% )
+    13,195,766,385      stalled-cycles-frontend   #   38.72% frontend cycles idle     ( +-  2.83% )
+     3,502,869,019      stalled-cycles-backend    #   10.28% backend  cycles idle     ( +-  2.40% )
+    60,688,791,992      instructions              #    1.78  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  3.85% )
+    11,111,031,692      branches                  #  951.782 M/sec                    ( +-  4.12% )
+        28,953,940      branch-misses             #    0.26% of all branches          ( +-  5.27% )
+
+      12.084811623 seconds time elapsed                                          ( +-  0.27% )
+
+11909.610143,,task-clock
+88,,context-switches
+93,,cpu-migrations
+262351,,page-faults
+35171870467,,cycles
+13583741822,,stalled-cycles-frontend
+3553844011,,stalled-cycles-backend
+63026460848,,instructions
+11568248897,,branches
+26045592,,branch-misses
+
+branch=RELEASE_6_0_0
+tag=RELEASE_6_0_0-0-g6c68149
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.54 3.06 2.73 1/843 11795
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11489.406602      task-clock (msec)         #    0.968 CPUs utilized            ( +-  3.12% )
+                80      context-switches          #    0.007 K/sec                    ( +-  4.36% )
+               105      cpu-migrations            #    0.009 K/sec                    ( +- 19.90% )
+           254,979      page-faults               #    0.022 M/sec                    ( +-  2.87% )
+    33,838,163,484      cycles                    #    2.945 GHz                      ( +-  3.40% )
+    13,083,611,058      stalled-cycles-frontend   #   38.67% frontend cycles idle     ( +-  3.03% )
+     3,147,111,250      stalled-cycles-backend    #    9.30% backend  cycles idle     ( +-  3.20% )
+    60,816,122,092      instructions              #    1.80  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  3.65% )
+    11,142,450,701      branches                  #  969.802 M/sec                    ( +-  3.90% )
+        28,647,698      branch-misses             #    0.26% of all branches          ( +-  3.49% )
+
+      11.869286920 seconds time elapsed                                          ( +-  1.13% )
+
+11469.681006,,task-clock
+76,,context-switches
+66,,cpu-migrations
+262289,,page-faults
+34217438293,,cycles
+12808890458,,stalled-cycles-frontend
+2786413801,,stalled-cycles-backend
+63033959072,,instructions
+11576685510,,branches
+29156048,,branch-misses
+
+branch=RELEASE_6_1_0
+tag=RELEASE_6_1_0-0-g2392887
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.07 2.90 2.70 1/842 15539
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      10852.250030      task-clock (msec)         #    0.947 CPUs utilized            ( +-  5.45% )
+                70      context-switches          #    0.006 K/sec                    ( +-  5.07% )
+                47      cpu-migrations            #    0.004 K/sec                    ( +- 14.20% )
+           246,169      page-faults               #    0.023 M/sec                    ( +-  6.54% )
+    32,788,221,151      cycles                    #    3.021 GHz                      ( +-  5.61% )
+    12,515,293,417      stalled-cycles-frontend   #   38.17% frontend cycles idle     ( +-  5.28% )
+     2,787,801,102      stalled-cycles-backend    #    8.50% backend  cycles idle     ( +-  5.28% )
+    59,631,671,374      instructions              #    1.82  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  5.70% )
+    10,907,049,644      branches                  # 1005.050 M/sec                    ( +-  6.14% )
+        27,275,594      branch-misses             #    0.25% of all branches          ( +-  8.14% )
+
+      11.455888763 seconds time elapsed                                          ( +-  0.23% )
+
+11497.449278,,task-clock
+81,,context-switches
+68,,cpu-migrations
+262288,,page-faults
+34634458266,,cycles
+13174741527,,stalled-cycles-frontend
+2982038973,,stalled-cycles-backend
+63034239785,,instructions
+11576742917,,branches
+26803891,,branch-misses
+
+branch=RELEASE_6_2_0
+tag=RELEASE_6_2_0-0-g109478a
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.20 2.83 2.69 1/838 19288
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9426.945443      task-clock (msec)         #    0.822 CPUs utilized            ( +- 20.90% )
+                85      context-switches          #    0.009 K/sec                    ( +- 19.80% )
+                46      cpu-migrations            #    0.005 K/sec                    ( +-  7.85% )
+           207,847      page-faults               #    0.022 M/sec                    ( +- 26.21% )
+    28,538,306,456      cycles                    #    3.027 GHz                      ( +- 21.16% )
+    11,005,667,931      stalled-cycles-frontend   #   38.56% frontend cycles idle     ( +- 21.39% )
+     2,340,711,820      stalled-cycles-backend    #    8.20% backend  cycles idle     ( +- 24.51% )
+    52,240,466,028      instructions              #    1.83  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +- 20.67% )
+     9,410,422,138      branches                  #  998.247 M/sec                    ( +- 23.03% )
+        22,928,155      branch-misses             #    0.24% of all branches          ( +- 32.74% )
+
+      11.467706057 seconds time elapsed                                          ( +-  0.74% )
+
+11417.910564,,task-clock
+90,,context-switches
+62,,cpu-migrations
+262333,,page-faults
+34292760743,,cycles
+13005323440,,stalled-cycles-frontend
+2855716474,,stalled-cycles-backend
+63035899403,,instructions
+11577215493,,branches
+34945164,,branch-misses
+
+branch=RELEASE_6_3_0
+tag=RELEASE_6_3_0-0-g4a661a3
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.02 2.73 2.65 1/840 23024
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+       9095.093080      task-clock (msec)         #    0.799 CPUs utilized            ( +- 24.50% )
+                64      context-switches          #    0.007 K/sec                    ( +- 17.13% )
+                48      cpu-migrations            #    0.005 K/sec                    ( +- 12.24% )
+           207,625      page-faults               #    0.023 M/sec                    ( +- 26.34% )
+    27,429,431,261      cycles                    #    3.016 GHz                      ( +- 24.81% )
+    10,270,240,753      stalled-cycles-frontend   #   37.44% frontend cycles idle     ( +- 26.57% )
+     2,151,060,781      stalled-cycles-backend    #    7.84% backend  cycles idle     ( +- 28.18% )
+    50,884,055,166      instructions              #    1.86  insns per cycle        
+                                                  #    0.20  stalled cycles per insn  ( +- 23.88% )
+     9,234,264,212      branches                  # 1015.302 M/sec                    ( +- 25.37% )
+        23,540,891      branch-misses             #    0.25% of all branches          ( +- 33.29% )
+
+      11.380490936 seconds time elapsed                                          ( +-  0.63% )
+
+11350.171864,,task-clock
+75,,context-switches
+58,,cpu-migrations
+262311,,page-faults
+34349406228,,cycles
+13184806249,,stalled-cycles-frontend
+2786270658,,stalled-cycles-backend
+63033904609,,instructions
+11576820798,,branches
+28125450,,branch-misses
+
+branch=RELEASE_6_4_0
+tag=RELEASE_6_4_0-0-gd0e2d9b
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.33 2.49 2.57 1/841 26780
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11361.617268      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.25% )
+                77      context-switches          #    0.007 K/sec                    ( +-  2.82% )
+                58      cpu-migrations            #    0.005 K/sec                    ( +-  8.46% )
+           262,330      page-faults               #    0.023 M/sec                    ( +-  0.00% )
+    34,120,577,356      cycles                    #    3.003 GHz                      ( +-  0.14% )
+    12,938,302,124      stalled-cycles-frontend   #   37.92% frontend cycles idle     ( +-  0.15% )
+     2,716,834,781      stalled-cycles-backend    #    7.96% backend  cycles idle     ( +-  1.06% )
+    63,034,063,851      instructions              #    1.85  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  0.00% )
+    11,576,854,866      branches                  # 1018.944 M/sec                    ( +-  0.00% )
+        29,120,897      branch-misses             #    0.25% of all branches          ( +-  7.96% )
+
+      11.349187959 seconds time elapsed                                          ( +-  0.25% )
+
+11301.968815,,task-clock
+72,,context-switches
+38,,cpu-migrations
+262314,,page-faults
+34242089333,,cycles
+13061142072,,stalled-cycles-frontend
+2762954486,,stalled-cycles-backend
+63033965506,,instructions
+11576808685,,branches
+27950361,,branch-misses
+
+branch=RELEASE_6_5_0
+tag=RELEASE_6_5_0-0-gfed40d8
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.06 2.54 2.57 1/841 30531
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11572.643210      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.60% )
+                79      context-switches          #    0.007 K/sec                    ( +-  5.14% )
+                62      cpu-migrations            #    0.005 K/sec                    ( +- 16.20% )
+           262,355      page-faults               #    0.023 M/sec                    ( +-  0.00% )
+    34,746,664,260      cycles                    #    3.002 GHz                      ( +-  0.46% )
+    13,432,452,062      stalled-cycles-frontend   #   38.66% frontend cycles idle     ( +-  0.51% )
+     2,900,263,156      stalled-cycles-backend    #    8.35% backend  cycles idle     ( +-  1.98% )
+    63,011,054,528      instructions              #    1.81  insns per cycle        
+                                                  #    0.21  stalled cycles per insn  ( +-  0.00% )
+    11,573,384,572      branches                  # 1000.064 M/sec                    ( +-  0.00% )
+        39,516,294      branch-misses             #    0.34% of all branches          ( +- 14.03% )
+
+      11.559938497 seconds time elapsed                                          ( +-  0.60% )
+
+11619.533854,,task-clock
+103,,context-switches
+61,,cpu-migrations
+262345,,page-faults
+35009464388,,cycles
+13557558002,,stalled-cycles-frontend
+3009360545,,stalled-cycles-backend
+63011479812,,instructions
+11573425369,,branches
+49452601,,branch-misses
+
+branch=rurban/pcc-gh1080
+tag=RELEASE_6_5_0-4-g54edbee
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  2.62 1.35 0.87 1/848 5855
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      12003.008423      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.24% )
+                93      context-switches          #    0.008 K/sec                    ( +-  3.00% )
+               110      cpu-migrations            #    0.009 K/sec                    ( +-  3.78% )
+           262,314      page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    35,631,928,182      cycles                    #    2.969 GHz                      ( +-  0.05% )
+    14,182,149,872      stalled-cycles-frontend   #   39.80% frontend cycles idle     ( +-  0.16% )
+     3,402,513,612      stalled-cycles-backend    #    9.55% backend  cycles idle     ( +-  0.38% )
+    63,017,434,128      instructions              #    1.77  insns per cycle        
+                                                  #    0.23  stalled cycles per insn  ( +-  0.00% )
+    11,574,148,844      branches                  #  964.271 M/sec                    ( +-  0.00% )
+        50,300,262      branch-misses             #    0.43% of all branches          ( +-  1.50% )
+
+      11.990599751 seconds time elapsed                                          ( +-  0.24% )
+
+11979.522915,,task-clock
+86,,context-switches
+95,,cpu-migrations
+262315,,page-faults
+35630975866,,cycles
+14145560062,,stalled-cycles-frontend
+3417110829,,stalled-cycles-backend
+63012412429,,instructions
+11572613539,,branches
+52430135,,branch-misses
+
+branch=rurban/pcc-opt-gh1080
+tag=RELEASE_6_5_0-7-g65f5def
+cc=cc (Debian 4.9.0-7) 4.9.0
+loadavg  3.72 1.94 1.13 2/856 10247
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      11839.939262      task-clock (msec)         #    1.001 CPUs utilized            ( +-  0.19% )
+                90      context-switches          #    0.008 K/sec                    ( +-  2.04% )
+               119      cpu-migrations            #    0.010 K/sec                    ( +- 10.56% )
+           262,408      page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    35,125,550,138      cycles                    #    2.967 GHz                      ( +-  0.22% )
+    13,892,599,752      stalled-cycles-frontend   #   39.55% frontend cycles idle     ( +-  0.54% )
+     3,118,348,728      stalled-cycles-backend    #    8.88% backend  cycles idle     ( +-  0.45% )
+    63,016,478,705      instructions              #    1.79  insns per cycle        
+                                                  #    0.22  stalled cycles per insn  ( +-  0.00% )
+    11,573,717,632      branches                  #  977.515 M/sec                    ( +-  0.01% )
+        32,825,999      branch-misses             #    0.28% of all branches          ( +-  3.46% )
+
+      11.827557829 seconds time elapsed                                          ( +-  0.19% )
+
+11793.722708,,task-clock
+88,,context-switches
+108,,cpu-migrations
+262388,,page-faults
+35000190622,,cycles
+13688528065,,stalled-cycles-frontend
+3136731127,,stalled-cycles-backend
+63017108605,,instructions
+11573892103,,branches
+36326538,,branch-misses
+
+== eof -m32 2014-06-31

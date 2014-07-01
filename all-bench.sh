@@ -24,6 +24,16 @@ for t in `git tag | grep ^RELEASE | tail -n+57` $@; do
     ../parrot-bench/bench.sh $t
 done
 
-# TODO: data processing and graph creation
-data=parrot-bench/parrot-bench-$data.data
-egrep "^branch=|seconds time elapsed" ../log.bench | perl -lane'BEGIN{$/="branch="}; print "$F[0]\t$F[1]\t$F[7]"' > $data
+# data processing and graph creation for gnuplot
+log=../parrot-bench/log.bench-$date
+cp ../log.bench $log
+data=../parrot-bench/parrot-bench-$date.data
+echo "release            secs         error(%)" > $data
+egrep "^branch=|seconds time elapsed" $log | \
+    perl -lane'BEGIN{$/="branch="}; $F[0]=~s/RELEASE_//; $F[0]=~s|rurban/|0|; print "$F[0]\t$F[1]\t$F[7]" if $F[1]' >> $data
+if [ ! -e ../parrot-bench/parrot-bench-$date.plot ]; then
+    sed -e"s,-template,-$date," < ../parrot-bench/parrot-bench-template.plot > ../parrot-bench/parrot-bench-$date.plot
+fi
+cd ../parrot-bench
+gnuplot ../parrot-bench/parrot-bench-$date.plot
+cd -
