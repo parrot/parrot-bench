@@ -76,11 +76,13 @@ run without error on all successfully built parrots.
 Comments:
 ---------
 
-* RELEASE_1_9_0: **+11.18%**
-* RELEASE_2_3_0: _-11.86%_
-* RELEASE_2_9_0: _-20.61%_
-* RELEASE_3_0_0: _-13.31%_
-* RELEASE_3_6_0: **+10.04%**
-* RELEASE_4_6_0:  **+4.41%**
-* RELEASE_5_3_0:  _-4.61%_
+* RELEASE_1_9_0: **+11.18%** Merged Freeze/Thaw and Bytecode generator/loader
+* RELEASE_2_3_0: _-11.86%_  new pcc calling convention
+* RELEASE_2_9_0: _-20.61%_  Added API for adding STRINGs to the gc root set.
+  Speed up ord, substr, index and string comparison opcodes
+* RELEASE_3_0_0: _-13.31%_  Use Packfile PMC API to run bytecode
+* RELEASE_3_6_0: **+10.04%** Class.add_vtable_override.
+  Integers, floats and strings stored in lexicals.
+* RELEASE_4_6_0:  **+4.41%** Added init_pmc method to PackFileView
+* RELEASE_5_3_0:  _-4.61%_  ??
 * RELEASE_6_5_0:  **+4.41%** Optimize GC write barriers in the pmc's #1069
