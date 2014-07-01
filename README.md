@@ -76,11 +76,11 @@ run without error on all successfully built parrots.
 Comments:
 ---------
 
-* RELEASE_1_9_0: +11.18%
-* RELEASE_2_3_0: -11.86%
-* RELEASE_2_9_0: -20.61%
-* RELEASE_3_0_0: -13.31%
-* RELEASE_3_6_0: +10.04%
-* RELEASE_4_6_0:  +4.41%
-* RELEASE_5_3_0:  -4.61%
-* RELEASE_6_5_0:  +4.41% Optimize GC write barriers in the pmc's #1069
+* RELEASE_1_9_0: **+11.18%**
+* RELEASE_2_3_0: _-11.86%_
+* RELEASE_2_9_0: _-20.61%_
+* RELEASE_3_0_0: _-13.31%_
+* RELEASE_3_6_0: **+10.04%**
+* RELEASE_4_6_0:  **+4.41%**
+* RELEASE_5_3_0:  _-4.61%_
+* RELEASE_6_5_0:  **+4.41%** Optimize GC write barriers in the pmc's #1069
