@@ -26,7 +26,7 @@
    yautorange: datafield=2
    title: parrot performance (seconds)
 #proc xaxis
-   label: Release 
+   label: Releases
    //stubs: datafields=1
    stubs: usecategories
    stubvert: yes
