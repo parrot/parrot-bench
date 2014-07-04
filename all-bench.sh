@@ -8,10 +8,10 @@ git status -sb
 echo Continue?
 read x
 
-# debian multiarch fix for icu. not needed with --m=32
+# debian multiarch fix for icu. not needed with --m=32 or parrot >= 6.4.0
 #if [ -e /usr/include/x86_64-linux-gnu/unicode -a ! -e /usr/include/unicode ]; then
-#    echo sudo ln -s /usr/include/unicode  /usr/include/x86_64-linux-gnu/unicode
-#    sudo ln -s /usr/include/unicode  /usr/include/x86_64-linux-gnu/unicode
+#    echo sudo ln -s /usr/include/x86_64-linux-gnu/unicode /usr/include/unicode
+#    sudo ln -s /usr/include/x86_64-linux-gnu/unicode /usr/include/unicode
 #fi
 
 date=`date +%Y%m%d`
@@ -35,5 +35,5 @@ if [ ! -e ../parrot-bench/parrot-bench-$date.plot ]; then
     sed -e"s,-template,-$date," < ../parrot-bench/parrot-bench-template.plot > ../parrot-bench/parrot-bench-$date.plot
 fi
 cd ../parrot-bench
-gnuplot ../parrot-bench/parrot-bench-$date.plot
+gnuplot parrot-bench-$date.plot
 cd -
