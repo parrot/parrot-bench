@@ -12,14 +12,14 @@ set ylabel "secs"
 set grid y
 #set yr [ 7.5 : 12.5 ] noreverse nowriteback
 set yr [ 33.5 : 35.5 ] noreverse nowriteback
-set label "from 2.8 to 2.7 https://github.com/parrot/parrot-bench" at graph 0.01, 0.05
+set label "from Release 2.8 to 2.7 https://github.com/parrot/parrot-bench" at graph 0.01, 0.05
 set style fill transparent solid 0.2
 
 #plot 'parrot-bench-template.data' 0:1:2 with errorbars, \
 #  '' using 0:2 title column(2) with lines
 
 plot 'parrot-bench-2.7-2.8.data.1' using 1:xtic(1) notitle, \
-  '' using 0:2 title column(2) with lines lt 3, \
-  '' using 0:($2-($2/100*$3)) title column(3) with lines lt 2, \
-  '' using 0:($2+($2/100*$3)) title column(3) with lines lt 2, \
-  '' using 0:($2-($2/100*$3)):($2+($2/100*$3)) title column(3) with filledcurves
+  'parrot-bench-2.7-2.8.data.1' using 0:2 title "secs" with lines lt 3, \
+  'parrot-bench-2.7-2.8.data.1' using 0:($2-($2/100*$3)) title "" with lines lt 2, \
+  'parrot-bench-2.7-2.8.data.1' using 0:($2+($2/100*$3)) title "" with lines lt 2, \
+  'parrot-bench-2.7-2.8.data.1' using 0:($2-($2/100*$3)):($2+($2/100*$3)) title "error(%)" with filledcurves
