@@ -38,12 +38,12 @@ optimize=-O2
 if true; then
     optimize=-O3
     # now this is highly system dependent, to get better defaults (cc=gcc-4.9 debian)
-    sed -i 's/-shared -O2/-shared -Wl,-O1/' Makefile $config_lib lib/Parrot/Config/Generated.pm
-    sed -i 's|-fstack-protector -L/usr/local/lib|-fstack-protector -L/usr/local/lib -Wl,--as-needed -Wl,-z,relro -Wl,-z,now|' Makefile $config_lib lib/Parrot/Config/Generated.pm
-    sed -i 's|-Wl,-rpath,/usr/local/lib/perl5/5.14.4/x86_64-linux/CORE||' Makefile $config_lib lib/Parrot/Config/Generated.pm
-    sed -i 's,-O2,-O3,' $config_lib lib/Parrot/Config/Generated.pm
-    sed -i 's,-O2 -f,-O3 -f,' Makefile
-    sed -i 's,-O2 \$,-O3 \$,' Makefile
+    #sed -i 's/-shared -O2/-shared -Wl,-O1/' Makefile $config_lib lib/Parrot/Config/Generated.pm
+    #sed -i 's|-fstack-protector -L/usr/local/lib|-fstack-protector -L/usr/local/lib -Wl,--as-needed -Wl,-z,relro -Wl,-z,now|' Makefile $config_lib lib/Parrot/Config/Generated.pm
+    #sed -i 's|-Wl,-rpath,/usr/local/lib/perl5/5.14.4/x86_64-linux/CORE||' Makefile $config_lib lib/Parrot/Config/Generated.pm
+    #sed -i 's,-O2,-O3,' $config_lib lib/Parrot/Config/Generated.pm
+    #sed -i 's,-O2 -f,-O3 -f,' Makefile
+    #sed -i 's,-O2 \$,-O3 \$,' Makefile
     sed -i 's,$(PERL) -MExtUtils::Command -e ,,' Makefile
     sed -i 's,= rm_f,= rm -f,; s,= rm_rf,= rm -rf,; s,= mkpath,= mkdir -p,' Makefile
 fi
@@ -61,16 +61,19 @@ fi
 
 echo >>../log.bench
 echo branch=$1 >>../log.bench
-echo tag=`git describe --long --tags --dirty --always`  >> ../log.bench
-echo date=`date +"%Y%m%d %X"`  >> ../log.bench
-echo cc=`cc --version | head -n1` >>../log.bench
-echo optimize=$optimize >>../log.bench
 
-if [ -e $parrot ]; then
-    echo "loadavg " `cat /proc/loadavg` >> ../log.bench
-    perf stat -r4 $runbench >/dev/null 2>> ../log.bench
-    perf stat -x, $runbench >/dev/null 2>> ../log.bench
-    tail -n29 ../log.bench
-else
-    echo no $parrot
-fi
+../parrot-bench/do-bench.sh
+
+#echo tag=`git describe --long --tags --dirty --always`  >> ../log.bench
+#echo date=`date +"%Y%m%d %X"`  >> ../log.bench
+#echo cc=`cc --version | head -n1` >>../log.bench
+#echo optimize=$optimize >>../log.bench
+
+#if [ -e $parrot ]; then
+#    echo "loadavg " `cat /proc/loadavg` >> ../log.bench
+#    perf stat -r4 $runbench >/dev/null 2>> ../log.bench
+#    perf stat -x, $runbench >/dev/null 2>> ../log.bench
+#    tail -n29 ../log.bench
+#else
+#    echo no $parrot
+#fi

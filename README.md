@@ -78,8 +78,7 @@ Comments:
 
 * RELEASE_1_9_0: **+11.18%** Merged Freeze/Thaw and Bytecode generator/loader
 * RELEASE_2_3_0: _-11.86%_  new pcc calling convention
-* RELEASE_2_9_0: _-20.61%_  Added API for adding STRINGs to the gc root set.
-  Speed up ord, substr, index and string comparison opcodes
+* RELEASE_2_9_0: _-20.61%_  gc_massacre. Default GC set MS2 5a4a0d5c03922
 * RELEASE_3_0_0: _-13.31%_  Use Packfile PMC API to run bytecode (embed API)
 * RELEASE_3_6_0: **+10.04%** Class.add_vtable_override.
   Integers, floats and strings stored in lexicals.
