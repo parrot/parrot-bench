@@ -1,7 +1,7 @@
 parrot-bench
 ============
 
-![Curve](parrot-bench-20140701.png)
+![Curve](parrot-bench-20141119.png)
 
 
 | RELEASE tags          | seconds        | 4x variance  | rel %   |
@@ -59,14 +59,11 @@ parrot-bench
 | RELEASE_5_10_0        |  9.833842408	 | (+-0.67%)	|  -0.25% |
 | RELEASE_6_0_0         | 10.268596974	 | (+-0.50%)	|  +2.34% |
 | RELEASE_6_1_0         | 10.088142136	 | (+-0.38%)	|  +1.79% |
-| rurban/6model         | 10.063883400	 | (+-0.57%)	|  +0.24% |
 | RELEASE_6_2_0         | 10.842009421	 | (+-3.24%)	|  -6.95% |
 | RELEASE_6_3_0         | 10.338726597	 | (+-1.22%)	|  +4.87% |
 | RELEASE_6_4_0         | 10.414573971	 | (+-1.78%)	|  -0.73% |
 | RELEASE_6_5_0         |  9.974288080	 | (+-0.82%)	|  +4.41% |
-| rurban/pcc-gh1080     |  9.983601378	 | (+-0.62%)	|  -0.09% |
-| rurban/pcc-opt-gh1080 |  9.922228798	 | (+-0.35%)	|  +0.62% |
-| ?RELEASE_6_6_0        |  9.922228798	 | (+-0.35%)	|  +0.52% |
+| RELEASE_6_6_0         |  9.922228798	 | (+-0.35%)	|  +0.52% |
 
 Time in seconds to run all these .pir and .pasm tests without -O.
 
