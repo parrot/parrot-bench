@@ -1,0 +1,1473 @@
+== all-bench  Wed Nov 19 06:40:08 CST 2014
+
+branch=RELEASE_1_7_0
+tag=RELEASE_1_7_0-0-g2679540
+date=20141119 06:41:17 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.50 0.79 0.34 2/177 5629
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      17995.299294 task-clock                #    0.998 CPUs utilized            ( +-  0.21% )
+             3,062 context-switches          #    0.170 K/sec                    ( +-  2.28% )
+                70 cpu-migrations            #    0.004 K/sec                    ( +-  4.47% )
+            75,670 page-faults               #    0.004 M/sec                    ( +-  0.58% )
+    52,037,622,036 cycles                    #    2.892 GHz                      ( +-  0.26% ) [50.01%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    72,529,344,030 instructions              #    1.39  insns per cycle          ( +-  0.02% ) [75.01%]
+    18,083,892,040 branches                  # 1004.923 M/sec                    ( +-  0.01% ) [75.00%]
+       137,569,003 branch-misses             #    0.76% of all branches          ( +-  1.07% ) [75.03%]
+
+      18.029104467 seconds time elapsed                                          ( +-  0.31% )
+
+
+branch=RELEASE_1_8_0
+tag=RELEASE_1_8_0-0-g3a44ed5
+date=20141119 06:43:39 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.15 1.48 0.64 2/177 8047
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      14952.651002 task-clock                #    0.998 CPUs utilized            ( +-  0.33% )
+             2,645 context-switches          #    0.177 K/sec                    ( +-  2.44% )
+                67 cpu-migrations            #    0.004 K/sec                    ( +-  2.55% )
+            77,179 page-faults               #    0.005 M/sec                    ( +-  0.25% )
+    43,163,667,036 cycles                    #    2.887 GHz                      ( +-  0.18% ) [50.00%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,001,634,190 instructions              #    1.39  insns per cycle          ( +-  0.03% ) [75.03%]
+    12,606,376,942 branches                  #  843.086 M/sec                    ( +-  0.01% ) [75.02%]
+       146,542,010 branch-misses             #    1.16% of all branches          ( +-  0.44% ) [75.03%]
+
+      14.986428889 seconds time elapsed                                          ( +-  0.51% )
+
+
+branch=RELEASE_1_9_0
+tag=RELEASE_1_9_0-0-g47b9176
+date=20141119 06:45:50 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.19 1.90 0.89 2/177 10445
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      13994.679465 task-clock                #    0.997 CPUs utilized            ( +-  0.19% )
+             2,556 context-switches          #    0.183 K/sec                    ( +-  6.14% )
+                69 cpu-migrations            #    0.005 K/sec                    ( +-  1.23% )
+            80,466 page-faults               #    0.006 M/sec                    ( +-  0.15% )
+    40,391,731,443 cycles                    #    2.886 GHz                      ( +-  0.20% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    55,758,118,826 instructions              #    1.38  insns per cycle          ( +-  0.02% ) [75.02%]
+    11,592,943,942 branches                  #  828.382 M/sec                    ( +-  0.02% ) [75.00%]
+       106,412,615 branch-misses             #    0.92% of all branches          ( +-  0.55% ) [75.03%]
+
+      14.033869986 seconds time elapsed                                          ( +-  0.36% )
+
+
+branch=RELEASE_2_0_0
+tag=RELEASE_2_0_0-0-g8ebe2ea
+date=20141119 06:47:57 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.35 2.24 1.13 2/177 12829
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      13150.689759 task-clock                #    0.995 CPUs utilized            ( +-  0.28% )
+             2,467 context-switches          #    0.188 K/sec                    ( +-  4.43% )
+                67 cpu-migrations            #    0.005 K/sec                    ( +-  1.53% )
+            79,416 page-faults               #    0.006 M/sec                    ( +-  0.24% )
+    37,785,458,349 cycles                    #    2.873 GHz                      ( +-  0.19% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    52,214,178,919 instructions              #    1.38  insns per cycle          ( +-  0.01% ) [75.04%]
+    10,679,524,066 branches                  #  812.089 M/sec                    ( +-  0.01% ) [74.98%]
+        85,298,727 branch-misses             #    0.80% of all branches          ( +-  5.24% ) [75.03%]
+
+      13.211051610 seconds time elapsed                                          ( +-  0.51% )
+
+
+branch=RELEASE_2_10_0
+tag=RELEASE_2_10_0-0-g0eb237a
+date=20141119 06:49:37 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.85 2.27 1.24 2/177 14868
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      14338.374972 task-clock                #    0.999 CPUs utilized            ( +-  0.53% )
+             2,648 context-switches          #    0.185 K/sec                    ( +- 14.22% )
+                58 cpu-migrations            #    0.004 K/sec                    ( +-  3.98% )
+           612,393 page-faults               #    0.043 M/sec                    ( +-  0.01% )
+    41,314,995,463 cycles                    #    2.881 GHz                      ( +-  0.32% ) [50.05%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    48,798,559,845 instructions              #    1.18  insns per cycle          ( +-  0.05% ) [75.03%]
+     9,398,466,028 branches                  #  655.476 M/sec                    ( +-  0.07% ) [74.99%]
+        68,085,368 branch-misses             #    0.72% of all branches          ( +-  0.77% ) [75.02%]
+
+      14.346436197 seconds time elapsed                                          ( +-  0.46% )
+
+
+branch=RELEASE_2_10_1
+tag=RELEASE_2_10_1-0-g7240365
+date=20141119 06:51:20 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.93 2.31 1.35 2/177 16911
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      14323.905266 task-clock                #    0.999 CPUs utilized            ( +-  0.14% )
+             2,788 context-switches          #    0.195 K/sec                    ( +- 12.23% )
+                57 cpu-migrations            #    0.004 K/sec                    ( +-  2.41% )
+           612,261 page-faults               #    0.043 M/sec                    ( +-  0.01% )
+    41,402,496,179 cycles                    #    2.890 GHz                      ( +-  0.22% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    48,793,357,639 instructions              #    1.18  insns per cycle          ( +-  0.02% ) [75.03%]
+     9,396,346,093 branches                  #  655.991 M/sec                    ( +-  0.02% ) [75.00%]
+        66,848,104 branch-misses             #    0.71% of all branches          ( +-  0.54% ) [75.03%]
+
+      14.336840118 seconds time elapsed                                          ( +-  0.12% )
+
+
+branch=RELEASE_2_11_0
+tag=RELEASE_2_11_0-0-g2e22116
+date=20141119 06:53:04 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.91 2.33 1.45 2/177 18970
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      13861.851415 task-clock                #    1.000 CPUs utilized            ( +-  0.40% )
+             2,317 context-switches          #    0.167 K/sec                    ( +-  8.08% )
+                62 cpu-migrations            #    0.004 K/sec                    ( +-  2.35% )
+           623,241 page-faults               #    0.045 M/sec                    ( +-  0.01% )
+    39,806,105,915 cycles                    #    2.872 GHz                      ( +-  0.17% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    50,157,715,956 instructions              #    1.26  insns per cycle          ( +-  0.02% ) [75.01%]
+     9,597,738,565 branches                  #  692.385 M/sec                    ( +-  0.01% ) [75.00%]
+        59,586,562 branch-misses             #    0.62% of all branches          ( +-  2.20% ) [75.04%]
+
+      13.862703715 seconds time elapsed                                          ( +-  0.40% )
+
+
+branch=RELEASE_2_1_0
+tag=RELEASE_2_1_0-0-gb75b38d
+date=20141119 06:55:10 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.09 2.45 1.59 2/177 21327
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      14105.792951 task-clock                #    0.995 CPUs utilized            ( +-  0.06% )
+             2,577 context-switches          #    0.183 K/sec                    ( +-  1.60% )
+                70 cpu-migrations            #    0.005 K/sec                    ( +-  4.08% )
+           271,202 page-faults               #    0.019 M/sec                    ( +-  0.16% )
+    40,591,234,007 cycles                    #    2.878 GHz                      ( +-  0.16% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    51,012,616,560 instructions              #    1.26  insns per cycle          ( +-  0.03% ) [75.02%]
+    10,283,990,395 branches                  #  729.061 M/sec                    ( +-  0.04% ) [75.01%]
+        63,549,712 branch-misses             #    0.62% of all branches          ( +-  1.18% ) [75.03%]
+
+      14.180350859 seconds time elapsed                                          ( +-  0.23% )
+
+
+branch=RELEASE_2_1_1
+tag=RELEASE_2_1_0-0-gb75b38d
+date=20141119 06:57:15 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.42 2.61 1.74 2/177 23685
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      14081.808971 task-clock                #    0.998 CPUs utilized            ( +-  0.27% )
+             2,658 context-switches          #    0.189 K/sec                    ( +-  3.52% )
+                67 cpu-migrations            #    0.005 K/sec                    ( +-  2.87% )
+           272,319 page-faults               #    0.019 M/sec                    ( +-  0.21% )
+    40,509,578,542 cycles                    #    2.877 GHz                      ( +-  0.12% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    51,040,343,416 instructions              #    1.26  insns per cycle          ( +-  0.02% ) [75.03%]
+    10,278,024,930 branches                  #  729.880 M/sec                    ( +-  0.04% ) [75.03%]
+        65,065,096 branch-misses             #    0.63% of all branches          ( +-  3.32% ) [75.01%]
+
+      14.114200760 seconds time elapsed                                          ( +-  0.33% )
+
+
+branch=RELEASE_2_2_0
+tag=RELEASE_2_2_0-0-g915dd42
+date=20141119 06:59:20 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.39 2.69 1.86 1/177 25711
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      13157.582024 task-clock                #    0.997 CPUs utilized            ( +-  0.24% )
+             2,655 context-switches          #    0.202 K/sec                    ( +-  4.12% )
+                70 cpu-migrations            #    0.005 K/sec                    ( +-  4.15% )
+            92,552 page-faults               #    0.007 M/sec                    ( +-  0.22% )
+    37,880,696,367 cycles                    #    2.879 GHz                      ( +-  0.33% ) [50.01%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    50,196,546,578 instructions              #    1.33  insns per cycle          ( +-  0.01% ) [75.01%]
+    10,134,859,363 branches                  #  770.268 M/sec                    ( +-  0.01% ) [75.02%]
+        64,044,273 branch-misses             #    0.63% of all branches          ( +-  2.37% ) [75.04%]
+
+      13.201239945 seconds time elapsed                                          ( +-  0.33% )
+
+
+branch=RELEASE_2_3_0
+tag=RELEASE_2_3_0-0-g2329357-dirty
+date=20141119 07:01:21 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.17 2.67 1.94 2/177 27765
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      15961.926048 task-clock                #    0.998 CPUs utilized            ( +-  0.51% )
+             2,387 context-switches          #    0.150 K/sec                    ( +-  4.40% )
+                65 cpu-migrations            #    0.004 K/sec                    ( +-  2.29% )
+           204,946 page-faults               #    0.013 M/sec                    ( +-  0.08% )
+    45,953,989,528 cycles                    #    2.879 GHz                      ( +-  0.46% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    53,239,202,190 instructions              #    1.16  insns per cycle          ( +-  0.01% ) [75.02%]
+    11,058,227,620 branches                  #  692.788 M/sec                    ( +-  0.02% ) [75.00%]
+        59,224,566 branch-misses             #    0.54% of all branches          ( +-  1.44% ) [75.02%]
+
+      15.996122276 seconds time elapsed                                          ( +-  0.66% )
+
+
+branch=RELEASE_2_4_0
+tag=RELEASE_2_4_0-0-g442c740
+date=20141119 07:03:14 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.60 2.47 1.94 2/177 29779
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      14439.429373 task-clock                #    0.992 CPUs utilized            ( +-  0.33% )
+             2,601 context-switches          #    0.180 K/sec                    ( +-  9.06% )
+                66 cpu-migrations            #    0.005 K/sec                    ( +-  4.46% )
+           198,898 page-faults               #    0.014 M/sec                    ( +-  0.12% )
+    41,544,264,735 cycles                    #    2.877 GHz                      ( +-  0.20% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    50,725,299,972 instructions              #    1.22  insns per cycle          ( +-  0.02% ) [75.02%]
+    10,392,475,264 branches                  #  719.729 M/sec                    ( +-  0.03% ) [75.00%]
+        64,587,270 branch-misses             #    0.62% of all branches          ( +-  1.86% ) [75.03%]
+
+      14.558105769 seconds time elapsed                                          ( +-  0.44% )
+
+
+branch=RELEASE_2_5_0
+tag=RELEASE_2_5_0-0-g3de7ea3
+date=20141119 07:04:59 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.87 2.44 1.97 2/177 31798
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      14277.157359 task-clock                #    0.997 CPUs utilized            ( +-  0.07% )
+             2,623 context-switches          #    0.184 K/sec                    ( +-  2.62% )
+                66 cpu-migrations            #    0.005 K/sec                    ( +-  2.64% )
+           198,705 page-faults               #    0.014 M/sec                    ( +-  0.22% )
+    40,904,991,970 cycles                    #    2.865 GHz                      ( +-  0.06% ) [50.05%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    50,773,005,852 instructions              #    1.24  insns per cycle          ( +-  0.03% ) [75.04%]
+    10,414,848,174 branches                  #  729.476 M/sec                    ( +-  0.03% ) [75.00%]
+        67,587,970 branch-misses             #    0.65% of all branches          ( +-  1.93% ) [75.00%]
+
+      14.320293360 seconds time elapsed                                          ( +-  0.21% )
+
+
+branch=RELEASE_2_6_0
+tag=RELEASE_2_6_0-0-g3642601
+date=20141119 07:06:42 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.83 2.41 2.00 2/177 1365
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      14503.198163 task-clock                #    0.991 CPUs utilized            ( +-  0.49% )
+             2,742 context-switches          #    0.189 K/sec                    ( +-  1.19% )
+                68 cpu-migrations            #    0.005 K/sec                    ( +-  3.34% )
+           198,957 page-faults               #    0.014 M/sec                    ( +-  0.17% )
+    41,615,036,480 cycles                    #    2.869 GHz                      ( +-  0.61% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    50,629,006,708 instructions              #    1.22  insns per cycle          ( +-  0.02% ) [75.03%]
+    10,378,283,213 branches                  #  715.586 M/sec                    ( +-  0.03% ) [75.00%]
+        66,441,668 branch-misses             #    0.64% of all branches          ( +-  7.08% ) [75.02%]
+
+      14.633089677 seconds time elapsed                                          ( +-  1.03% )
+
+
+branch=RELEASE_2_7_0
+tag=RELEASE_2_7_0-0-ga08d06e
+date=20141119 07:08:27 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.78 2.39 2.02 2/177 3454
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      12762.627322 task-clock                #    0.994 CPUs utilized            ( +-  0.13% )
+             2,760 context-switches          #    0.216 K/sec                    ( +-  4.19% )
+                65 cpu-migrations            #    0.005 K/sec                    ( +-  3.09% )
+           197,131 page-faults               #    0.015 M/sec                    ( +-  0.04% )
+    36,726,688,476 cycles                    #    2.878 GHz                      ( +-  0.11% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    48,503,986,159 instructions              #    1.32  insns per cycle          ( +-  0.03% ) [75.04%]
+     9,644,984,855 branches                  #  755.721 M/sec                    ( +-  0.02% ) [75.02%]
+        61,136,833 branch-misses             #    0.63% of all branches          ( +-  0.60% ) [75.02%]
+
+      12.841126511 seconds time elapsed                                          ( +-  0.37% )
+
+
+branch=RELEASE_2_8_0
+tag=RELEASE_2_8_0-0-gf61b1d2
+date=20141119 07:10:06 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.04 2.45 2.07 2/177 5492
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      12642.494099 task-clock                #    0.997 CPUs utilized            ( +-  0.29% )
+             2,538 context-switches          #    0.201 K/sec                    ( +-  4.51% )
+                64 cpu-migrations            #    0.005 K/sec                    ( +-  2.41% )
+            86,662 page-faults               #    0.007 M/sec                    ( +-  0.01% )
+    36,361,504,142 cycles                    #    2.876 GHz                      ( +-  0.31% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    48,803,458,450 instructions              #    1.34  insns per cycle          ( +-  0.03% ) [75.03%]
+     9,854,764,493 branches                  #  779.495 M/sec                    ( +-  0.05% ) [74.99%]
+        60,733,573 branch-misses             #    0.62% of all branches          ( +-  1.42% ) [75.03%]
+
+      12.681368734 seconds time elapsed                                          ( +-  0.46% )
+
+
+branch=RELEASE_2_9_0
+tag=RELEASE_2_9_0-0-gcf6e9a4
+date=20141119 07:11:42 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.38 2.57 2.14 2/177 7542
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      16606.205504 task-clock                #    1.000 CPUs utilized            ( +-  0.32% )
+             2,276 context-switches          #    0.137 K/sec                    ( +- 14.04% )
+                58 cpu-migrations            #    0.003 K/sec                    ( +-  2.54% )
+           147,720 page-faults               #    0.009 M/sec                    ( +-  0.01% )
+    47,704,424,534 cycles                    #    2.873 GHz                      ( +-  0.32% ) [50.00%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    51,335,693,385 instructions              #    1.08  insns per cycle          ( +-  0.02% ) [75.02%]
+    10,315,642,820 branches                  #  621.192 M/sec                    ( +-  0.01% ) [75.03%]
+        65,686,486 branch-misses             #    0.64% of all branches          ( +-  3.32% ) [75.03%]
+
+      16.607020106 seconds time elapsed                                          ( +-  0.31% )
+
+
+branch=RELEASE_2_9_1
+tag=RELEASE_2_9_1-0-gf125a9b
+date=20141119 07:13:35 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.20 2.55 2.16 2/177 9584
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      14506.377169 task-clock                #    0.998 CPUs utilized            ( +-  0.11% )
+             3,242 context-switches          #    0.224 K/sec                    ( +-  2.31% )
+                57 cpu-migrations            #    0.004 K/sec                    ( +-  4.34% )
+           710,248 page-faults               #    0.049 M/sec                    ( +-  0.00% )
+    42,022,564,950 cycles                    #    2.897 GHz                      ( +-  0.11% ) [50.01%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    49,007,571,817 instructions              #    1.17  insns per cycle          ( +-  0.02% ) [75.01%]
+     9,456,897,556 branches                  #  651.913 M/sec                    ( +-  0.02% ) [75.02%]
+        65,365,517 branch-misses             #    0.69% of all branches          ( +-  0.72% ) [75.03%]
+
+      14.530081364 seconds time elapsed                                          ( +-  0.11% )
+
+
+branch=RELEASE_3_0_0
+tag=RELEASE_3_0_0-0-g502d035-dirty
+date=20141119 07:15:19 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.29 2.59 2.20 2/177 11694
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      13892.691763 task-clock                #    0.999 CPUs utilized            ( +-  0.16% )
+             2,748 context-switches          #    0.198 K/sec                    ( +-  8.30% )
+                60 cpu-migrations            #    0.004 K/sec                    ( +-  4.14% )
+           621,550 page-faults               #    0.045 M/sec                    ( +-  0.00% )
+    40,140,889,358 cycles                    #    2.889 GHz                      ( +-  0.11% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    50,179,729,630 instructions              #    1.25  insns per cycle          ( +-  0.02% ) [75.04%]
+     9,596,949,758 branches                  #  690.791 M/sec                    ( +-  0.02% ) [75.02%]
+        59,964,012 branch-misses             #    0.62% of all branches          ( +-  0.96% ) [75.00%]
+
+      13.906109535 seconds time elapsed                                          ( +-  0.13% )
+
+
+branch=RELEASE_3_10_0
+tag=RELEASE_3_10_0-0-g6f76221-dirty
+date=20141119 07:17:04 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.16 2.59 2.23 2/177 13998
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16619.166450 task-clock                #    0.996 CPUs utilized            ( +-  0.37% )
+             2,654 context-switches          #    0.160 K/sec                    ( +-  1.98% )
+                72 cpu-migrations            #    0.004 K/sec                    ( +-  3.26% )
+           395,458 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,524,662,292 cycles                    #    2.860 GHz                      ( +-  0.17% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,494,347,484 instructions              #    1.25  insns per cycle          ( +-  0.01% ) [75.04%]
+     9,908,950,001 branches                  #  596.236 M/sec                    ( +-  0.02% ) [75.00%]
+        49,073,598 branch-misses             #    0.50% of all branches          ( +-  2.96% ) [75.02%]
+
+      16.683801136 seconds time elapsed                                          ( +-  0.36% )
+
+
+branch=RELEASE_3_11_0
+tag=RELEASE_3_11_0-0-ga6c5dd2-dirty
+date=20141119 07:19:00 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.27 2.59 2.26 2/177 16303
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16839.587836 task-clock                #    0.990 CPUs utilized            ( +-  0.24% )
+             2,611 context-switches          #    0.155 K/sec                    ( +-  4.83% )
+                71 cpu-migrations            #    0.004 K/sec                    ( +-  4.49% )
+           395,442 page-faults               #    0.023 M/sec                    ( +-  0.00% )
+    48,345,120,616 cycles                    #    2.871 GHz                      ( +-  0.21% ) [50.01%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,244,962,622 instructions              #    1.23  insns per cycle          ( +-  0.01% ) [75.03%]
+     9,841,837,629 branches                  #  584.446 M/sec                    ( +-  0.04% ) [75.01%]
+       112,398,932 branch-misses             #    1.14% of all branches          ( +-  1.61% ) [75.03%]
+
+      17.001539795 seconds time elapsed                                          ( +-  1.04% )
+
+
+branch=RELEASE_3_1_0
+tag=RELEASE_3_1_0-0-g59be83a-dirty
+date=20141119 07:20:54 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.10 2.52 2.25 2/177 18441
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      17635.281012 task-clock                #    0.998 CPUs utilized            ( +-  0.40% )
+             2,583 context-switches          #    0.146 K/sec                    ( +-  6.87% )
+                70 cpu-migrations            #    0.004 K/sec                    ( +-  2.62% )
+           123,282 page-faults               #    0.007 M/sec                    ( +-  0.01% )
+    50,541,404,994 cycles                    #    2.866 GHz                      ( +-  0.26% ) [50.05%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    65,744,150,150 instructions              #    1.30  insns per cycle          ( +-  0.02% ) [75.05%]
+    11,588,320,765 branches                  #  657.110 M/sec                    ( +-  0.04% ) [75.00%]
+        59,152,742 branch-misses             #    0.51% of all branches          ( +-  0.75% ) [75.00%]
+
+      17.667790722 seconds time elapsed                                          ( +-  0.45% )
+
+
+branch=RELEASE_3_2_0
+tag=RELEASE_3_2_0-0-gede9cd7-dirty
+date=20141119 07:22:54 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.09 2.48 2.25 2/177 20691
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      18153.856581 task-clock                #    0.998 CPUs utilized            ( +-  0.24% )
+             2,788 context-switches          #    0.154 K/sec                    ( +-  5.26% )
+                73 cpu-migrations            #    0.004 K/sec                    ( +-  1.17% )
+           127,515 page-faults               #    0.007 M/sec                    ( +-  0.04% )
+    51,946,193,342 cycles                    #    2.861 GHz                      ( +-  0.16% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    67,016,576,530 instructions              #    1.29  insns per cycle          ( +-  0.04% ) [75.03%]
+    11,964,313,931 branches                  #  659.051 M/sec                    ( +-  0.03% ) [75.00%]
+       110,378,482 branch-misses             #    0.92% of all branches          ( +-  5.65% ) [75.02%]
+
+      18.198115046 seconds time elapsed                                          ( +-  0.19% )
+
+
+branch=RELEASE_3_3_0
+tag=RELEASE_3_3_0-0-gc1bc61d-dirty
+date=20141119 07:24:56 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.99 2.42 2.24 2/177 22952
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      18110.745160 task-clock                #    0.997 CPUs utilized            ( +-  0.18% )
+             2,858 context-switches          #    0.158 K/sec                    ( +-  2.45% )
+                67 cpu-migrations            #    0.004 K/sec                    ( +-  4.52% )
+           123,769 page-faults               #    0.007 M/sec                    ( +-  0.06% )
+    52,185,038,878 cycles                    #    2.881 GHz                      ( +-  0.04% ) [50.01%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    66,582,396,359 instructions              #    1.28  insns per cycle          ( +-  0.04% ) [75.01%]
+    11,697,536,176 branches                  #  645.889 M/sec                    ( +-  0.04% ) [74.99%]
+       122,661,166 branch-misses             #    1.05% of all branches          ( +-  1.88% ) [75.05%]
+
+      18.169718703 seconds time elapsed                                          ( +-  0.22% )
+
+
+branch=RELEASE_3_4_0
+tag=RELEASE_3_4_0-0-gf74aff9-dirty
+date=20141119 07:26:59 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.98 2.40 2.24 2/177 25222
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      18662.412443 task-clock                #    0.996 CPUs utilized            ( +-  0.09% )
+             2,479 context-switches          #    0.133 K/sec                    ( +-  6.71% )
+                71 cpu-migrations            #    0.004 K/sec                    ( +-  0.89% )
+           394,751 page-faults               #    0.021 M/sec                    ( +-  0.00% )
+    53,591,022,336 cycles                    #    2.872 GHz                      ( +-  0.10% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    64,915,092,101 instructions              #    1.21  insns per cycle          ( +-  0.01% ) [75.03%]
+    11,094,308,120 branches                  #  594.473 M/sec                    ( +-  0.01% ) [75.01%]
+       123,827,919 branch-misses             #    1.12% of all branches          ( +-  0.74% ) [75.01%]
+
+      18.743482462 seconds time elapsed                                          ( +-  0.46% )
+
+
+branch=RELEASE_3_5_0
+tag=RELEASE_3_5_0-0-g3e974d2-dirty
+date=20141119 07:29:03 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.97 2.37 2.23 2/177 27492
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      18615.124038 task-clock                #    0.993 CPUs utilized            ( +-  1.62% )
+             2,936 context-switches          #    0.158 K/sec                    ( +-  0.92% )
+                68 cpu-migrations            #    0.004 K/sec                    ( +-  2.98% )
+           394,794 page-faults               #    0.021 M/sec                    ( +-  0.00% )
+    53,612,759,719 cycles                    #    2.880 GHz                      ( +-  1.65% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    64,930,034,613 instructions              #    1.21  insns per cycle          ( +-  0.01% ) [75.03%]
+    11,099,732,507 branches                  #  596.275 M/sec                    ( +-  0.03% ) [75.00%]
+       109,425,722 branch-misses             #    0.99% of all branches          ( +- 45.91% ) [75.02%]
+
+      18.754474618 seconds time elapsed                                          ( +-  2.26% )
+
+
+branch=RELEASE_3_6_0
+tag=RELEASE_3_6_0-0-g4039e9d-dirty
+date=20141119 07:31:06 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.90 2.33 2.22 2/177 29788
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      17855.229017 task-clock                #    0.997 CPUs utilized            ( +-  1.01% )
+             2,442 context-switches          #    0.137 K/sec                    ( +-  4.66% )
+                63 cpu-migrations            #    0.004 K/sec                    ( +-  1.75% )
+           394,875 page-faults               #    0.022 M/sec                    ( +-  0.00% )
+    51,237,821,500 cycles                    #    2.870 GHz                      ( +-  1.00% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,591,676,179 instructions              #    1.16  insns per cycle          ( +-  0.02% ) [75.03%]
+     9,836,439,164 branches                  #  550.900 M/sec                    ( +-  0.01% ) [75.01%]
+        58,811,464 branch-misses             #    0.60% of all branches          ( +-  1.43% ) [75.01%]
+
+      17.909837193 seconds time elapsed                                          ( +-  1.04% )
+
+
+branch=RELEASE_3_7_0
+tag=RELEASE_3_7_0-0-g9114095-dirty
+date=20141119 07:33:07 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.95 2.34 2.22 2/177 32080
+
+ Performance counter stats for '../parrot-bench/run-bench.sh' (4 runs):
+
+      18455.174180 task-clock                #    0.997 CPUs utilized            ( +-  1.12% )
+             2,954 context-switches          #    0.160 K/sec                    ( +-  4.75% )
+                68 cpu-migrations            #    0.004 K/sec                    ( +-  2.95% )
+           394,956 page-faults               #    0.021 M/sec                    ( +-  0.00% )
+    53,106,504,033 cycles                    #    2.878 GHz                      ( +-  1.16% ) [50.00%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,834,236,948 instructions              #    1.13  insns per cycle          ( +-  0.02% ) [75.02%]
+     9,875,731,157 branches                  #  535.120 M/sec                    ( +-  0.01% ) [75.02%]
+       130,687,809 branch-misses             #    1.32% of all branches          ( +-  1.54% ) [75.03%]
+
+      18.515823361 seconds time elapsed                                          ( +-  1.27% )
+
+
+branch=RELEASE_3_8_0
+tag=RELEASE_3_8_0-0-g61dd38a-dirty
+date=20141119 07:35:10 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.16 2.40 2.24 2/177 1986
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16255.179230 task-clock                #    0.990 CPUs utilized            ( +-  0.34% )
+             2,839 context-switches          #    0.175 K/sec                    ( +-  7.34% )
+                70 cpu-migrations            #    0.004 K/sec                    ( +-  6.42% )
+           395,444 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    46,619,339,689 cycles                    #    2.868 GHz                      ( +-  0.22% ) [50.00%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    58,004,336,531 instructions              #    1.24  insns per cycle          ( +-  0.02% ) [75.01%]
+     9,535,667,410 branches                  #  586.623 M/sec                    ( +-  0.01% ) [75.02%]
+        48,472,165 branch-misses             #    0.51% of all branches          ( +-  1.05% ) [75.03%]
+
+      16.411532685 seconds time elapsed                                          ( +-  0.87% )
+
+
+branch=RELEASE_3_9_0
+tag=RELEASE_3_9_0-0-g7683718-dirty
+date=20141119 07:37:04 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.40 2.49 2.27 2/177 4260
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16325.304461 task-clock                #    0.998 CPUs utilized            ( +-  0.06% )
+             2,744 context-switches          #    0.168 K/sec                    ( +-  2.82% )
+                68 cpu-migrations            #    0.004 K/sec                    ( +-  0.60% )
+           395,294 page-faults               #    0.024 M/sec                    ( +-  0.04% )
+    47,056,819,548 cycles                    #    2.882 GHz                      ( +-  0.19% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    57,998,297,430 instructions              #    1.23  insns per cycle          ( +-  0.02% ) [75.02%]
+     9,537,127,948 branches                  #  584.193 M/sec                    ( +-  0.02% ) [75.00%]
+       114,146,097 branch-misses             #    1.20% of all branches          ( +-  0.67% ) [75.02%]
+
+      16.355434921 seconds time elapsed                                          ( +-  0.11% )
+
+
+branch=RELEASE_4_0_0
+tag=RELEASE_4_0_0-0-g02324c9-dirty
+date=20141119 07:38:58 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.89 2.45 2.27 2/177 6566
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16029.340439 task-clock                #    0.997 CPUs utilized            ( +-  0.31% )
+             2,798 context-switches          #    0.175 K/sec                    ( +-  6.01% )
+                66 cpu-migrations            #    0.004 K/sec                    ( +-  4.58% )
+           395,409 page-faults               #    0.025 M/sec                    ( +-  0.00% )
+    46,169,232,316 cycles                    #    2.880 GHz                      ( +-  0.11% ) [50.01%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,252,513,757 instructions              #    1.28  insns per cycle          ( +-  0.01% ) [75.02%]
+     9,839,385,372 branches                  #  613.836 M/sec                    ( +-  0.01% ) [75.02%]
+        42,171,414 branch-misses             #    0.43% of all branches          ( +-  1.09% ) [75.02%]
+
+      16.079726581 seconds time elapsed                                          ( +-  0.38% )
+
+
+branch=RELEASE_4_10_0
+tag=RELEASE_4_10_0-0-g08a70fe-dirty
+date=20141119 07:40:52 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.87 2.43 2.27 2/177 8842
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16474.453613 task-clock                #    0.998 CPUs utilized            ( +-  0.31% )
+             2,678 context-switches          #    0.163 K/sec                    ( +-  7.59% )
+                67 cpu-migrations            #    0.004 K/sec                    ( +-  3.98% )
+           396,409 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,248,559,754 cycles                    #    2.868 GHz                      ( +-  0.40% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,393,255,427 instructions              #    1.26  insns per cycle          ( +-  0.02% ) [75.02%]
+     9,861,345,459 branches                  #  598.584 M/sec                    ( +-  0.02% ) [75.01%]
+        57,042,692 branch-misses             #    0.58% of all branches          ( +-  5.81% ) [75.02%]
+
+      16.515312985 seconds time elapsed                                          ( +-  0.37% )
+
+
+branch=RELEASE_4_11_0
+tag=RELEASE_4_11_0-0-g31a5f7e-dirty
+date=20141119 07:42:49 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.02 2.43 2.27 1/177 11142
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16852.205863 task-clock                #    0.990 CPUs utilized            ( +-  0.30% )
+             2,834 context-switches          #    0.168 K/sec                    ( +-  2.47% )
+                90 cpu-migrations            #    0.005 K/sec                    ( +-  3.39% )
+           396,793 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    48,397,765,838 cycles                    #    2.872 GHz                      ( +-  0.20% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,081,508,292 instructions              #    1.24  insns per cycle          ( +-  0.01% ) [75.02%]
+     9,953,122,331 branches                  #  590.612 M/sec                    ( +-  0.01% ) [75.03%]
+        46,620,259 branch-misses             #    0.47% of all branches          ( +-  2.40% ) [75.03%]
+
+      17.021501255 seconds time elapsed                                          ( +-  0.97% )
+
+
+branch=RELEASE_4_1_0
+tag=RELEASE_4_1_0-0-g504e599-dirty
+date=20141119 07:44:46 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.86 2.38 2.26 1/177 13508
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16315.432221 task-clock                #    0.996 CPUs utilized            ( +-  0.96% )
+             2,665 context-switches          #    0.163 K/sec                    ( +-  4.77% )
+                66 cpu-migrations            #    0.004 K/sec                    ( +-  4.49% )
+           395,482 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    46,979,088,805 cycles                    #    2.879 GHz                      ( +-  0.90% ) [50.00%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,269,413,229 instructions              #    1.26  insns per cycle          ( +-  0.01% ) [75.02%]
+     9,840,122,060 branches                  #  603.117 M/sec                    ( +-  0.02% ) [75.01%]
+        46,439,301 branch-misses             #    0.47% of all branches          ( +-  2.81% ) [75.03%]
+
+      16.387536818 seconds time elapsed                                          ( +-  1.00% )
+
+
+branch=RELEASE_4_2_0
+tag=RELEASE_4_2_0-0-g3e77d40-dirty
+date=20141119 07:46:41 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.92 2.36 2.25 2/177 15794
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16320.845144 task-clock                #    0.997 CPUs utilized            ( +-  0.21% )
+             2,768 context-switches          #    0.170 K/sec                    ( +-  3.54% )
+                70 cpu-migrations            #    0.004 K/sec                    ( +-  1.78% )
+           394,158 page-faults               #    0.024 M/sec                    ( +-  0.01% )
+    47,002,321,066 cycles                    #    2.880 GHz                      ( +-  0.23% ) [50.05%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,314,638,117 instructions              #    1.26  insns per cycle          ( +-  0.01% ) [75.03%]
+     9,854,440,551 branches                  #  603.795 M/sec                    ( +-  0.01% ) [74.99%]
+        42,771,483 branch-misses             #    0.43% of all branches          ( +-  4.85% ) [75.02%]
+
+      16.363742002 seconds time elapsed                                          ( +-  0.13% )
+
+
+branch=RELEASE_4_3_0
+tag=RELEASE_4_3_0-0-ga09a954-dirty
+date=20141119 07:48:35 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.36 2.46 2.28 2/177 18080
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16454.221157 task-clock                #    0.996 CPUs utilized            ( +-  0.61% )
+             3,008 context-switches          #    0.183 K/sec                    ( +-  2.91% )
+                67 cpu-migrations            #    0.004 K/sec                    ( +-  6.00% )
+           394,583 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,323,566,440 cycles                    #    2.876 GHz                      ( +-  0.31% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,471,892,820 instructions              #    1.26  insns per cycle          ( +-  0.02% ) [75.04%]
+     9,871,278,542 branches                  #  599.924 M/sec                    ( +-  0.02% ) [75.00%]
+        48,540,822 branch-misses             #    0.49% of all branches          ( +-  5.91% ) [75.03%]
+
+      16.525244977 seconds time elapsed                                          ( +-  0.73% )
+
+
+branch=RELEASE_4_4_0
+tag=RELEASE_4_4_0-0-g210ad26-dirty
+date=20141119 07:50:30 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.99 2.43 2.27 1/177 20370
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16268.642246 task-clock                #    0.989 CPUs utilized            ( +-  0.12% )
+             2,778 context-switches          #    0.171 K/sec                    ( +-  6.25% )
+                72 cpu-migrations            #    0.004 K/sec                    ( +-  2.81% )
+           396,251 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    46,632,047,403 cycles                    #    2.866 GHz                      ( +-  0.12% ) [50.01%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,392,822,753 instructions              #    1.27  insns per cycle          ( +-  0.01% ) [75.02%]
+     9,860,083,758 branches                  #  606.079 M/sec                    ( +-  0.02% ) [75.02%]
+        47,225,978 branch-misses             #    0.48% of all branches          ( +-  1.25% ) [75.02%]
+
+      16.451401751 seconds time elapsed                                          ( +-  1.08% )
+
+
+branch=RELEASE_4_5_0
+tag=RELEASE_4_5_0-0-g522f928-dirty
+date=20141119 07:52:24 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.09 2.42 2.27 2/177 22633
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16346.991937 task-clock                #    0.996 CPUs utilized            ( +-  0.26% )
+             2,721 context-switches          #    0.166 K/sec                    ( +-  4.76% )
+                65 cpu-migrations            #    0.004 K/sec                    ( +-  2.75% )
+           396,072 page-faults               #    0.024 M/sec                    ( +-  0.03% )
+    46,907,849,659 cycles                    #    2.870 GHz                      ( +-  0.30% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,401,170,352 instructions              #    1.27  insns per cycle          ( +-  0.01% ) [75.02%]
+     9,864,582,921 branches                  #  603.449 M/sec                    ( +-  0.02% ) [74.99%]
+        49,044,603 branch-misses             #    0.50% of all branches          ( +-  5.30% ) [75.03%]
+
+      16.405332135 seconds time elapsed                                          ( +-  0.41% )
+
+
+branch=RELEASE_4_6_0
+tag=RELEASE_4_6_0-0-g19f3bd5-dirty
+date=20141119 07:54:19 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.16 2.47 2.29 2/176 24896
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16330.379247 task-clock                #    0.999 CPUs utilized            ( +-  0.11% )
+             2,566 context-switches          #    0.157 K/sec                    ( +-  4.92% )
+                72 cpu-migrations            #    0.004 K/sec                    ( +-  5.92% )
+           396,202 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    46,771,053,994 cycles                    #    2.864 GHz                      ( +-  0.17% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,384,166,183 instructions              #    1.27  insns per cycle          ( +-  0.02% ) [75.03%]
+     9,861,464,614 branches                  #  603.872 M/sec                    ( +-  0.04% ) [75.00%]
+        47,968,790 branch-misses             #    0.49% of all branches          ( +-  0.56% ) [75.02%]
+
+      16.348725048 seconds time elapsed                                          ( +-  0.11% )
+
+
+branch=RELEASE_4_7_0
+tag=RELEASE_4_7_0-0-g9df0b60-dirty
+date=20141119 07:56:13 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.00 2.46 2.29 2/177 27164
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16307.607867 task-clock                #    0.994 CPUs utilized            ( +-  1.04% )
+             2,787 context-switches          #    0.171 K/sec                    ( +-  5.16% )
+                65 cpu-migrations            #    0.004 K/sec                    ( +-  2.91% )
+           396,237 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    46,952,677,998 cycles                    #    2.879 GHz                      ( +-  0.98% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,414,437,776 instructions              #    1.27  insns per cycle          ( +-  0.03% ) [75.02%]
+     9,861,357,943 branches                  #  604.709 M/sec                    ( +-  0.01% ) [75.00%]
+        71,582,000 branch-misses             #    0.73% of all branches          ( +- 23.83% ) [75.03%]
+
+      16.402499225 seconds time elapsed                                          ( +-  1.47% )
+
+
+branch=RELEASE_4_8_0
+tag=RELEASE_4_8_0-0-g7847e55-dirty
+date=20141119 07:58:07 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.92 2.43 2.29 2/177 29419
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16318.019948 task-clock                #    0.997 CPUs utilized            ( +-  0.42% )
+             2,687 context-switches          #    0.165 K/sec                    ( +-  6.07% )
+                71 cpu-migrations            #    0.004 K/sec                    ( +-  0.57% )
+           396,329 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    46,941,346,750 cycles                    #    2.877 GHz                      ( +-  0.33% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,395,839,701 instructions              #    1.27  insns per cycle          ( +-  0.01% ) [75.02%]
+     9,862,626,116 branches                  #  604.401 M/sec                    ( +-  0.03% ) [74.99%]
+        48,691,478 branch-misses             #    0.49% of all branches          ( +-  4.78% ) [75.03%]
+
+      16.364611464 seconds time elapsed                                          ( +-  0.39% )
+
+
+branch=RELEASE_4_9_0
+tag=RELEASE_4_9_0-0-g193190b-dirty
+date=20141119 08:00:02 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.96 2.40 2.28 2/177 31692
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16402.644009 task-clock                #    0.998 CPUs utilized            ( +-  0.23% )
+             2,854 context-switches          #    0.174 K/sec                    ( +-  3.96% )
+                69 cpu-migrations            #    0.004 K/sec                    ( +-  3.60% )
+           396,384 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,210,917,176 cycles                    #    2.878 GHz                      ( +-  0.27% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,410,744,424 instructions              #    1.26  insns per cycle          ( +-  0.02% ) [75.03%]
+     9,860,582,054 branches                  #  601.158 M/sec                    ( +-  0.02% ) [75.00%]
+        59,016,926 branch-misses             #    0.60% of all branches          ( +-  6.77% ) [75.01%]
+
+      16.442266277 seconds time elapsed                                          ( +-  0.15% )
+
+
+branch=RELEASE_5_0_0
+tag=RELEASE_5_0_0-0-g8de89f8-dirty
+date=20141119 08:02:01 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.81 2.34 2.25 1/177 1944
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16467.851661 task-clock                #    0.999 CPUs utilized            ( +-  0.45% )
+             2,642 context-switches          #    0.160 K/sec                    ( +-  7.28% )
+                94 cpu-migrations            #    0.006 K/sec                    ( +-  1.68% )
+           396,440 page-faults               #    0.024 M/sec                    ( +-  0.03% )
+    47,218,235,058 cycles                    #    2.867 GHz                      ( +-  0.19% ) [50.05%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,107,607,200 instructions              #    1.27  insns per cycle          ( +-  0.01% ) [75.02%]
+     9,951,085,568 branches                  #  604.273 M/sec                    ( +-  0.03% ) [75.01%]
+        44,621,321 branch-misses             #    0.45% of all branches          ( +-  1.36% ) [75.03%]
+
+      16.483748330 seconds time elapsed                                          ( +-  0.46% )
+
+
+branch=RELEASE_5_10_0
+tag=RELEASE_5_10_0-0-g50a2d01-dirty
+date=20141119 08:04:07 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.18 2.42 2.28 2/177 5099
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16788.239178 task-clock                #    0.992 CPUs utilized            ( +-  0.28% )
+             2,740 context-switches          #    0.163 K/sec                    ( +-  7.67% )
+                94 cpu-migrations            #    0.006 K/sec                    ( +-  1.60% )
+           396,648 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    48,131,534,633 cycles                    #    2.867 GHz                      ( +-  0.13% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,098,181,462 instructions              #    1.25  insns per cycle          ( +-  0.02% ) [75.03%]
+     9,966,375,819 branches                  #  593.652 M/sec                    ( +-  0.01% ) [75.02%]
+        48,997,956 branch-misses             #    0.49% of all branches          ( +-  2.18% ) [75.03%]
+
+      16.917287307 seconds time elapsed                                          ( +-  0.79% )
+
+
+branch=RELEASE_5_1_0
+tag=RELEASE_5_1_0-0-g4917da7-dirty
+date=20141119 08:06:08 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.18 2.47 2.30 2/177 7793
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16582.410371 task-clock                #    0.999 CPUs utilized            ( +-  0.14% )
+             2,811 context-switches          #    0.170 K/sec                    ( +-  5.89% )
+                95 cpu-migrations            #    0.006 K/sec                    ( +-  3.35% )
+           396,597 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,588,026,956 cycles                    #    2.870 GHz                      ( +-  0.24% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,098,969,211 instructions              #    1.26  insns per cycle          ( +-  0.02% ) [75.03%]
+     9,949,581,400 branches                  #  600.008 M/sec                    ( +-  0.02% ) [75.04%]
+        53,115,968 branch-misses             #    0.53% of all branches          ( +-  1.78% ) [75.02%]
+
+      16.604870971 seconds time elapsed                                          ( +-  0.14% )
+
+
+branch=RELEASE_5_2_0
+tag=RELEASE_5_2_0-0-gdfc3d7c-dirty
+date=20141119 08:08:08 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.23 2.55 2.33 2/177 10479
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16556.684725 task-clock                #    0.998 CPUs utilized            ( +-  0.40% )
+             2,686 context-switches          #    0.162 K/sec                    ( +-  4.63% )
+                95 cpu-migrations            #    0.006 K/sec                    ( +-  3.29% )
+           396,642 page-faults               #    0.024 M/sec                    ( +-  0.01% )
+    47,515,123,904 cycles                    #    2.870 GHz                      ( +-  0.38% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,084,556,291 instructions              #    1.26  insns per cycle          ( +-  0.02% ) [75.03%]
+     9,956,261,976 branches                  #  601.344 M/sec                    ( +-  0.01% ) [75.01%]
+        51,567,054 branch-misses             #    0.52% of all branches          ( +-  4.10% ) [75.02%]
+
+      16.587212691 seconds time elapsed                                          ( +-  0.46% )
+
+
+branch=RELEASE_5_3_0
+tag=RELEASE_5_3_0-0-g8874a86-dirty
+date=20141119 08:10:07 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.36 2.58 2.35 2/177 13168
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16593.402088 task-clock                #    0.996 CPUs utilized            ( +-  0.46% )
+             2,793 context-switches          #    0.168 K/sec                    ( +-  0.84% )
+                91 cpu-migrations            #    0.005 K/sec                    ( +-  2.64% )
+           396,647 page-faults               #    0.024 M/sec                    ( +-  0.01% )
+    47,567,931,404 cycles                    #    2.867 GHz                      ( +-  0.31% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,074,225,486 instructions              #    1.26  insns per cycle          ( +-  0.02% ) [75.03%]
+     9,953,614,131 branches                  #  599.854 M/sec                    ( +-  0.01% ) [75.02%]
+        49,653,512 branch-misses             #    0.50% of all branches          ( +-  0.85% ) [75.03%]
+
+      16.660650903 seconds time elapsed                                          ( +-  0.54% )
+
+
+branch=RELEASE_5_4_0
+tag=RELEASE_5_4_0-0-g13db826-dirty
+date=20141119 08:12:07 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.17 2.55 2.35 2/177 15854
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16537.753537 task-clock                #    0.998 CPUs utilized            ( +-  0.21% )
+             2,693 context-switches          #    0.163 K/sec                    ( +-  3.38% )
+                94 cpu-migrations            #    0.006 K/sec                    ( +-  2.75% )
+           396,703 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,397,948,969 cycles                    #    2.866 GHz                      ( +-  0.11% ) [50.05%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,100,979,328 instructions              #    1.27  insns per cycle          ( +-  0.02% ) [75.03%]
+     9,954,838,395 branches                  #  601.946 M/sec                    ( +-  0.02% ) [75.01%]
+        43,010,491 branch-misses             #    0.43% of all branches          ( +-  2.35% ) [75.03%]
+
+      16.574216785 seconds time elapsed                                          ( +-  0.16% )
+
+
+branch=RELEASE_5_5_0
+tag=RELEASE_5_5_0-0-g9c5c792-dirty
+date=20141119 08:14:06 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.06 2.50 2.34 2/177 18540
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16892.852493 task-clock                #    0.991 CPUs utilized            ( +-  0.44% )
+             2,672 context-switches          #    0.158 K/sec                    ( +-  4.21% )
+                93 cpu-migrations            #    0.006 K/sec                    ( +-  1.82% )
+           396,560 page-faults               #    0.023 M/sec                    ( +-  0.03% )
+    48,275,592,815 cycles                    #    2.858 GHz                      ( +-  0.31% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,079,124,520 instructions              #    1.24  insns per cycle          ( +-  0.01% ) [75.03%]
+     9,954,195,961 branches                  #  589.255 M/sec                    ( +-  0.01% ) [75.01%]
+        49,523,367 branch-misses             #    0.50% of all branches          ( +-  3.36% ) [75.03%]
+
+      17.038803069 seconds time elapsed                                          ( +-  0.88% )
+
+
+branch=RELEASE_5_6_0
+tag=RELEASE_5_6_0-0-gb1a943e-dirty
+date=20141119 08:16:14 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.23 2.54 2.35 2/177 21706
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16708.659861 task-clock                #    0.994 CPUs utilized            ( +-  0.16% )
+             2,905 context-switches          #    0.174 K/sec                    ( +-  2.18% )
+                93 cpu-migrations            #    0.006 K/sec                    ( +-  4.05% )
+           396,675 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,936,255,482 cycles                    #    2.869 GHz                      ( +-  0.17% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,093,321,556 instructions              #    1.25  insns per cycle          ( +-  0.01% ) [75.04%]
+     9,951,741,691 branches                  #  595.604 M/sec                    ( +-  0.02% ) [75.01%]
+        45,960,144 branch-misses             #    0.46% of all branches          ( +-  2.94% ) [75.04%]
+
+      16.816536235 seconds time elapsed                                          ( +-  0.39% )
+
+
+branch=RELEASE_5_7_0
+tag=RELEASE_5_7_0-0-g0f04f45-dirty
+date=20141119 08:18:22 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.46 2.63 2.39 2/177 24872
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16493.211721 task-clock                #    0.994 CPUs utilized            ( +-  0.21% )
+             2,709 context-switches          #    0.164 K/sec                    ( +-  4.83% )
+                96 cpu-migrations            #    0.006 K/sec                    ( +-  3.09% )
+           396,654 page-faults               #    0.024 M/sec                    ( +-  0.01% )
+    47,404,679,418 cycles                    #    2.874 GHz                      ( +-  0.07% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,106,120,193 instructions              #    1.27  insns per cycle          ( +-  0.01% ) [75.03%]
+     9,954,612,773 branches                  #  603.558 M/sec                    ( +-  0.02% ) [75.01%]
+        42,810,168 branch-misses             #    0.43% of all branches          ( +-  2.06% ) [75.04%]
+
+      16.595348658 seconds time elapsed                                          ( +-  0.69% )
+
+
+branch=RELEASE_5_9_0
+tag=RELEASE_5_9_0-0-ge8eebc0-dirty
+date=20141119 08:20:28 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.98 2.55 2.38 1/177 28045
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16617.120155 task-clock                #    0.999 CPUs utilized            ( +-  0.23% )
+             2,696 context-switches          #    0.162 K/sec                    ( +-  5.64% )
+                94 cpu-migrations            #    0.006 K/sec                    ( +-  2.50% )
+           396,628 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,823,014,781 cycles                    #    2.878 GHz                      ( +-  0.15% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,082,511,810 instructions              #    1.26  insns per cycle          ( +-  0.02% ) [75.04%]
+     9,954,902,839 branches                  #  599.075 M/sec                    ( +-  0.02% ) [75.00%]
+        45,102,632 branch-misses             #    0.45% of all branches          ( +-  2.47% ) [75.03%]
+
+      16.639732525 seconds time elapsed                                          ( +-  0.23% )
+
+
+branch=RELEASE_6_0_0
+tag=RELEASE_6_0_0-0-g6c68149-dirty
+date=20141119 08:22:34 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.32 2.63 2.41 2/177 31196
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16858.373546 task-clock                #    0.998 CPUs utilized            ( +-  0.22% )
+             2,643 context-switches          #    0.157 K/sec                    ( +-  6.17% )
+                95 cpu-migrations            #    0.006 K/sec                    ( +-  1.85% )
+           396,628 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    48,272,605,551 cycles                    #    2.863 GHz                      ( +-  0.16% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,098,714,040 instructions              #    1.24  insns per cycle          ( +-  0.01% ) [75.03%]
+     9,964,322,008 branches                  #  591.061 M/sec                    ( +-  0.02% ) [75.01%]
+        48,282,875 branch-misses             #    0.48% of all branches          ( +-  0.77% ) [75.04%]
+
+      16.890262446 seconds time elapsed                                          ( +-  0.26% )
+
+
+branch=RELEASE_6_10_0
+tag=RELEASE_6_10_0-0-ge01db7f-dirty
+date=20141119 08:24:41 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.51 2.70 2.44 2/177 1995
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16564.757375 task-clock                #    0.999 CPUs utilized            ( +-  0.24% )
+             2,944 context-switches          #    0.178 K/sec                    ( +-  4.99% )
+                91 cpu-migrations            #    0.006 K/sec                    ( +-  2.58% )
+           396,629 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,579,277,600 cycles                    #    2.872 GHz                      ( +-  0.30% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,646,230,840 instructions              #    1.25  insns per cycle          ( +-  0.01% ) [75.04%]
+     9,872,440,211 branches                  #  595.991 M/sec                    ( +-  0.02% ) [75.04%]
+        47,545,769 branch-misses             #    0.48% of all branches          ( +-  1.02% ) [75.01%]
+
+      16.588197428 seconds time elapsed                                          ( +-  0.21% )
+
+
+branch=RELEASE_6_1_0
+tag=RELEASE_6_1_0-0-g2392887-dirty
+date=20141119 08:26:47 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.20 2.61 2.42 2/177 5150
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16679.463860 task-clock                #    0.995 CPUs utilized            ( +-  0.13% )
+             2,852 context-switches          #    0.171 K/sec                    ( +-  3.61% )
+                90 cpu-migrations            #    0.005 K/sec                    ( +-  1.84% )
+           396,614 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    48,006,903,358 cycles                    #    2.878 GHz                      ( +-  0.09% ) [50.01%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,107,112,472 instructions              #    1.25  insns per cycle          ( +-  0.01% ) [75.05%]
+     9,963,580,475 branches                  #  597.356 M/sec                    ( +-  0.05% ) [75.03%]
+        42,442,030 branch-misses             #    0.43% of all branches          ( +-  2.34% ) [75.04%]
+
+      16.767214376 seconds time elapsed                                          ( +-  0.46% )
+
+
+branch=RELEASE_6_2_0
+tag=RELEASE_6_2_0-0-g109478a-dirty
+date=20141119 08:28:54 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.47 2.69 2.46 1/177 8315
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16685.521152 task-clock                #    0.998 CPUs utilized            ( +-  0.20% )
+             3,054 context-switches          #    0.183 K/sec                    ( +-  5.17% )
+                92 cpu-migrations            #    0.005 K/sec                    ( +-  2.87% )
+           396,666 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,935,735,190 cycles                    #    2.873 GHz                      ( +-  0.22% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,096,115,014 instructions              #    1.25  insns per cycle          ( +-  0.02% ) [75.05%]
+     9,964,128,623 branches                  #  597.172 M/sec                    ( +-  0.02% ) [75.03%]
+        45,553,198 branch-misses             #    0.46% of all branches          ( +-  2.45% ) [75.02%]
+
+      16.720477985 seconds time elapsed                                          ( +-  0.30% )
+
+
+branch=RELEASE_6_3_0
+tag=RELEASE_6_3_0-0-g4a661a3-dirty
+date=20141119 08:31:00 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.26 2.63 2.45 2/177 11476
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16667.895037 task-clock                #    0.998 CPUs utilized            ( +-  0.32% )
+             2,740 context-switches          #    0.164 K/sec                    ( +-  2.91% )
+                93 cpu-migrations            #    0.006 K/sec                    ( +-  2.78% )
+           396,659 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,975,739,042 cycles                    #    2.878 GHz                      ( +-  0.32% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,095,603,720 instructions              #    1.25  insns per cycle          ( +-  0.01% ) [75.03%]
+     9,968,727,482 branches                  #  598.080 M/sec                    ( +-  0.03% ) [75.03%]
+        44,192,018 branch-misses             #    0.44% of all branches          ( +-  1.35% ) [75.02%]
+
+      16.705131223 seconds time elapsed                                          ( +-  0.41% )
+
+
+branch=RELEASE_6_4_0
+tag=RELEASE_6_4_0-0-gd0e2d9b-dirty
+date=20141119 08:33:07 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.33 2.65 2.46 2/177 14632
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16767.911278 task-clock                #    0.999 CPUs utilized            ( +-  0.53% )
+             2,480 context-switches          #    0.148 K/sec                    ( +-  4.63% )
+                93 cpu-migrations            #    0.006 K/sec                    ( +-  3.49% )
+           396,663 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    48,043,818,056 cycles                    #    2.865 GHz                      ( +-  0.44% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,104,109,098 instructions              #    1.25  insns per cycle          ( +-  0.01% ) [75.04%]
+     9,965,007,676 branches                  #  594.290 M/sec                    ( +-  0.00% ) [75.02%]
+        47,819,516 branch-misses             #    0.48% of all branches          ( +-  6.83% ) [75.04%]
+
+      16.779033364 seconds time elapsed                                          ( +-  0.52% )
+
+
+branch=RELEASE_6_5_0
+tag=RELEASE_6_5_0-0-gfed40d8-dirty
+date=20141119 08:35:13 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.11 2.58 2.44 2/177 17792
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16713.395986 task-clock                #    0.994 CPUs utilized            ( +-  0.21% )
+             2,932 context-switches          #    0.175 K/sec                    ( +-  3.96% )
+                91 cpu-migrations            #    0.005 K/sec                    ( +-  3.39% )
+           396,634 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,855,089,013 cycles                    #    2.863 GHz                      ( +-  0.12% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,119,236,718 instructions              #    1.26  insns per cycle          ( +-  0.02% ) [75.04%]
+     9,971,150,155 branches                  #  596.596 M/sec                    ( +-  0.03% ) [75.01%]
+        46,881,058 branch-misses             #    0.47% of all branches          ( +-  2.94% ) [75.02%]
+
+      16.808361243 seconds time elapsed                                          ( +-  0.60% )
+
+
+branch=RELEASE_6_6_0
+tag=RELEASE_6_6_0-0-gad40760-dirty
+date=20141119 08:37:19 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.08 2.58 2.44 2/177 20951
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16927.195873 task-clock                #    0.998 CPUs utilized            ( +-  0.12% )
+             2,566 context-switches          #    0.152 K/sec                    ( +-  8.50% )
+                90 cpu-migrations            #    0.005 K/sec                    ( +-  2.04% )
+           396,706 page-faults               #    0.023 M/sec                    ( +-  0.00% )
+    48,547,868,751 cycles                    #    2.868 GHz                      ( +-  0.23% ) [50.02%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    60,105,555,937 instructions              #    1.24  insns per cycle          ( +-  0.01% ) [75.04%]
+     9,966,853,774 branches                  #  588.807 M/sec                    ( +-  0.03% ) [75.03%]
+        45,526,762 branch-misses             #    0.46% of all branches          ( +-  0.69% ) [75.03%]
+
+      16.960119441 seconds time elapsed                                          ( +-  0.19% )
+
+
+branch=RELEASE_6_7_0
+tag=RELEASE_6_7_0-0-g63a417e-dirty
+date=20141119 08:39:26 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.23 2.58 2.44 2/177 24110
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16938.759118 task-clock                #    0.994 CPUs utilized            ( +-  1.66% )
+             2,637 context-switches          #    0.156 K/sec                    ( +-  4.01% )
+                89 cpu-migrations            #    0.005 K/sec                    ( +-  2.30% )
+           396,704 page-faults               #    0.023 M/sec                    ( +-  0.00% )
+    48,505,894,488 cycles                    #    2.864 GHz                      ( +-  1.45% ) [50.00%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,476,613,872 instructions              #    1.23  insns per cycle          ( +-  0.01% ) [75.03%]
+     9,830,160,774 branches                  #  580.335 M/sec                    ( +-  0.01% ) [75.03%]
+        92,763,796 branch-misses             #    0.94% of all branches          ( +- 27.04% ) [75.05%]
+
+      17.042212339 seconds time elapsed                                          ( +-  1.95% )
+
+
+branch=RELEASE_6_8_0
+tag=RELEASE_6_8_0-0-g23ba821-dirty
+date=20141119 08:41:35 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.37 2.64 2.46 2/177 27274
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16451.474179 task-clock                #    0.996 CPUs utilized            ( +-  0.48% )
+             2,798 context-switches          #    0.170 K/sec                    ( +-  5.78% )
+                91 cpu-migrations            #    0.006 K/sec                    ( +-  1.58% )
+           396,717 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,280,106,925 cycles                    #    2.874 GHz                      ( +-  0.41% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,448,877,801 instructions              #    1.26  insns per cycle          ( +-  0.02% ) [75.05%]
+     9,838,080,004 branches                  #  598.006 M/sec                    ( +-  0.02% ) [75.02%]
+        44,690,134 branch-misses             #    0.45% of all branches          ( +-  2.03% ) [75.02%]
+
+      16.510108119 seconds time elapsed                                          ( +-  0.51% )
+
+
+branch=RELEASE_6_9_0
+tag=RELEASE_6_9_0-0-g303a4e4-dirty
+date=20141119 08:43:40 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  3.45 2.67 2.48 2/177 30436
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16282.463337 task-clock                #    0.997 CPUs utilized            ( +-  0.22% )
+             2,672 context-switches          #    0.164 K/sec                    ( +-  2.68% )
+                95 cpu-migrations            #    0.006 K/sec                    ( +-  3.32% )
+           396,632 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    46,787,958,149 cycles                    #    2.874 GHz                      ( +-  0.19% ) [50.04%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,526,046,806 instructions              #    1.27  insns per cycle          ( +-  0.02% ) [75.04%]
+     9,845,159,635 branches                  #  604.648 M/sec                    ( +-  0.03% ) [75.01%]
+        45,048,031 branch-misses             #    0.46% of all branches          ( +-  1.80% ) [75.03%]
+
+      16.332822725 seconds time elapsed                                          ( +-  0.32% )
+
+
+branch=RELEASE_6_10_0
+tag=RELEASE_6_10_0-0-ge01db7f-dirty
+date=20141119 10:15:31 AM
+cc=cc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-11)
+optimize=-O3
+loadavg  2.61 0.73 0.25 2/171 1273
+
+ Performance counter stats for '../parrot-bench/run-bench_old.sh' (4 runs):
+
+      16571.187230 task-clock                #    0.995 CPUs utilized            ( +-  0.32% )
+             2,795 context-switches          #    0.169 K/sec                    ( +-  3.51% )
+                94 cpu-migrations            #    0.006 K/sec                    ( +-  1.75% )
+           396,628 page-faults               #    0.024 M/sec                    ( +-  0.00% )
+    47,576,762,272 cycles                    #    2.871 GHz                      ( +-  0.28% ) [50.03%]
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+    59,653,908,308 instructions              #    1.25  insns per cycle          ( +-  0.02% ) [75.03%]
+     9,878,110,614 branches                  #  596.102 M/sec                    ( +-  0.02% ) [75.01%]
+        47,607,613 branch-misses             #    0.48% of all branches          ( +-  1.98% ) [75.05%]
+
+      16.652210483 seconds time elapsed                                          ( +-  0.57% )
+
