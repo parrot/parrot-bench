@@ -18,8 +18,14 @@ date=`date +%Y%m%d`
 mv -b ../log.bench ../log.bench-$date
 
 echo "== all-bench " $@ `date` >> ../log.bench
-# for now start with 1.7.0 (the 57th release)
-for t in `git tag | grep ^RELEASE | tail -n+57` $@; do
+if [ -f ../tags ]; then
+    # better sorted tags
+    rels=`cat ../tags`
+else
+    # for now start with 1.7.0 (the 57th release)
+    rels=$(git tag | grep ^RELEASE | tail -n+57)
+fi
+for t in $rels $@; do
     echo bench.sh $t
     ../parrot-bench/bench.sh $t
 done
