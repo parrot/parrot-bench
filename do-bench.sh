@@ -54,9 +54,18 @@ Darwin | *bsd*)
     ;;
 Linux)
     echo "loadavg " `cat /proc/loadavg` >> ../log.bench
+    old_governor=`cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor`
+    if [ x$old_governor != xperformance ]; then
+        echo -n "cpufreq scaling_governor: "
+        sudo sh -c "echo performance | tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor"
+    fi
     perf stat -r4 $runbench >/dev/null 2>> ../log.bench
     perf stat -x, $runbench >/dev/null 2>> ../log.bench
     tail -n29 ../log.bench
+    if [ x$old_governor = xpowersave ]; then
+        echo -n "cpufreq scaling_governor: "
+        sudo sh -c "echo $old_governor | tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor"
+    fi
     ;;
 *)
     echo unsupported OS `uname`, perf stat or GNU date +%N
