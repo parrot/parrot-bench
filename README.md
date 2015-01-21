@@ -1,7 +1,7 @@
 parrot-bench
 ============
 
-![Curve](parrot-bench-20141207.png)
+![Curve](parrot-bench-20150121.png)
 
 
 | RELEASE tags          | seconds        | 4x variance  | rel %   |
@@ -69,9 +69,12 @@ parrot-bench
 | RELEASE_6_9_0         | 10.058208507	 | (+-0.38%)	|  -0.62% |
 | RELEASE_6_10_0        | 10.020213315	 | (+-0.71%)	|  +0.38% |
 | RELEASE_6_11_0        | 8.698516675	 | (+-0.39%)	| +13.19% |
+| RELEASE_7_0_0         | 9.578145292	 | (+-0.41%)	| -10.11% |
+| master                | 9.404290668	 | (+-0.20%)	|   1.82% |
+| stringbuilder         | 8.404095982	 | (+-0.54%)	| -10.64% |
 
 
-Time in seconds to run all these .pir and .pasm tests without -O.
+Time in seconds to run all these `.pir` and `.pasm` tests without `-O`.
 
 The tests were selected from `examples/benchmarks`. All tests which
 run without error on all successfully built parrots.

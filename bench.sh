@@ -12,10 +12,15 @@ else
   make -j4 -s clean archclean 2>&1 >/dev/null
 fi
 
+optimize=-O2
+if true; then
+    optimize=-O3
+fi
+
 # icu patch in all-bench.sh
 # todo md2: patch away or --without-crypto?
 #if < 1.8.0 and x86_64 use --m=32
-baseopt="--optimize"
+baseopt="--optimize=$optimize"
 
 perl Configure.pl $baseopt --without-libffi --without-icu --without-crypto --without-opengl 2>&1 >/dev/null \
     || perl Configure.pl $baseopt --without-icu --without-crypto --without-opengl 2>&1 >/dev/null \
@@ -33,10 +38,7 @@ config_lib=config_lib.pir
 if [ -e config_lib.pasm ]; then config_lib=config_lib.pasm; fi
 
 # more aggressive optimizations, only safe to use for newer parrots
-# -O2 vs -O3
-optimize=-O2
 if true; then
-    optimize=-O3
     # now this is highly system dependent, to get better defaults (cc=gcc-4.9 debian)
     #sed -i 's/-shared -O2/-shared -Wl,-O1/' Makefile $config_lib lib/Parrot/Config/Generated.pm
     #sed -i 's|-fstack-protector -L/usr/local/lib|-fstack-protector -L/usr/local/lib -Wl,--as-needed -Wl,-z,relro -Wl,-z,now|' Makefile $config_lib lib/Parrot/Config/Generated.pm
@@ -63,17 +65,3 @@ echo >>../log.bench
 echo branch=$1 >>../log.bench
 
 ../parrot-bench/do-bench.sh
-
-#echo tag=`git describe --long --tags --dirty --always`  >> ../log.bench
-#echo date=`date +"%Y%m%d %X"`  >> ../log.bench
-#echo cc=`cc --version | head -n1` >>../log.bench
-#echo optimize=$optimize >>../log.bench
-
-#if [ -e $parrot ]; then
-#    echo "loadavg " `cat /proc/loadavg` >> ../log.bench
-#    perf stat -r4 $runbench >/dev/null 2>> ../log.bench
-#    perf stat -x, $runbench >/dev/null 2>> ../log.bench
-#    tail -n29 ../log.bench
-#else
-#    echo no $parrot
-#fi
