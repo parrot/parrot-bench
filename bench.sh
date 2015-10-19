@@ -55,7 +55,7 @@ fi
 # config.fpmc fallback only needed < 1.8
 # parrot_old builds much faster, since 3.?
 make -j4 -s parrot_old 2>/dev/null >/dev/null \
-  || (rm runtime/parrot/include/config.fpmc; make -j4 -s parrot) 2>/dev/null >/dev/null
+  || (rm runtime/parrot/include/config.fpmc; make -j4 -s parrot parrot_config) 2>/dev/null >/dev/null
 parrot=parrot_old
 if [ ! -e parrot_old ]; then
     echo no parrot_old, made parrot instead

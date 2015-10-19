@@ -24,7 +24,8 @@ if [ -f parrot_config ]; then
 else    
     echo -n "cc=" >>../log.bench
     cc --version | head -n1 >>../log.bench
-    echo optimize=-O3, gc=GMS >>../log.bench
+    grep '"optimize"' config_lib.pir >>../log.bench
+    grep gc_type config_lib.pir >>../log.bench
 fi
 
 function bsddate {
@@ -52,6 +53,7 @@ Darwin | *bsd*)
     stddev=`echo "sqrt ($sumsq / 4 - ($avg * $avg))" | bc`
     #perl -MMath::NumberCruncher -E"say Math::NumberCruncher::StandardDeviation([qw($t[1] $t[2] $t[3] $t[4])],2)"
     echo avg: $avg "ms /" $stddev | tee -a ../log.bench
+    echo "" | tee -a ../log.bench
     ;;
 Linux)
     echo "loadavg " `cat /proc/loadavg` >> ../log.bench
